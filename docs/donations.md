@@ -4,7 +4,7 @@ Thank you for your interest in donating to JELOS!  At this time we are not accep
 
 ## Why Don't You Accept Donations?
 
-* As an Open Source project our operational expenses are fairly low, so to us a donation of your time is much more valuable.
+* As an Open Source project our operational expenses are fairly low, so to us a donation of your time is much more valuable :heart:
 * Open Source development is not considered charitable activity in some parts of the world, including the United States.  Accepting donations can create unnecessary complexity for the project, and for the person donating.
 				
 ## Build Infrastructure

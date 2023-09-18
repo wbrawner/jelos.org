@@ -126,7 +126,7 @@ Used to build one or more JELOS images, or to build and deploy the Ubuntu contai
 
 **packages**
 
-All of the packages used to develop and build JELOS are hosted within the packages directory.  The package structure documentation is available in [DEVEL_CREATING_PACKAGES.md](DEVEL_CREATING_PACKAGES.md).
+All of the packages used to develop and build JELOS are hosted within the packages directory.  The package structure documentation is available [here](packages.md).
 
 **post-update**
 

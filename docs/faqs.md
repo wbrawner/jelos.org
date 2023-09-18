@@ -6,7 +6,7 @@
 No. JELOS is something that we develop for fun, it is provided as-is.  There are a variety of avenues to seek community help, but this is a tinkerer's distribution so you will need to get your hands dirty to solve your problems.
 
 ### Do you plan to add additional ports, software, or emulators?
-We are a community developed distribution, and we believe that it is the responsibility of the person who wants a new feature to develop and contribute that feature. If you would like to add something to JELOS, pull requests are welcomed.  Please review our [code of conduct](https://github.com/JustEnoughLinuxOS/distribution/blob/main/CODE_OF_CONDUCT.md), our [contributing guidelines](https://github.com/JustEnoughLinuxOS/distribution/blob/main/CONTRIBUTING.md), and our [build guide](https://github.com/JustEnoughLinuxOS/distribution/blob/main/BUILDING.md) before submitting your first pull request.
+We are a community developed distribution, and we believe that it is the responsibility of the person who wants a new feature to develop and contribute that feature. If you would like to add something to JELOS, pull requests are welcomed.  Please review our [code of conduct](contribute/code-of-conduct.md), our [contributing guidelines](contribute/index.md), and our [build guide](contribute/build.md) before submitting your first pull request.
 
 ### Licensing JELOS for redistribution
 JELOS utilizes a non-commercial CC BY-NC-SA 4.0 copyleft license on our branding which is intended to prevent abuse of our software.  Device Makers and others who would like to bundle on devices may not do so without our express permission.
