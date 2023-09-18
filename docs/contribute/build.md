@@ -21,7 +21,7 @@ You need no previous experience with Docker; you merely need to install it on yo
 We recommend using Ubuntu 22.04 for the host machine, as this is well-tested and known to work.  Other distributions and operating systems might also work for Docker builds, but are untested and unsupported.
 
 ``` bash title="Install Docker using the following commands:"
-sudo apt updatezsh
+sudo apt update
 sudo apt install ca-certificates curl gnupg
 
 sudo install -m 0755 -d /etc/apt/keyrings
