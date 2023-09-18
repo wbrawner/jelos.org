@@ -1,0 +1,178 @@
+site_name: JELOS Wiki
+site_url: https://jelos.org
+repo_url: https://github.com/JustEnoughLinuxOS/jelos.org
+repo_name: jelos.org
+copyright: Copyright Creative Commons Attribution-ShareAlike 4.0 International
+theme:
+  language: en
+  name: material
+  logo: _inc/images/logo.png
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: art-book
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: art-book-next
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Oxygen
+    code: Oxygen Mono
+  features:
+    - navigation.top
+    - navigation.instant
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow 
+    - search.suggest
+    - content.tooltips
+    - content.code.copy
+    - content.code.annotate
+markdown_extensions:
+  - tables
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      toc_depth: 2
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+extra_css:
+  - _inc/css/custom.css
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/JustEnoughLinuxOS/distribution
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/seTxckZjJy
+plugins:
+  - search
+  - glightbox
+nav:
+    - Home: index.md
+    - FAQs: faqs.md
+    - Donations: donations.md
+    - Play:
+      - Install: play/install.md
+      - Update: play/update.md
+      - Hotkeys: play/hotkeys.md
+    - Contribute:
+      - contribute/index.md
+      - Code of Conduct: contribute/code-of-conduct.md
+      - Build: contribute/build.md
+      - Modify: contribute/modify.md
+      - Quirks: contribute/quirks.md
+      - Packages: contribute/packages.md
+    - Systems:
+      #- systems/index.md
+      - Arcade:
+        #- systems/arcade/index.md
+        - Atomiswave: systems/atomiswave.md
+        - CPS1: systems/cps1.md
+        - CPS2: systems/cps2.md
+        - CPS3: systems/cps3.md
+        - Daphne: systems/daphne.md
+        - Final Burn Neo: systems/fbn.md
+        - M.A.M.E.: systems/mame.md
+        - Naomi: systems/naomi.md
+        - Neo Geo: systems/neogeo.md
+      - Consoles:
+        - Amiga CD32: systems/amigacd32.md
+        - Atari 2600: systems/atari2600.md
+        - Atari 5200: systems/atari5200.md
+        - Atari 7800: systems/atari7800.md
+        - Atari Jaguar: systems/atarijaguar.md
+        - ColecoVision: systems/colecovision.md
+        - Fairchild Channel F: systems/channelf.md
+        - Mattel Intellivision: systems/intellivision.md
+        - Magnavox Odyssey 2: systems/odyssey2.md
+        - Nintendo Famicom: systems/famicom.md
+        - Nintendo Entertainment System: systems/nes.md
+        - Nintendo 64: systems/n64.md
+        - Nintendo Gamecube: systems/gc.md
+        - Panasonic 3DO: systems/3do.md
+        - Sega Master System: systems/mastersystem.md
+        - Sega Genesis / Megadrive: systems/genesis.md
+        - Sega Dreamcast: systems/dreamcast.md
+        - SNK Neo Geo: systems/neogeo.md
+        - SNK Neo Geo CD: systems/neogeocd.md
+      - Portables:
+        - Arduboy: systems/arduboy.md
+        - Atari Lynx: systems/atarilynx.md
+        - Mega Duck: systems/megaduck.md
+        - Nintendo DS: systems/nds.md
+        - Nintendo 3DS: systems/3ds.md
+        - Nintendo Game & Watch: systems/gameandwatch.md
+        - Nintendo Gameboy: systems/gb.md
+        - Nintendo Gameboy Advance: systems/gba.md
+        - Nintendo Gameboy Color: systems/gbc.md
+        - Sega Game Gear: systems/gamegear.md
+        - SNK Neo Geo Pocket: systems/ngp.md
+      - Computers:
+        - Amiga: systems/amiga.md
+        - Amstrad CPC: systems/amstradcpc.md
+        - Atari 800: systems/atari800.md
+        - Atari ST: systems/atarist.md
+        - Commodore 16: systems/c16.md
+        - Commodore 64: systems/c64.md
+        - Commodore 128: systems/c128.md
+        - MSX: systems/msx.md
+      - Engines:
+        - Doom: systems/doom.md
+        - EasyRPG: systems/easyrpg.md
+        - J2ME: systems/j2me.md
+        - Open Beats of Rage: systems/openbor.md
+      - Other:
+        - Moonlight: systems/moonlight.md
+        - MPlayer: systems/mplayer.md
+        - Music Player: systems/music.md
+    - Supported Devices: 
+      - supported-devices/index.md
+      - Anbernic:
+        - RG351 [P/M]: supported-devices/anbernic/rg351pm.md
+        - RG353 [P/M/V/VS]: supported-devices/anbernic/rg353pmvvs.md
+        - RG503: supported-devices/anbernic/rg503.md
+        - RG552: supported-devices/anbernic/rg552.md
+        - Win600: supported-devices/anbernic/win600.md
+      - AOKZOE:
+        - A1 Pro: supported-devices/aokzoe/a1-pro.md
+      - Atari:
+        - VCS: supported-devices/atari/vcs.md
+      - AYANEO:
+        - Air / Air Pro: supported-devices/ayaneo/air.md
+        - Air Plus: supported-devices/ayaneo/air-plus.md
+        - AYANEO 2: supported-devices/ayaneo/ayaneo-2.md
+      - AYN:
+        - Loki Zero: supported-devices/ayn/loki-zero.md
+        - Loki Max: supported-devices/ayn/loki-max.md
+      - GPD:
+        - Win 4: supported-devices/gpd/win4.md
+        - Win Max 2: supported-devices/gpd/win-max-2.md
+      - Hardkernel:
+        - Odroid Go Advance: supported-devices/hardkernel/odroid-go-advance.md
+        - Odroid Go Super: supported-devices/hardkernel/odroid-go-super.md
+        - Odroid Go Ultra: supported-devices/hardkernel/odroid-go-ultra.md
+      - Indiedroid:
+        - Nova: supported-devices/indiedroid/nova.md
+      - Orange Pi:
+        - Orange Pi 5: supported-devices/orange-pi/orange-pi-5.md
+      - Powkiddy:
+        - RGB10 Max 3 Pro: supported-devices/powkiddy/rgb10-max-3-pro.md
+        - RGB30: supported-devices/powkiddy/rgb30.md
+        - RK2023: supported-devices/powkiddy/rk2023.md
+        - x55: supported-devices/powkiddy/x55.md
+    
