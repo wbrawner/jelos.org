@@ -21,6 +21,13 @@
 | -- | -- |
 | `AYANEO ` | `AYANEO 2` |
 
+### Installation
+
+Download the latest `AMD64` version of JELOS from the button below and follow the instructions listed on the [Install](../../../play/install/) page.
+
+[![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
+[![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
+
 ### Booting from an SD Card
 
 To boot JELOS from the SD Card, hold `LC` + `Volume Up` and press the power button, continue holding `LC` + `Volume Up` until the Ayaneo logo appears.  Select the storage device with JELOS from the boot menu using the Ayaneo button, and then press volume up to boot the distribution.
