@@ -81,15 +81,16 @@ nav:
       #- systems/index.md
       - Arcade:
         #- systems/arcade/index.md
-        - Atomiswave: systems/atomiswave.md
-        - CPS1: systems/cps1.md
-        - CPS2: systems/cps2.md
-        - CPS3: systems/cps3.md
+        - Campcom CPS-1: systems/cps1.md
+        - Campcom CPS-2: systems/cps2.md
+        - Campcom CPS-3: systems/cps3.md
         - Daphne: systems/daphne.md
         - Final Burn Neo: systems/fbn.md
         - M.A.M.E.: systems/mame.md
-        - Naomi: systems/naomi.md
-        - Neo Geo: systems/neogeo.md
+        - Sammy Atomiswave: systems/atomiswave.md
+        - Sega Naomi: systems/naomi.md
+        - Sega ST-V: systems/st-v.md
+        - SNK Neo Geo: systems/neogeo.md
       - Consoles:
         - Amiga CD32: systems/amigacd32.md
         - Atari 2600: systems/atari2600.md
@@ -100,28 +101,52 @@ nav:
         - Fairchild Channel F: systems/channelf.md
         - Mattel Intellivision: systems/intellivision.md
         - Magnavox Odyssey 2: systems/odyssey2.md
-        - Nintendo Famicom: systems/famicom.md
+        - Microsoft Xbox: systems/xbox.md
+        - NEC PC-Engine / TurboGrafx-16: systems/pcengine.md
+        - NEC SuperGrafx: systems/supergrafx.md
+        - NEC PC-FX: systems/pcfx.md
+        - Nintendo Famicom / Famicom Disk System (FDS): systems/famicom.md
         - Nintendo Entertainment System: systems/nes.md
+        - Nintendo Super Nintendo / Super Famicom / Satellaview: systems/snes.md
         - Nintendo 64: systems/n64.md
         - Nintendo Gamecube: systems/gc.md
+        - Nintendo Wii: systems/wii.md
+        - Nintendo Wii U: systems/wiiu.md
+        - Nintendo Switch: systems/switch.md
         - Panasonic 3DO: systems/3do.md
+        - Philips Videopac: systems/videopac.md
+        - Sega SG-1000: systems/sg-1000.md
         - Sega Master System: systems/mastersystem.md
         - Sega Genesis / Megadrive: systems/genesis.md
+        - Sega CD / Mega CD: systems/genesis.md
+        - Sega 32x: systems/sega32x.md
+        - Sega Saturn: systems/saturn.md
         - Sega Dreamcast: systems/dreamcast.md
         - SNK Neo Geo: systems/neogeo.md
         - SNK Neo Geo CD: systems/neogeocd.md
+        - Sony Playstation: systems/psx.md 
+        - Sony Playstation 2: systems/ps2.md 
+        - Sony Playstation 3: systems/ps3.md
+        - Uzebox: systems/uzebox.md
+        - Vectrex: systems/vectrex.md
       - Portables:
         - Arduboy: systems/arduboy.md
         - Atari Lynx: systems/atarilynx.md
+        - Bandai Wonderswan / Wonderswan Color: systems/wonderswan.md
         - Mega Duck: systems/megaduck.md
-        - Nintendo DS: systems/nds.md
-        - Nintendo 3DS: systems/3ds.md
         - Nintendo Game & Watch: systems/gameandwatch.md
         - Nintendo Gameboy: systems/gb.md
-        - Nintendo Gameboy Advance: systems/gba.md
+        - Nintendo Virtual Boy: systems/virtualboy.md
         - Nintendo Gameboy Color: systems/gbc.md
+        - Nintendo Gameboy Advance: systems/gba.md
+        - Nintendo Pokémon Mini: systems/pokemini.md
+        - Nintendo DS: systems/nds.md
+        - Nintendo 3DS: systems/3ds.md
         - Sega Game Gear: systems/gamegear.md
         - SNK Neo Geo Pocket: systems/ngp.md
+        - Sony Playstation Portable: systems/psp.md
+        - Sony Playstation Vita: systems/psvita.md
+        - Watara Supervision: systems/supervision.md
       - Computers:
         - Amiga: systems/amiga.md
         - Amstrad CPC: systems/amstradcpc.md
@@ -130,15 +155,28 @@ nav:
         - Commodore 16: systems/c16.md
         - Commodore 64: systems/c64.md
         - Commodore 128: systems/c128.md
+        - Commodore PET: systems/pet.md
+        - Commodore VIC-20: systems/vic20.md
         - MSX: systems/msx.md
+        - MS-DOS: systems/pc.md
+        - NEC PC-88: systems/pc88.md
+        - NEC PC-98: systems/pc98.md
+        - Sharp X1: systems/x1.md
+        - Sharp X68000: systems/x68000.md
+        - Sinclair ZX81: systems/zx81.md
+        - Sinclair ZX Spectrum: systems/zxspectrum.md 
       - Engines:
         - Doom: systems/doom.md
         - EasyRPG: systems/easyrpg.md
+        - Infocom Zmachine: systems/zmachine.md
         - J2ME: systems/j2me.md
         - Open Beats of Rage: systems/openbor.md
+        - Pico-8: systems/pico-8.md
+        - SCUMMVM: systems/scummvm.md
+        - TIC-80: systems/tic-80.md
       - Other:
         - Moonlight: systems/moonlight.md
-        - MPlayer: systems/mplayer.md
+        - Media Player: systems/mplayer.md
         - Music Player: systems/music.md
     - Devices: 
       - devices/index.md
@@ -175,4 +213,3 @@ nav:
         - RGB30: devices/powkiddy/rgb30.md
         - RK2023: devices/powkiddy/rk2023.md
         - x55: devices/powkiddy/x55.md
-    
