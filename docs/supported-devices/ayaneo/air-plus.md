@@ -14,6 +14,7 @@
 | -- | -- |
 | :material-harddisk: Storage | JELOS can be run from an SD Card, USB Drive or installed directly to the internal NVME. <br> When installed directly to the NVME; an SD Card can be used for game storage. |
 | :material-lightning-bolt-circle: TPD Limit | Can be set globally, per system or per game. |
+| :material-vibrate: Rumble | Enables the device rumble motor in emulators that support it. |
 
 ## Notes
 
