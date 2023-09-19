@@ -37,7 +37,7 @@ Download the latest `AMD64` version of JELOS from the button below and follow th
 
 In order to launch JELOS from an SD card or a USB drive you will need to first change the boot order in the BIOS.  
 
-During boot you can enter the bios by either (1) holding the left & right button that sit bellow the dpad and right analog stick OR (2) connecting an external keyboard and pressing the `del` key.  
+During boot you can enter the bios by either (1) holding the `Home` & `LCC (Turbo)` buttons that sit bellow the dpad and right analog stick OR (2) connecting an external keyboard and pressing the `del` key.  
 
 In the bios; navigate to the `Boot` menu and then change the boot order to prioritize the SD card or USB Drive under `Boot Order Priorities`. Then go `Save & Exit` and select the Save Changes and Exit option.  This change will persist through all reboots.  If you want to boot into Windows simply remove the SD Card or USB drive.
 
@@ -119,7 +119,7 @@ In EmulationStation press the `Start` button to open the Main Menu.  Then select
 	    Event code 96 (FF_GAIN)
 	```
 
-??? abstract "Button below the Right Analog Stick"
+??? abstract "LCC (Turbo) Button"
 
 	``` bash title="/dev/input/event3: AT Translated Set 2 keyboard"
 	Event: time 1695144715.833103, type 4 (EV_MSC), code 4 (MSC_SCAN), value 1d
