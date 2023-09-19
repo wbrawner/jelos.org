@@ -19,9 +19,12 @@ Just Enough Linux Operating System (JELOS) is an immutable Linux distribution fo
 - VPN support with Wireguard, Tailscale, and ZeroTier.
 - Includes built-in support for scraping and retroachievements.
 
-## Screenshots
+## Preview
 
 <table>
+  <tr>
+    <td colspan="2"><video controls autoplay loop><source src="_inc/video/preview.mp4" type="video/mp4"></video></td>
+  </tr>
   <tr>
     <td><img src="_inc/images/screenshots/system-view.png"/></td>
     <td><img src="_inc/images/screenshots/menu.png"/></td>
