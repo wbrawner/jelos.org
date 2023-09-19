@@ -14,13 +14,13 @@ Our GitHub runners are the nodes we use to build and push releases to GitHub. Tr
 | Name | CPU | Cores/Threads | RAM | Disk | Usage |
 |----|----|----|----|----|----|
 | deepthought | Ryzen 7 5800H | 8c/16t | 32GB | 2TB NVMe SSD | GitHub Runner |
-| trillian | Ryzen 7 5800H | 8c/16t | 32GB | 2TB NVMe SSD | Local Development |
+| trillian | Ryzen 7 5800H | 8c/16t | 32GB | 2TB NVMe SSD | Local Dev |
 
 ## Project and Web Hosting
 
-GitHub serves our release packages, as well as our WIKI.  Our domain, [https://www.jelos.org](https://www.jelos.org) is hosted with GitHub pages and is a simple WIKI redirect.  Currently, JELOS does not take advantage of functionality that requires a paid GitHub plan.
+GitHub serves our release packages, as well as our WIKI.  Our domain, [jelos.org](https://jelos.org) is hosted with GitHub pages and powered by [MkDocs + Material](https://squidfunk.github.io/mkdocs-material/).  Currently, JELOS does not take advantage of any functionality that requires a paid GitHub plan.
 
 | Project | URL | Comment |
 |----|----|----|
-| JELOS | [https://github.com/JustEnoughLinuxOS/distribution](https://github.com/JustEnoughLinuxOS/distribution) | Project site, Stable Release Repository. |
-| Documentation | [https://www.jelos.org](https://www.jelos.org) | JELOS Wiki |
+| JELOS | [github.com/JustEnoughLinuxOS/distribution](https://github.com/JustEnoughLinuxOS/distribution) | Project site, Stable Release Repository. |
+| Documentation | [jelos.org](https://jelos.org) | JELOS Wiki |
