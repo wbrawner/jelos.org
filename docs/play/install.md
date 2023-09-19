@@ -6,8 +6,8 @@ JELOS is installed by downloading an image for your device, flashing it to an SD
 
 * Download the latest version of JELOS for your device from the [releases page](https://github.com/JustEnoughLinuxOS/distribution/releases/latest).
     * You'll find download links for each device/platform we support under the "`Installation Package Downloads`" header.
-    * Make sure to download the correct image for your device.  For example; if you are installing JELOS on a [Loki Zero](../supported-devices/ayn/loki-zero.md) you would download the `JELOS-AMD64` image.
-    * If you have any questions you can check the [Supported Devices](../supported-devices/index.md) section to confirm which image you should download for your specific device.
+    * Make sure to download the correct image for your device.  For example; if you are installing JELOS on a [Loki Zero](../devices/ayn/loki-zero.md) you would download the `JELOS-AMD64` image.
+    * If you have any questions you can check the [Supported Devices](../devices/index.md) section to confirm which image you should download for your specific device.
 
 ## Step 2: Flash
 

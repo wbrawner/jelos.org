@@ -140,39 +140,39 @@ nav:
         - Moonlight: systems/moonlight.md
         - MPlayer: systems/mplayer.md
         - Music Player: systems/music.md
-    - Supported Devices: 
-      - supported-devices/index.md
+    - Devices: 
+      - devices/index.md
       - Anbernic:
-        - RG351 [P/M]: supported-devices/anbernic/rg351pm.md
-        - RG353 [P/M/V/VS]: supported-devices/anbernic/rg353pmvvs.md
-        - RG503: supported-devices/anbernic/rg503.md
-        - RG552: supported-devices/anbernic/rg552.md
-        - Win600: supported-devices/anbernic/win600.md
+        - RG351 [P/M]: devices/anbernic/rg351pm.md
+        - RG353 [P/M/V/VS]: devices/anbernic/rg353pmvvs.md
+        - RG503: devices/anbernic/rg503.md
+        - RG552: devices/anbernic/rg552.md
+        - Win600: devices/anbernic/win600.md
       - AOKZOE:
-        - A1 Pro: supported-devices/aokzoe/a1-pro.md
+        - A1 Pro: devices/aokzoe/a1-pro.md
       - Atari:
-        - VCS: supported-devices/atari/vcs.md
+        - VCS: devices/atari/vcs.md
       - AYANEO:
-        - Air / Air Pro: supported-devices/ayaneo/air.md
-        - Air Plus: supported-devices/ayaneo/air-plus.md
-        - AYANEO 2: supported-devices/ayaneo/ayaneo-2.md
+        - Air / Air Pro: devices/ayaneo/air.md
+        - Air Plus: devices/ayaneo/air-plus.md
+        - AYANEO 2: devices/ayaneo/ayaneo-2.md
       - AYN:
-        - Loki Zero: supported-devices/ayn/loki-zero.md
-        - Loki Max: supported-devices/ayn/loki-max.md
+        - Loki Zero: devices/ayn/loki-zero.md
+        - Loki Max: devices/ayn/loki-max.md
       - GPD:
-        - Win 4: supported-devices/gpd/win4.md
-        - Win Max 2: supported-devices/gpd/win-max-2.md
+        - Win 4: devices/gpd/win4.md
+        - Win Max 2: devices/gpd/win-max-2.md
       - Hardkernel:
-        - Odroid Go Advance: supported-devices/hardkernel/odroid-go-advance.md
-        - Odroid Go Super: supported-devices/hardkernel/odroid-go-super.md
-        - Odroid Go Ultra: supported-devices/hardkernel/odroid-go-ultra.md
+        - Odroid Go Advance: devices/hardkernel/odroid-go-advance.md
+        - Odroid Go Super: devices/hardkernel/odroid-go-super.md
+        - Odroid Go Ultra: devices/hardkernel/odroid-go-ultra.md
       - Indiedroid:
-        - Nova: supported-devices/indiedroid/nova.md
+        - Nova: devices/indiedroid/nova.md
       - Orange Pi:
-        - Orange Pi 5: supported-devices/orange-pi/orange-pi-5.md
+        - Orange Pi 5: devices/orange-pi/orange-pi-5.md
       - Powkiddy:
-        - RGB10 Max 3 Pro: supported-devices/powkiddy/rgb10-max-3-pro.md
-        - RGB30: supported-devices/powkiddy/rgb30.md
-        - RK2023: supported-devices/powkiddy/rk2023.md
-        - x55: supported-devices/powkiddy/x55.md
+        - RGB10 Max 3 Pro: devices/powkiddy/rgb10-max-3-pro.md
+        - RGB30: devices/powkiddy/rgb30.md
+        - RK2023: devices/powkiddy/rk2023.md
+        - x55: devices/powkiddy/x55.md
     

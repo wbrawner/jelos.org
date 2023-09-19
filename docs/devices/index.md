@@ -1,4 +1,4 @@
-# Supported Devices
+# Device Support
 
 JELOS supports a variety of ARM and Intel/AMD based devices.
 

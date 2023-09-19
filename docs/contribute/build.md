@@ -189,9 +189,9 @@ JELOS supports various build variables which alter the behavior of the distribut
 
 > Note: <sup>1</sup> this property will change to yes/no for consistency in a future release.
 
-### Special env Variables
+### Env Variables
 
-For development builds, you can use the following env variables to customize the image or change build time functionality. To make them globally available to the builds, add them to ${HOME}/.JELOS/options.
+For development builds, you can use the following env variables to customize the image or change build time functionality. To make them globally available to the builds, add them to `${HOME}/.JELOS/options`.
 
 |Variable|Function|
 |----|----|
@@ -218,7 +218,7 @@ export LOCAL_WIFI_KEY=secret
 
 #### Screenscraper, GamesDB, and RetroAchievements
 
-To enable Screenscraper, GamesDB, and RetroAchievements, register at each site and apply the api keys in ${HOME}/.JELOS/options. Unsetting one of the variables will disable it in EmulationStation. This configuration is picked up by EmulationStation during the build.
+To enable Screenscraper, GamesDB, and RetroAchievements, register at each site and apply the api keys in `${HOME}/.JELOS/options`. Unsetting one of the variables will disable it in EmulationStation. This configuration is picked up by EmulationStation during the build.
 
 ``` bash
 # Apply for a Screenscraper API Key here: https://www.screenscraper.fr/forumsujets.php?frub=12&numpage=0
@@ -229,7 +229,7 @@ export GAMESDB_APIKEY="APIKEY"
 export CHEEVOS_DEV_LOGIN="z=RETROACHIEVEMENTSUSERNAME&y=APIKEYID"
 ```
 
-#### Cleaning Additional Packages
+### Cleaning Additional Packages
 
 ``` bash
 make docker-shell

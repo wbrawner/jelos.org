@@ -6,7 +6,7 @@ Before modifying JELOS, be sure you can successfully [build](build.md) the unmod
 
 When modifying individual packages, it's useful to regularly verify the build-ability of your changes.  Rather than rebuild an entire device image, it is much faster to simply rebuild a single package using the following commands:
 
-```
+``` bash linenums="1"
 make docker-shell
 export PROJECT=PC DEVICE=AMD64 ARCH=x86_64
 ./scripts/clean busybox
@@ -14,15 +14,17 @@ export PROJECT=PC DEVICE=AMD64 ARCH=x86_64
 exit
 ```
 
-The first and last lines should be omitted if building outside of Docker.  PROJECT is one of `Amlogic`, `PC`, or `Rockchip` (i.e. the subdirectories of the project directory).
+PROJECT is one of `Amlogic`, `PC`, or `Rockchip` (i.e. the subdirectories of the project directory).
 
-!!! info "If you are interested in an EmulationStation package build it requires additional steps because its source code is located in a separate repository.  Please see instructions [here](https://github.com/JustEnoughLinuxOS/distribution/blob/main/packages/ui/emulationstation/package.mk)."
+!!! note "The first and last lines should be omitted if building outside of Docker."
+
+!!! info "If you are interested in an EmulationStation package build it requires additional steps because its source code is located in a separate repository.  Please see instructions [here](https://github.com/JustEnoughLinuxOS/distribution/blob/main/packages/ui/emulationstation/package.mk#L39)."
 
 ## Creating a Patch for a Package
 
 It is common to have imported package source code modifed to fit the use case. It's recommended to use a special shell script to build it in case you need to iterate over it. See below.
 
-```
+``` bash linenums="1"
 cd sources/wireguard-linux-compat
 tar -xvJf wireguard-linux-compat-v1.0.20211208.tar.xz
 mv wireguard-linux-compat-v1.0.20211208 wireguard-linux-compat
@@ -38,7 +40,7 @@ diff -rupN wireguard-linux-compat wireguard-linux-compat.orig >../../packages/ne
 
 If you are working with a git repository, building a patch for the distribution is simple.  Rather than using `diff`, use `git diff`.
 
-```
+``` bash linenums="1"
 cd sources/emulationstation/emulationstation-098226b/
 # Make your changes to EmulationStation
 vim/emacs/vscode/notepad.exe
@@ -54,7 +56,7 @@ After the patch is generated, rebuild an individual package by following the sec
 
 If you already have a build for your device made using the above process, it's simple to shortcut the build process and create an image to test your changes quickly using the process below.
 
-```
+``` bash linenums="1"
 make docker-shell
 
 # Update the package version for a new package, or apply your patch as above.
@@ -78,7 +80,7 @@ You can of course reflash the SD card with the modified image.
 
 Alternatively, you may install the image through the JELOS update mechanism, which retains your ES and emulator settings.  If the device is networked and reachable from the build machine, this can be done as follows.
 
-```
+``` bash linenums="1"
 # Replace with your device values
 HOST=192.168.0.123
 DEVICE=RK3566

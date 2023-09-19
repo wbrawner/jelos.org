@@ -18,7 +18,7 @@ If you device does not have access to the internet you can still update manually
 
 1. Download the latest update (.tar) of JELOS for your device from the [releases page](https://github.com/JustEnoughLinuxOS/distribution/releases/latest).
 	* You'll find download links for each device/platform we support under the "`Update Package Downloads`" header.
-    * Make sure to download the correct .tar file for your device.  For example; if you are installing JELOS on a [Loki Zero](../supported-devices/ayn/loki-zero.md) you would download the `JELOS-AMD64` file.
-    * If you have any questions you can check the [Supported Devices](../supported-devices/index.md) section to confirm which .tar you should download for your specific device.
+    * Make sure to download the correct .tar file for your device.  For example; if you are installing JELOS on a [Loki Zero](../devices/ayn/loki-zero.md) you would download the `JELOS-AMD64` file.
+    * If you have any questions you can check the [Supported Devices](../devices/index.md) section to confirm which .tar you should download for your specific device.
 2. Copy the update to your device's update share.
 3. Reboot the device, and the update will begin automatically.
