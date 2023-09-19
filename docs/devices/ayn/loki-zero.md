@@ -45,98 +45,98 @@ In the bios; navigate to the `Boot` menu and then change the boot order to prior
 
 In EmulationStation press the `Start` button to open the Main Menu.  Then select `System Settings` and scroll until you see `Device LEDS`.  Under that setting you can choose to turn RGB Off or select from a set of pre-defined colors.  The value you set will persist through all future reboots but note your RGB setting will only take effect after JELOS boots.
 
+## Controls
+
+### `evtest` Output
+
+??? abstract "Main Controls"
+
+	``` bash title="/dev/input/event5: Microsoft X-Box 360 pad"
+	Input driver version is 1.0.1
+	Input device ID: bus 0x3 vendor 0x45e product 0x28e version 0x110
+	Input device name: "Microsoft X-Box 360 pad"
+	Supported events:
+	  Event type 0 (EV_SYN)
+	  Event type 1 (EV_KEY)
+	    Event code 304 (BTN_SOUTH)
+	    Event code 305 (BTN_EAST)
+	    Event code 307 (BTN_NORTH)
+	    Event code 308 (BTN_WEST)
+	    Event code 310 (BTN_TL)
+	    Event code 311 (BTN_TR)
+	    Event code 314 (BTN_SELECT)
+	    Event code 315 (BTN_START)
+	    Event code 316 (BTN_MODE)
+	    Event code 317 (BTN_THUMBL)
+	    Event code 318 (BTN_THUMBR)
+	  Event type 3 (EV_ABS)
+	    Event code 0 (ABS_X)
+	      Value      0
+	      Min   -32768
+	      Max    32767
+	      Fuzz      16
+	      Flat     128
+	    Event code 1 (ABS_Y)
+	      Value     -1
+	      Min   -32768
+	      Max    32767
+	      Fuzz      16
+	      Flat     128
+	    Event code 2 (ABS_Z)
+	      Value      0
+	      Min        0
+	      Max      255
+	    Event code 3 (ABS_RX)
+	      Value      0
+	      Min   -32768
+	      Max    32767
+	      Fuzz      16
+	      Flat     128
+	    Event code 4 (ABS_RY)
+	      Value     -1
+	      Min   -32768
+	      Max    32767
+	      Fuzz      16
+	      Flat     128
+	    Event code 5 (ABS_RZ)
+	      Value      0
+	      Min        0
+	      Max      255
+	    Event code 16 (ABS_HAT0X)
+	      Value      0
+	      Min       -1
+	      Max        1
+	    Event code 17 (ABS_HAT0Y)
+	      Value      0
+	      Min       -1
+	      Max        1
+	  Event type 21 (EV_FF)
+	    Event code 80 (FF_RUMBLE)
+	    Event code 81 (FF_PERIODIC)
+	    Event code 88 (FF_SQUARE)
+	    Event code 89 (FF_TRIANGLE)
+	    Event code 90 (FF_SINE)
+	    Event code 96 (FF_GAIN)
+	```
+
+??? abstract "Button below the Right Analog Stick"
+
+	``` bash title="/dev/input/event3: AT Translated Set 2 keyboard"
+	Event: time 1695132759.592781, type 4 (EV_MSC), code 4 (MSC_SCAN), value 1d
+	Event: time 1695132759.592781, type 1 (EV_KEY), code 29 (KEY_LEFTCTRL), value 1
+	Event: time 1695132759.592781, -------------- SYN_REPORT ------------
+	Event: time 1695132759.594824, type 4 (EV_MSC), code 4 (MSC_SCAN), value 38
+	Event: time 1695132759.594824, type 1 (EV_KEY), code 56 (KEY_LEFTALT), value 1
+	Event: time 1695132759.594824, -------------- SYN_REPORT ------------
+	Event: time 1695132759.597498, type 4 (EV_MSC), code 4 (MSC_SCAN), value 2a
+	Event: time 1695132759.597498, type 1 (EV_KEY), code 42 (KEY_LEFTSHIFT), value 1
+	Event: time 1695132759.597498, -------------- SYN_REPORT ------------
+	Event: time 1695132759.599549, type 4 (EV_MSC), code 4 (MSC_SCAN), value 14
+	Event: time 1695132759.599549, type 1 (EV_KEY), code 20 (KEY_T), value 1
+	```
+
 ## Additional References
 
 - [Platform Documentation (AMD64)](https://github.com/JustEnoughLinuxOS/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/AMD64)
 - [Device Quirks](https://github.com/JustEnoughLinuxOS/distribution/tree/main/packages/hardware/quirks/devices/ayn%20Loki%20Zero)
 - [Panel Rotation](https://github.com/JustEnoughLinuxOS/distribution/blob/main/packages/kernel/linux/patches/AMD64/002-display-quirks.patch)
-
-## Controls
-
-### `evtest` Output
-
-#### Main Controls
-
-``` bash title="/dev/input/event5: Microsoft X-Box 360 pad"
-Input driver version is 1.0.1
-Input device ID: bus 0x3 vendor 0x45e product 0x28e version 0x110
-Input device name: "Microsoft X-Box 360 pad"
-Supported events:
-  Event type 0 (EV_SYN)
-  Event type 1 (EV_KEY)
-    Event code 304 (BTN_SOUTH)
-    Event code 305 (BTN_EAST)
-    Event code 307 (BTN_NORTH)
-    Event code 308 (BTN_WEST)
-    Event code 310 (BTN_TL)
-    Event code 311 (BTN_TR)
-    Event code 314 (BTN_SELECT)
-    Event code 315 (BTN_START)
-    Event code 316 (BTN_MODE)
-    Event code 317 (BTN_THUMBL)
-    Event code 318 (BTN_THUMBR)
-  Event type 3 (EV_ABS)
-    Event code 0 (ABS_X)
-      Value      0
-      Min   -32768
-      Max    32767
-      Fuzz      16
-      Flat     128
-    Event code 1 (ABS_Y)
-      Value     -1
-      Min   -32768
-      Max    32767
-      Fuzz      16
-      Flat     128
-    Event code 2 (ABS_Z)
-      Value      0
-      Min        0
-      Max      255
-    Event code 3 (ABS_RX)
-      Value      0
-      Min   -32768
-      Max    32767
-      Fuzz      16
-      Flat     128
-    Event code 4 (ABS_RY)
-      Value     -1
-      Min   -32768
-      Max    32767
-      Fuzz      16
-      Flat     128
-    Event code 5 (ABS_RZ)
-      Value      0
-      Min        0
-      Max      255
-    Event code 16 (ABS_HAT0X)
-      Value      0
-      Min       -1
-      Max        1
-    Event code 17 (ABS_HAT0Y)
-      Value      0
-      Min       -1
-      Max        1
-  Event type 21 (EV_FF)
-    Event code 80 (FF_RUMBLE)
-    Event code 81 (FF_PERIODIC)
-    Event code 88 (FF_SQUARE)
-    Event code 89 (FF_TRIANGLE)
-    Event code 90 (FF_SINE)
-    Event code 96 (FF_GAIN)
-```
-
-#### Button below the Right Analog Stick
-
-``` bash title="/dev/input/event3: AT Translated Set 2 keyboard"
-Event: time 1695132759.592781, type 4 (EV_MSC), code 4 (MSC_SCAN), value 1d
-Event: time 1695132759.592781, type 1 (EV_KEY), code 29 (KEY_LEFTCTRL), value 1
-Event: time 1695132759.592781, -------------- SYN_REPORT ------------
-Event: time 1695132759.594824, type 4 (EV_MSC), code 4 (MSC_SCAN), value 38
-Event: time 1695132759.594824, type 1 (EV_KEY), code 56 (KEY_LEFTALT), value 1
-Event: time 1695132759.594824, -------------- SYN_REPORT ------------
-Event: time 1695132759.597498, type 4 (EV_MSC), code 4 (MSC_SCAN), value 2a
-Event: time 1695132759.597498, type 1 (EV_KEY), code 42 (KEY_LEFTSHIFT), value 1
-Event: time 1695132759.597498, -------------- SYN_REPORT ------------
-Event: time 1695132759.599549, type 4 (EV_MSC), code 4 (MSC_SCAN), value 14
-Event: time 1695132759.599549, type 1 (EV_KEY), code 20 (KEY_T), value 1
-```
