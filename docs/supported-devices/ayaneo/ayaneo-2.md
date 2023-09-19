@@ -6,7 +6,7 @@
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
 | -- | -- | -- | -- | -- |
-| AYANEO 2 | Amd Ryzen 7 6800U / (x86_64) | Mainline Linux | Radeonsi | Weston + EmulationStation |
+| AYANEO 2 | Amd Ryzen 7 6800U / (x86_64) | Mainline Linux | Radeonsi | Weston + Emulation Station |
 
 ## Features
 

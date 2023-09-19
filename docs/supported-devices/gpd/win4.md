@@ -6,7 +6,15 @@
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
 | -- | -- | -- | -- | -- |
-| Win 4 | Amd Ryzen 7 6800U / (x86_64) | Mainline Linux | Radeonsi | Weston + EmulationStation |
+| Win 4 | Amd Ryzen 7 6800U / (x86_64) | Mainline Linux | Radeonsi | Weston + Emulation Station |
+
+## Features
+
+| Feature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Notes |
+| -- | -- |
+| :material-harddisk: Storage | JELOS can be run from an SD Card, USB Drive or installed directly to the internal NVME. <br> When installed directly to the NVME; an SD Card can be used for game storage. |
+| :material-fan: Fan | Can be set globally, per system or per game. |
+| :material-lightning-bolt-circle: TPD Limit | Can be set globally, per system or per game. |
 
 ## Notes
 
@@ -16,6 +24,14 @@ Download the latest `AMD64` version of JELOS from the button below and follow th
 
 [![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
 [![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
+
+### Booting from an SD Card
+
+In order to launch JELOS from an SD card or a USB drive you will need to first change the boot order in the BIOS.  
+
+During boot you can enter the bios by either pressing the `del` key on the built-in keyboard.  
+
+In the bios; navigate to the `Boot` menu and then change the boot order to prioritize the SD card under `Boot Order Priorities`. Then go `Save & Exit` and select the Save Changes and Exit option.  This change will persist through all reboots.  If you want to boot into Windows simply remove the SD Card or USB drive.
 
 ## Additional References
 

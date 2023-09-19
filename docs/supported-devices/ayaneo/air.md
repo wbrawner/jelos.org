@@ -6,9 +6,9 @@
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
 | -- | -- | -- | -- | -- |
-| Air | Amd Ryzen 5 5560U (x86_64) | Mainline Linux | Radeonsi | Weston + EmulationStation |
-| Air Pro | Amd Ryzen 5 5560U (x86_64) | Mainline Linux | Radeonsi | Weston + EmulationStation |
-| Air Pro | AMD Ryzen 7 5825U (x86_64) | Mainline Linux | Radeonsi | Weston + EmulationStation |
+| Air | Amd Ryzen 5 5560U (x86_64) | Mainline Linux | Radeonsi | Weston + Emulation Station |
+| Air Pro | Amd Ryzen 5 5560U (x86_64) | Mainline Linux | Radeonsi | Weston + Emulation Station |
+| Air Pro | AMD Ryzen 7 5825U (x86_64) | Mainline Linux | Radeonsi | Weston + Emulation Station |
 
 ## Features
 

@@ -6,7 +6,7 @@
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
 | -- | -- | -- | -- | -- |
-| A1 Pro | AMD 7840u (x86_64) | Mainline Linux | Radeonsi | Weston + EmulationStation |
+| A1 Pro | AMD 7840u (x86_64) | Mainline Linux | Radeonsi | Weston + Emulation Station |
 
 ## Notes
 

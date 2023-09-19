@@ -6,7 +6,7 @@
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
 | -- | -- | -- | -- | -- |
-| VCS | AMD Ryzen R1606G (x86_64) | Mainline Linux | Radeonsi | Weston + EmulationStation | 
+| VCS | AMD Ryzen R1606G (x86_64) | Mainline Linux | Radeonsi | Weston + Emulation Station | 
 
 ## Notes
 

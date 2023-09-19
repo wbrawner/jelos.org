@@ -6,7 +6,7 @@
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
 | -- | -- | -- | -- | -- |
-| Orange Pi 5 | Rockchip RK3588S / Mali G610 (ARMv8-A) | Rockchip 5.10 BSP Linux | Panfrost | Weston + EmulationStation |
+| Orange Pi 5 | Rockchip RK3588S / Mali G610 (ARMv8-A) | Rockchip 5.10 BSP Linux | Panfrost | Weston + Emulation Station |
 
 ## Notes
 

@@ -6,7 +6,7 @@
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
 | -- | -- | -- | -- | -- |
-| Max | Amd Ryzen 7 6800U / (x86_64) | Mainline Linux | Radeonsi | Weston + EmulationStation |
+| Max | Amd Ryzen 7 6800U / (x86_64) | Mainline Linux | Radeonsi | Weston + Emulation Station |
 
 ## Features
 

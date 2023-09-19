@@ -6,7 +6,7 @@
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
 | -- | -- | -- | -- | -- |
-| Loki Zero | AMD Athlon Silver 3050e (x86_64) | Mainline Linux | Radeonsi | Weston + EmulationStation |
+| Loki Zero | AMD Athlon Silver 3050e (x86_64) | Mainline Linux | Radeonsi | Weston + Emulation Station |
 
 ## Features
 
