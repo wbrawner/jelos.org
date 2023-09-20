@@ -1,4 +1,7 @@
-![JELOS on AYANEO Air Plus](_inc/images/devices/ayaneo-air-plus.png){ .off-glb }
+<div class="preview-container">
+  <img src="_inc/images/video-frame.png"/>
+  <video autoplay loop><source src="_inc/video/preview.mp4" type="video/mp4"></video>
+</div>
 
 # Welcome to the JELOS Wiki :material-gamepad:
 
@@ -22,9 +25,6 @@ Just Enough Linux Operating System (JELOS) is an immutable Linux distribution fo
 ## Preview
 
 <table>
-  <tr>
-    <td colspan="2"><video controls autoplay loop><source src="_inc/video/preview.mp4" type="video/mp4"></video></td>
-  </tr>
   <tr>
     <td><img src="_inc/images/screenshots/system-view.png"/></td>
     <td><img src="_inc/images/screenshots/menu.png"/></td>

@@ -81,9 +81,9 @@ nav:
       #- systems/index.md
       - Arcade:
         #- systems/arcade/index.md
-        - Campcom CPS-1: systems/cps1.md
-        - Campcom CPS-2: systems/cps2.md
-        - Campcom CPS-3: systems/cps3.md
+        - Capcom CPS-1: systems/cps1.md
+        - Capcom CPS-2: systems/cps2.md
+        - Capcom CPS-3: systems/cps3.md
         - Daphne: systems/daphne.md
         - Final Burn Neo: systems/fbn.md
         - M.A.M.E.: systems/mame.md
