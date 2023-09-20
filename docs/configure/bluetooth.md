@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 # Bluetooth Setup
 
 ## Bluetooth Audio

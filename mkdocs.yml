@@ -82,7 +82,7 @@ nav:
     - Configure:
       - Optimizations: configure/optimizations.md
       - Shaders: configure/shaders.md
-      - Bluetooth: configure/bluetooth.md
+      #- Bluetooth: configure/bluetooth.md
       - Cloud Sync: configure/cloud-sync.md
       - VPN: configure/vpn.md
     - Systems:
