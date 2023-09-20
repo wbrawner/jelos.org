@@ -53,7 +53,7 @@ Manual builds (outside of Docker) are only recommended for developers with speci
 
 ### Virtual Machines
 
-If you must use a virtual machine for your build platform, keep in mind that results vary.  There have been some anecdotes of success with VMware Workstation (Player and Pro) and failure with VirtualBox and WSL.  These reports are not definitive, but something to keep in mind if you must use a VM.
+If you prefer to use a virtual machine for your build platform; keep in mind that results vary. There have been some reports of success with VMware Workstation (Player and Pro) and WSL and some unsuccessful attempts with VirtualBox. These reports are not definitive, but something to keep in mind if you prefer to use a VM.
 
 ## 2. Clone
 

@@ -25,7 +25,7 @@ theme:
     code: Oxygen Mono
   features:
     - navigation.top
-    - navigation.instant
+    #- navigation.instant
     - navigation.sections
     - navigation.indexes
     - toc.follow 
@@ -70,7 +70,8 @@ nav:
     - Play:
       - Install: play/install.md
       - Update: play/update.md
-      - Hotkeys: play/hotkeys.md
+      - Controls: play/controls.md
+      - Netplay: play/netplay.md
     - Contribute:
       - contribute/index.md
       - Code of Conduct: contribute/code-of-conduct.md
@@ -78,6 +79,12 @@ nav:
       - Modify: contribute/modify.md
       - Quirks: contribute/quirks.md
       - Packages: contribute/packages.md
+    - Configure:
+      - Optimizations: configure/optimizations.md
+      - Shaders: configure/shaders.md
+      - Bluetooth: configure/bluetooth.md
+      - Cloud Sync: configure/cloud-sync.md
+      - VPN: configure/vpn.md
     - Systems:
       #- systems/index.md
       - Arcade:
@@ -167,7 +174,9 @@ nav:
         - Sinclair ZX81: systems/zx81.md
         - Sinclair ZX Spectrum: systems/zxspectrum.md 
       - Engines:
+        - Build Engine: systems/build-engine.md
         - Doom: systems/doom.md
+        - ECWolf: systems/ecwolf.md
         - EasyRPG: systems/easyrpg.md
         - Infocom Zmachine: systems/zmachine.md
         - J2ME: systems/j2me.md

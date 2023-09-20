@@ -1,28 +1,56 @@
-# Hotkeys
+# :material-controller: Controls
+
+## RetroArch Hotkeys
 
 By default JELOS will detect your controller and configure RetroArch hotkeys automatically.  If this behavior is not desired it can be disabled in the System Settings menu by disabling the "AUTOCONFIGURE RETROARCH HOTKEYS" option.
 
-## RetroArch Hotkeys
-* [Hotkey Enable](https://docs.libretro.com/guides/input-and-controls/#hotkey-controls): Select (Hold)
-  * Exit: Start (Press Twice)
-  * Menu: X
-  * Favorite: Hold X
-  * Show/Hide FPS: Y
-  * Save State: R1
-  * Load State: L1
-  * Rewind: L2
-  * Fast-Forward Toggle: R2
-> Note: X and Y are reversed on some devices, this is normal behavior.
+| Button Combo | Action |
+| -- | -- |
+| ++"SELECT"+"START"++ <sup>(x2)</sup> | Quit Game |
+| ++"SELECT"+"R1"++ | Save State |
+| ++"SELECT"+"L1"++ | Load State |
+| ++"SELECT"+"X(NORTH)"++ | Open RA Menu |
+| ++"SELECT"+"Y(WEST)"++ | Show FPS |
+| ++"SELECT"+"R2"++ | Fast-Forward |
 
-## Global Hotkeys
-  * Pause: Start
-  * Quit: Start+Select
-  * Force-Close: L1+Start+Select
-  * Skip 5s: R1
-  * Back 5s: L1
-  * Skip 60s: R2
-  * Back 60s: L2
-> Note: Force-Close is R1+Start+Select on some devices, this is normal behavior.
+## Standalone (SA) Emulator Hotkeys
+
+### Dolphin ([Gamecube](../../systems/gc))
+
+| Button Combo | Action |
+| -- | -- |
+| ++"SELECT"+"START"++ | Quit Game |
+| ++"SELECT"+"R1"++ | Save State |
+| ++"SELECT"+"L1"++ | Load State |
+| ++"SELECT"+"A(SOUTH)"++ | Screenshot |
+| ++"SELECT"+"B(EAST)"++ | Change Internal Resolution |
+| ++"SELECT"+"X(NORTH)"++ | Change Aspect Ratio |
+| ++"SELECT"+"Y(WEST)"++ | Show FPS |
+| ++"SELECT"+"D-Pad Up"++ | Increase current state slot |
+| ++"SELECT"+"D-Pad Down"++ | Decrease current state slot |
+| ++"SELECT"+"R2"++ | Fast-Forward |
+
+### Hypseus-singe ([Daphne](../../systems/daphne))
+
+| Button Combo | Action |
+| -- | -- |
+| ++"SELECT"+"START"++ | Quit Game |
+| ++"SELECT"++ | Coin |
+| ++"START"++ | Start |
+| ++"A(SOUTH)"++ | Button 1 |
+| ++"B(EAST)"++ | Button 2 |
+| ++"X(NORTH"++ | Button 3 |
+
+To add/change mapping you can edit `/storage/.config/game/configs/hypseus/hypinput.ini` under `[KEYBOARD]` section by changing third number for a function from `0` (disabled) to a corresponding joystick value.  You can identify joystick values by running `jstest /dev/input/js0` over ssh.
+
+For example the following would assign `quit` to ++"L1"++ and `pause` to ++"R1"++
+
+``` bash
+[KEYBOARD]
+KEY_QUIT = SDLK_ESCAPE 0 5
+KEY_PAUSE = SDLK_p 0 6
+
+```
 
 ## Per Device Hotkeys
 |Device|Brightness Up|Brightness Down|Battery Status|WIFI Toggle|
@@ -282,79 +310,5 @@ SELECT+R2:    fast-forward toggle
   </tr>
   <tr>
     <td><a href="https://github.com/christianhaitian/PortMaster/blob/main/README.md">Port Master</a></td><td><a href="https://github.com/christianhaitian/PortMaster/wiki">Port Installer</a></td>
-  </tr>
-</table>
-
-## Button Codes
-From ssh terminal:
-```
-evtest
-```
-then select `retrogame_joypad` to see details for each button press, including button labels, codes and analog stick values in real-time
-
-```
-jstest-sdl -t 0
-```
-to see interactive keymap
-
-<table>
-  <tr style="vertical-align:top">
-    <th align="left">Joypad Button</th><th align="left" colspan=4>Button Codes</th>
-  </tr>
-  <tr>
-  <td>
-<strong>DIGITAL</strong></td><td><strong><a href="https://github.com/JustEnoughLinuxOS/distribution/blob/5ae14a65cc446c1e6f7083ac47adeafc806134a6/packages/ui/emulationstation/config/es_input.cfg#L63">RG552/RG503/RG353P</a></strong></td><td><strong><a href="https://github.com/JustEnoughLinuxOS/distribution/blob/5ae14a65cc446c1e6f7083ac47adeafc806134a6/packages/ui/emulationstation/config/es_input.cfg#L33">RG351MP</a></strong></td><td><strong><a href="https://github.com/JustEnoughLinuxOS/distribution/blob/5ae14a65cc446c1e6f7083ac47adeafc806134a6/packages/ui/emulationstation/config/es_input.cfg#L6">RG351P/M</a></strong></td><td><strong><a href="https://github.com/JustEnoughLinuxOS/distribution/blob/5ae14a65cc446c1e6f7083ac47adeafc806134a6/packages/ui/emulationstation/config/es_input.cfg#L6">RG351V</a></strong></td></tr>
-  <tr><td>
-A (EAST)      </td><td><strong>1</strong>  (305 BTN_EAST)</td><td><strong>1</strong>  (305 BTN_EAST)</td><td><strong>0</strong>  (305 BTN_EAST)</td><td><strong>0</strong>  (305 BTN_EAST)</td></tr>
-  <tr><td>
-B (SOUTH)     </td><td><strong>0</strong>  (304 BTN_SOUTH)</td><td><strong>0</strong>  (304 BTN_SOUTH)</td><td><strong>1</strong>  (304 BTN_SOUTH)</td><td><strong>1</strong>  (304 BTN_SOUTH)</td></tr>
-  <tr><td>
-X (NORTH)     </td><td><strong>2</strong>  (307 BTN_NORTH)</td><td><strong>2</strong>  (307 BTN_NORTH)</td><td><strong>2</strong>  (307 BTN_NORTH)</td><td><strong>2</strong>  (307 BTN_NORTH)</td></tr>
-  <tr><td>
-Y (WEST)      </td><td><strong>3</strong>  (308 BTN_WEST)</td><td><strong>3</strong>  (308 BTN_WEST)</td><td><strong>3</strong>  (306 BTN_C)</td><td><strong>3</strong>  (306 BTN_C)</td></tr>
-  <tr><td>
-L1     </td><td><strong>4</strong>  (310 BTN_TL)</td><td><strong>4</strong>  (310 BTN_TL)</td><td><strong>4</strong>  (308 BTN_WEST)</td><td><strong>4</strong>  (308 BTN_WEST)</td></tr>
-  <tr><td>
-L2     </td><td><strong>6</strong>  (312 BTN_TL2)</td><td><strong>6</strong>  (312 BTN_TL2)</td><td><strong>10</strong> (314 BTN_SELECT)</td><td><strong>10</strong> (314 BTN_SELECT)</td></tr>
-  <tr><td>
-L3     </td><td><strong>11</strong> (317 BTN_THUMBL)</td><td><strong>14</strong> (706 BTN_TRIGGER_HAPPY3)</td><td><strong>8</strong>  (312 BTN_TL2)</td><td><strong>8</strong>  (312 BTN_TL2)</td></tr>
-  <tr><td>
-R1     </td><td><strong>5</strong>  (311 BTN_TR)</td><td><strong>5</strong>  (311 BTN_TR)</td><td><strong>5</strong>  (309 BTN_Z)</td><td><strong>5</strong>  (309 BTN_Z)</td></tr>
-  <tr><td>
-R2     </td><td><strong>7</strong>  (313 BTN_TR2)</td><td><strong>7</strong>  (313 BTN_TR2)</td><td><strong>11</strong> (315 BTN_START)</td><td><strong>11</strong> (315 BTN_START)</td></tr>
-  <tr><td>
-R3     </td><td><strong>12</strong> (318 BTN_THUMBR)</td><td><strong>15</strong> (707 BTN_TRIGGER_HAPPY4)</td><td><strong>9</strong>  (313 BTN_TR2)</td><td><strong>9</strong>  (313 BTN_TR2; F)</td></tr>
-  <tr><td>
-SELECT </td><td><strong>8</strong>  (314 BTN_SELECT)</td><td><strong>12</strong> (704 BTN_TRIGGER_HAPPY1)</td><td><strong>7</strong>  (311 BTN_TR)</td><td><strong>7</strong>  (311 BTN_TR)</td></tr>
-  <tr><td>
-START  </td><td><strong>9</strong>  (315 BTN_START)</td><td><strong>13</strong> (705 BTN_TRIGGER_HAPPY2)</td><td><strong>6</strong>  (310 BTN_TL)</td><td><strong>6</strong>  (310 BTN_TL)</td></tr>
-  <tr><td>
-HOTKEY ENABLE   </td><td><strong>10</strong> (316)     </td><td><strong>12</strong> (704 BTN_TRIGGER_HAPPY1)     </td><td><strong>7</strong>  (311 BTN_TR)     </td><td><strong>7</strong>  (311 BTN_TR)     </td></tr>
-  <tr><td>
-DPAD UP         </td><td><strong>13</strong> (544 BTN_DPAD_UP)     </td><td><strong>8</strong>  (544 BTN_DPAD_UP)     </td><td><strong>hat(1)</strong> (16 -ve ABS_HAT0Y -1)</td><td><strong>hat(1)</strong> (16 -ve ABS_HAT0Y -1)</td></tr>
-  <tr><td>
-DPAD DOWN       </td><td><strong>14</strong> (545 BTN_DPAD_DOWN)     </td><td><strong>9</strong>  (545 BTN_DPAD_DOWN)     </td><td><strong>hat(4)</strong> (16 +ve ABS_HAT0Y 1)</td><td><strong>hat(4)</strong> (16 +ve ABS_HAT0Y 1)</td></tr>
-  <tr><td>
-DPAD LEFT       </td><td><strong>15</strong> (546 BTN_DPAD_LEFT)     </td><td><strong>10</strong> (546 BTN_DPAD_LEFT)     </td><td><strong>hat(8)</strong> (17 -ve ABS_HAT0X -1)</td><td><strong>hat(8)</strong> (17 -ve ABS_HAT0X -1)</td></tr>
-  <tr><td>
-DPAD RIGHT      </td><td><strong>16</strong> (547 BTN_DPAD_RIGHT)     </td><td><strong>11</strong> (547 BTN_DPAD_RIGHT)     </td><td><strong>hat(2)</strong> (17 +ve ABS_HAT0X 1)</td><td><strong>hat(2)</strong> (17 +ve ABS_HAT0X 1)</td></tr>
-  <tr><td>
-<strong>ANALOG</strong></td><td><strong><a href="https://github.com/JustEnoughLinuxOS/distribution/blob/5ae14a65cc446c1e6f7083ac47adeafc806134a6/packages/ui/emulationstation/config/es_input.cfg#L63">RG552/RG503/RG353P</a></strong></td><td><strong><a href="https://github.com/JustEnoughLinuxOS/distribution/blob/5ae14a65cc446c1e6f7083ac47adeafc806134a6/packages/ui/emulationstation/config/es_input.cfg#L33">RG351MP</a></strong></td><td><strong><a href="https://github.com/JustEnoughLinuxOS/distribution/blob/5ae14a65cc446c1e6f7083ac47adeafc806134a6/packages/ui/emulationstation/config/es_input.cfg#L6">RG351P/M</a></strong></td><td><strong><a href="https://github.com/JustEnoughLinuxOS/distribution/blob/5ae14a65cc446c1e6f7083ac47adeafc806134a6/packages/ui/emulationstation/config/es_input.cfg#L6">RG351V</a></strong></td></tr>
-  <tr><td>
-LEFTANALOGLEFT   </td><td><strong>AXIS 0 -ve</strong> (ABS_X)</td><td><strong>AXIS 0 -ve</strong> (ABS_X)</td><td><strong>AXIS 2 +ve</strong> (ABS_Z  4095)</td><td><strong>AXIS 2 +ve</strong> (ABS_Z 4095)</td></tr>
-  <tr><td>
-LEFTANALOGRIGHT  </td><td><strong>AXIS 0 +ve</strong> (ABS_X)</td><td><strong>AXIS 0 +ve</strong> (ABS_X)</td><td><strong>AXIS 2 -ve (ABS_Z 0)</strong></td><td><strong>AXIS 2 -ve</strong> (ABS_Z 0)</td></tr>
-  <tr><td>
-LEFTANALOGUP     </td><td><strong>AXIS 1 -ve</strong> (ABS_Y)</td><td><strong>AXIS 1 -ve</strong> (ABS_Y)</td><td><strong>AXIS 3 +ve</strong> (ABS_RX 4040)</td><td><strong>AXIS 3 +ve</strong> (ABS_RX 4040)</td></tr>
-  <tr><td>
-LEFTANALOGDOWN   </td><td><strong>AXIS 1 +ve</strong> (ABS_Y)</td><td><strong>AXIS 1 +ve</strong> (ABS_Y)</td><td><strong>AXIS 3 -ve</strong> (ABS_RX 0)</td><td><strong>AXIS 3 -ve</strong> (ABS_RX 0)</td></tr>
-  <tr><td>
-RIGHTANALOGLEFT  </td><td><strong>AXIS 2 -ve</strong> (ABS_RX)</td><td><strong>AXIS 2 -ve</strong> (ABS_RX)</td><td><strong>AXIS 4 -ve</strong> (ABS_RY)</td><td></td></tr>
-  <tr><td>
-RIGHTANALOGRIGHT </td><td><strong>AXIS 2 +ve</strong> (ABS_RX)</td><td><strong>AXIS 2 +ve</strong> (ABS_RX)</td><td><strong>AXIS 4 +ve</strong> (ABS_RY)</td><td></td></tr>
-  <tr><td>
-RIGHTANALOGUP    </td><td><strong>AXIS 3 -ve</strong> (ABS_RY)</td><td><strong>AXIS 3 -ve (ABS_RY)</strong></td><td><strong>AXIS 5 -ve</strong> (ABS_RZ)</td><td></td></tr>
-  <tr><td>
-RIGHTANALOGDOWN  </td><td><strong>AXIS 3 +ve</strong> (ABS_RY)</td><td><strong>AXIS 3 +ve (ABS_RY)</strong></td><td><strong>AXIS 5 +ve</strong> (ABS_RZ)</td><td></td>
   </tr>
 </table>
