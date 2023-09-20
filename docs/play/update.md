@@ -6,7 +6,7 @@ JELOS can be updated "Over the Air" (OTA) or by manually downloading an update .
 
 If your device has access to the internet you can update JELOS directly from EmulationStation.
 
-1. In EmulationStation open the main menu by pressing the `Start` button on your controller.
+1. In EmulationStation open the main menu by pressing the ++"Start"++ button on your controller.
 2. Select `System Settings`
 3. Scroll to the `System Update` header and select `Start Update`
 

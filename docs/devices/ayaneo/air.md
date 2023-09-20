@@ -38,11 +38,11 @@ Download the latest `AMD64` version of JELOS from the button below and follow th
 
 ### Booting from an SD Card
 
-To boot JELOS from the SD Card, hold `LC` + `Volume Up` and press the power button, continue holding `LC` + `Volume Up` until the Ayaneo logo appears.  Select the storage device with JELOS from the boot menu using the Ayaneo button, and then press volume up to boot the distribution.
+To boot JELOS from the SD Card, hold ++"LC"+"Volume Up"++ and press the ++"Power"++ button, continue holding ++"LC"+"Volume Up"++ until the Ayaneo logo appears.  Select the storage device with JELOS from the boot menu using the Ayaneo button, and then press volume up to boot the distribution.
 
 ### Changing the RGB 
 
-In EmulationStation press the `Start` button to open the Main Menu.  Then select `System Settings` and scroll until you see `Device LEDS`.  Under that setting you can choose to turn RGB Off or select from a set of pre-defined colors.  The value you set will persist through all future reboots but note your RGB setting will only take effect after JELOS boots.
+In EmulationStation press the ++"Start"++ button to open the Main Menu.  Then select `System Settings` and scroll until you see `Device LEDS`.  Under that setting you can choose to turn RGB Off or select from a set of pre-defined colors.  The value you set will persist through all future reboots but note your RGB setting will only take effect after JELOS boots.
 
 ## Controls
 
