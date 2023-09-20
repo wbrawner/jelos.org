@@ -1,6 +1,6 @@
 <div class="preview-container">
-  <img src="_inc/images/video-frame.png"/>
-  <video autoplay loop><source src="_inc/video/preview.mp4" type="video/mp4"></video>
+  <img class="off-glb" src="_inc/images/video-frame.png"/>
+  <video autoplay loop muted><source src="_inc/video/preview.mp4" type="video/mp4"></video>
 </div>
 
 # Welcome to the JELOS Wiki :material-gamepad:
