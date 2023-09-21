@@ -11,8 +11,6 @@ If Shaders are set to "off," change to "on"
 Specific parameters will vary on a per-shader basis so it's recommended you test with the individual shaders first by loading the built-ins and modifying their parameters to your preference. 
 When you know how you'd lke to configure everything, you'll select your parameters and passes. To start, you'll select the number of shader passes, the filtering (linear, nearests, or default), and the number of passes for each individual shader listed (generally leave this item at default). Then select "apply changes," set parameters, and save the shader.
 
-----
-
 #### Example 
 The below example shader configuration is based on a custom shader with two passes for GBA to enable vba-color for original colors (ala real hardware) and LCD grid:
 
@@ -30,9 +28,7 @@ Then press "Apply changes" to set it. From there go into "shader parameters" and
 
 Once it's configured to your liking, back out of the parameters menu and in the shaders menu press "save" in the menu list. In the save menu set "Simple Presets" to "off" and then "save shader preset as" and name the custom shader. It will now be selectable as a default like any of the other preconfigured shaders.
 
------------
-
-You can add additional passes following the steps above (increase passes to 3 and follow the same steps), but keep in mind performance will be dependent on your device, and not all shaders will work at full speed with multiple passes.
+> You can add additional passes following the steps above (increase passes to 3 and follow the same steps), but keep in mind performance will be dependent on your device, and not all shaders will work at full speed with multiple passes.
 
 
 ### Step 3: Save your new shader preset
