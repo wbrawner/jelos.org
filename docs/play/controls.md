@@ -2,8 +2,6 @@
 
 ## RetroArch Hotkeys
 
-By default JELOS will detect your controller and configure RetroArch hotkeys automatically.  If this behavior is not desired it can be disabled in the System Settings menu by disabling the "AUTOCONFIGURE RETROARCH HOTKEYS" option.
-
 | Button Combo | Action |
 | -- | -- |
 | ++"SELECT"+"START"++ <sup>(x2)</sup> | Quit Game |
@@ -13,7 +11,9 @@ By default JELOS will detect your controller and configure RetroArch hotkeys aut
 | ++"SELECT"+"Y(WEST)"++ | Show FPS |
 | ++"SELECT"+"R2"++ | Fast-Forward |
 
-## Standalone (SA) Emulator Hotkeys
+By default JELOS will detect your controller and configure RetroArch hotkeys automatically.  If this behavior is not desired it can be disabled in the System Settings menu by disabling the "AUTOCONFIGURE RETROARCH HOTKEYS" option.
+
+## Standalone (SA) Emulators
 
 ### Dolphin ([Gamecube](../../systems/gc))
 
@@ -30,6 +30,68 @@ By default JELOS will detect your controller and configure RetroArch hotkeys aut
 | ++"SELECT"+"D-Pad Down"++ | Decrease current state slot |
 | ++"SELECT"+"R2"++ | Fast-Forward |
 
+### Mupen64Plus ([Nintendo 64](../../systems/n64))
+
+| Button Combo | Action |
+| -- | -- |
+| ++"START"++ | Start |
+| ++"B(EAST)"++ | A |
+| ++"Y(WEST)"++ | B |
+| ++"Right Analog Up"++ | C Up |
+| ++"Right Analog Down"++ | C Down |
+| ++"Right Analog Left"++ | C Left |
+| ++"Right Analog Right"++ | C Right |
+| ++"L2"++ <sup>*</sup> | Z |
+| ++"L1"++ <sup>*</sup> | L |
+| ++"R1"++ | R |
+| ++"SELECT"+"START"++ | Quit Game |
+| ++"SELECT"+"R1"++ | Save State |
+| ++"SELECT"+"L1"++ | Load State |
+| ++"SELECT"+"Y(WEST)"++ | Take Screenshot |
+| ++"SELECT"+"B(SOUTH)"++ | Reset Game |
+
+#### Additional Notes:
+
+The Z and L button assignment can be changed in EmulationStation
+
+* Highlight the game and press ++"X(NORTH)"++
+* Select ADVANCED GAME OPTIONS (A to confirm)
+* Set EMULATOR to MUPEN64PLUSSA
+* Then change INPUT CONFIGURATION
+    * DEFAULT:       L1 = L, L2 = Z
+    * Z & L SWAP:    L1 = Z, L2 = L
+    * CUSTOM:        You can create your own custom controller layout and add it to `/storage/.configs/game/configs/mupen64plussa`
+
+### PPSSPP ([PSP](../../systems/psp))
+
+| Button Combo | Action |
+| -- | -- |
+| ++"START"++ | Start |
+| ++"SELECT"++ | Select |
+| ++"A(SOUTH)"++ | Circle |
+| ++"B(EAST)"++ | Cross |
+| ++"X(NORTH"++ | Triangle |
+| ++"Y(WEST)"++ | Square |
+| ++"L1"++ | L |
+| ++"R1"++ | R |
+| ++"R3"++ | Open Menu |
+
+### Yabasanshiro ([Sega Saturn](../../systems/saturn))
+
+| Button Combo | Action |
+| -- | -- |
+| ++"START"++ | Start |
+| ++"SELECT"++ | Open Menu |
+| ++"Y(WEST)"++ | A |
+| ++"B(EAST)"++ | B |
+| ++"A(SOUTH)"++ | C |
+| ++"X(NORTH"++ | X |
+| ++"L1"++ | Y |
+| ++"R1"++ | Z |
+| ++"L2"++ | L |
+| ++"R2"++ | R |
+| ++"START"+"SELECT"+"R1"++ | Quit Game |
+
 ### Hypseus-singe ([Daphne](../../systems/daphne))
 
 | Button Combo | Action |
@@ -40,6 +102,8 @@ By default JELOS will detect your controller and configure RetroArch hotkeys aut
 | ++"A(SOUTH)"++ | Button 1 |
 | ++"B(EAST)"++ | Button 2 |
 | ++"X(NORTH"++ | Button 3 |
+
+#### Additional Notes:
 
 To add/change mapping you can edit `/storage/.config/game/configs/hypseus/hypinput.ini` under `[KEYBOARD]` section by changing third number for a function from `0` (disabled) to a corresponding joystick value.  You can identify joystick values by running `jstest /dev/input/js0` over ssh.
 
@@ -52,7 +116,58 @@ KEY_PAUSE = SDLK_p 0 6
 
 ```
 
-## Per Device Hotkeys
+### Open Beats of Rage ([OpenBOR](../../systems/openbor))
+
+| Button Combo | Action |
+| -- | -- |
+| ++"START"++ | Confirm |
+| ++"SELECT"++ | Cancel |
+| ++"A(SOUTH)"++ | Attack 1 |
+| ++"B(EAST)"++ | Jump |
+| ++"X(NORTH"++ | Attack 2 |
+| ++"Y(WEST)"++ | Special |
+
+> note: pressing A on title screen will exit
+
+
+### Vice ([Commodore 64](../../systems/c64))
+
+| Button Combo | Action |
+| -- | -- |
+| ++"START"++ | Open Menu |
+| ++"SELECT"++ | Display Keyboard |
+| ++"A(SOUTH)"++ | Back |
+| ++"B(EAST)"++ | Fire / Confirm |
+| ++"L1"++ | Back |
+| ++"L2"++ | Assign Hotkey |
+| ++"L3"++ | Fire (Joy 2) |
+| ++"R1"++ | Confirm |
+| ++"R2"++ | Swap Joystick Port |
+
+#### Additional Notes:
+
+Games will require keyboard key presses to progress through messages and to launch 
+(e.g. SPACE, RSTR [run/start], F3, F7). 
+
+SELECT to show onscreen keyboard, left analog/d-pad to move cursor, B to confirm 
+
+C= on keyboard resets the machine
+
+L2 to assign highlighted key or menu function to gamepad button (save config to retain)
+
+To cancel onscreen keyboard, move cursor to blank area and A/L1 to close keyboard
+or click on X in top left corner of keyboard
+
+Joystick can be assigned to port 1 or 2. R2 to switch ports.
+port 1: [left analog] + [B = fire]
+port 2: [right analog] + [L3 = fire].
+
+To quit emulator, START, highlight Exit Emulator, B to confirm
+
+
+
+## Per Device Global Hotkeys
+
 |Device|Brightness Up|Brightness Down|Battery Status|WIFI Toggle|
 |----|----|----|----|----|
 |Anbernic RG351M|Select & Vol +|Select & Vol -|Start  & Vol +|Start & Vol -|
@@ -88,227 +203,3 @@ KEY_PAUSE = SDLK_p 0 6
 |Powkiddy RK2023|Select & Vol +|Select & Vol -|Start & Vol +|Start & Vol -|
 |Powkiddy x55|Select & Vol +|Select & Vol -|Start & Vol +|Start & Vol -|
 |Valve Jupiter|Steam Button & Vol + | Steam Button & Vol - | ... Button & Vol + | ... Button & Vol -|
-
-[Reference](https://github.com/JustEnoughLinuxOS/distribution/blob/main/packages/jelos/profile.d/98-jslisten)
-
-## Emulator Hotkeys and Button Assignments
-<table>
-  <tr style="vertical-align:top">
-    <th align="left">Emulator</th><th align="left">Notes</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/midwan/amiberry/wiki">Amiberry</a></td><td><a href="https://github.com/midwan/amiberry/wiki/Kickstart-ROMs-(BIOS)">Standalone</a></td>
-  </tr>
-  <tr>
-    <td valign="top"><a href="https://github.com/dolphin-emu/dolphin">Dolphin (dolphin-sa)</a></td><td><a href="https://dolphin-emu.org/">Standalone</a>
-    
-```
-HOTKEYS (BASED ON GAMECUBE CONTROLLER PROFILE)
-=======
-SELECT hotkey enable                
-START  exit to EmulationStation ("ES")
-R     save state
-L     load state
-A     screenshot
-B     internal resolution
-Z     game speed (fast forward)
-X     aspect ratio
-Y     fps on / off
-DUP   +1 save state slot
-DDOWN -1 save state slot
-```
-</td>
-  </tr>
-  <tr>
-    <td><a href="http://maniacsvault.net/ecwolf/wiki/Main_Page">ecwolf</a></td><td><a href="http://maniacsvault.net/ecwolf/wiki/Game_data">Game Engine</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/coelckers/gzdoom">gzdoom</a></td><td><a href="https://zdoom.org/wiki/IWAD">Game Engine</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://git.tuxfamily.org/hatari/hatari.git">Hatari (Hatarisa)</a></td><td><a href="https://docs.libretro.com/library/hatari/#bios">Standalone</a></td>
-  </tr>
-  <tr>
-    <td valign="top"><a href="https://github.com/DirtBagXon/hypseus-singe">Hypseus-singe</a></td><td><a href="https://www.daphne-emu.com:9443/mediawiki/index.php/Main_Page">Standalone</a>
-    
-```
-SELECT        coin
-START         start
-BUTTON 1      a
-BUTTON 2      b
-BUTTON 3      x
-MOVEMENT      d-pad or left-analog
-QUIT          select+start
-```
-to add functions, edit `/storage/.config/game/configs/hypseus/hypinput.ini` under `[KEYBOARD]` section by changing third number for a function from `0` (disabled) to the joystick button number
-
-retrieve joystick button numbers with
-
-```jstest /dev/input/js0```
-
-the following assigns quit to ```L1``` and pause to ```R1```
-
-```
-[KEYBOARD]
-KEY_QUIT = SDLK_ESCAPE 0 5
-KEY_PAUSE = SDLK_p 0 6
-
-```
-</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/drfrag666/gzdoom">lzdoom</a></td><td><a href="https://zdoom.org/wiki/IWAD">Game Engine</a></td>
-  </tr>
-  <tr>
-    <td valign="top"><a href="https://github.com/mupen64plus/mupen64plus-video-glide64mk2">mupen64plus (mupen64plussa)</a></td><td><a href="https://mupen64plus.org/docs">Standalone</a>
-    
-```
-SELECT        hotkey enable
-START         start
-B             a
-Y             b
-RIGHT ANALOG  C-stick
-LEFT ANALOG   analog
-L1            L
-L2            Z
-R1            R
-
-HOTKEYS
-=======
-SELECT+START  exit to EmulationStation ("ES")
-SELECT+R1     save state
-SELECT+L1     load state
-SELECT+Y      screenshot
-SELECT+B      reset current game
-```
-CONTROLLER PROFILES
-
-Z and L button assignment can be changed in ES.
-
-* Highlight the game and press X
-* Select ADVANCED GAME OPTIONS (A to confirm)
-* Set EMULATOR to either MUPEN64PLUSSA
-* Change INPUT CONFIGURATION
-  * DEFAULT:       L1 = L, L2 = Z
-  * Z & L SWAP:    L1 = Z, L2 = L
-  * CUSTOM:        Users can create their own controller layout in ```/storage/.configs/game/configs/mupen64plussa```
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><a href="https://github.com/DCurrent/openbor">Openbor</a></td><td><a href="https://www.chronocrash.com/forum/index.php?resources/">Standalone</a>
-    
-```
-START         start, confirm
-A             attack 1
-X             attack 2
-L1            attack 3
-R1            attack 4
-B             jump
-Y             special
-D-PAD         up/down/left/right
-SELECT        cancel, screenshot
-```
-note: pressing A on title screen will exit
-
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><a href="https://github.com/hrydgard/ppsspp">PPSSPPSDL</a></td><td><a href="https://www.ppsspp.org/faq.html">Standalone</a>
-
-```
-START         start
-SELECT        select
-B             cross
-A             circle
-X             triangle
-Y             square
-L1            L
-R1            R
-ANALOG LEFT   analog
-ANALOG RIGHT  cross(down) circle(right) triangle(up) square(left)
-D-PAD         up/down/left/right
-L3            PPSSPPSDL menu
-```
-</td>
-  </tr>
-  <tr>
-    <td><a href="https://zdoom.org/wiki/Raze">Raze</a></td><td><a href="https://zdoom.org/wiki/Raze#Supported_games">Game Engine</a></td>
-  </tr>
-  <tr>
-    <td><a href="https://www.scummvm.org">Scummmvm (Scummvmsa)</a></td><td><a href="https://www.scummvm.org/compatibility/">Standalone</a></td>
-  </tr>
-  <tr>
-    <td valign="top"><a href="https://vice-emu.sourceforge.io/vice_toc.html">vice (vicesa)</a></td><td><a href="https://vice-emu.sourceforge.io/vice_2.html#SEC5">Standalone</a>
-
-```
-SELECT        onscreen keyboard
-START         show menu
-A             back (in menus); show menu
-B             fire (joystick port 1); confirm (in menus)
-L1            back (in menus); show menu
-L2            assign hotkey
-L3            fire (joystick port 2)
-R1            confirm (in menus)
-R2            swap joystick port (either [left analog + B=fire] or [right analog + L3=fire])
-```
-Notes: 
-
-Games will require keyboard key presses to progress through messages and to launch 
-(e.g. SPACE, RSTR [run/start], F3, F7). 
-
-SELECT to show onscreen keyboard, left analog/d-pad to move cursor, B to confirm 
-
-C= on keyboard resets the machine
-
-L2 to assign highlighted key or menu function to gamepad button (save config to retain)
-
-To cancel onscreen keyboard, move cursor to blank area and A/L1 to close keyboard
-or click on X in top left corner of keyboard
-
-Joystick can be assigned to port 1 or 2. R2 to switch ports.
-port 1: [left analog] + [B = fire]
-port 2: [right analog] + [L3 = fire].
-
-To quit emulator, START, highlight Exit Emulator, B to confirm
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><a href="http://wiki.yabause.org/index.php5?title=Documentations">Yabasanshiro</a></td><td><a href="http://www.uoyabause.org">Standalone</a>
-    
-```
-SELECT        menu
-START         start
-D-PAD         up/down/left/right
-Y             a
-B             b
-A             c
-X             x
-L1 (shoulder) y
-R1 (shoulder) z
-L2 (trigger)  l
-R2 (trigger)  r
-LEFT ANALOG   analog stick
-START+SELECT+L1+R1  exit emulator
-```
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><a href="https://www.retroarch.com">Retroarch with Libretro Cores (<strong>RA:</strong>)</a></td><td>64-bit and 32-bit versions use shared config files
-    
-```
-SELECT+START: exit (press twice)
-SELECT+A:     pause emulation
-SELECT+B:     reset emulation
-SELECT+X:     Retroarch menu
-SELECT+Y:     toggle fps
-SELECT+L1:    load state
-SELECT+R1:    save state
-SELECT+L2:    rewind toggle
-SELECT+R2:    fast-forward toggle
-```
-  </td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/christianhaitian/PortMaster/blob/main/README.md">Port Master</a></td><td><a href="https://github.com/christianhaitian/PortMaster/wiki">Port Installer</a></td>
-  </tr>
-</table>
