@@ -1,10 +1,10 @@
-# Nintendo Game Boy Color
+# Nintendo Gameboy Color
 
 ## Overview
 
 | Path(s) | Supported Extensions |
 | --- | --- |
-| `storage/roms/gbc` | `.gbc` `.zip` `.7z` |
+| `storage/roms/gbc` | .gbc .zip .7z |
 
 ## Emulators
 

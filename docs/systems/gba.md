@@ -1,1 +1,1 @@
-# Nintendo Game Boy Advance
+# Nintendo Gameboy Advance

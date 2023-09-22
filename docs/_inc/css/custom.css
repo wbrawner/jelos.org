@@ -110,6 +110,10 @@
     }
 }
 
+.md-nav__container>.md-nav__link {
+    color: inherit;
+}
+
 div.preview-container {
   margin-block-start: 1em;
   margin-block-end: 1em;

@@ -1,10 +1,10 @@
-# Nintendo Game Boy
+# Nintendo Gameboy
 
 ## Overview
 
 | Path(s) | Supported Extensions |
 | --- | --- |
-| `storage/roms/gb` | `.gb` `.zip` `.7z` |
+| `storage/roms/gb` | .gb .zip .7z |
 
 ## Emulators
 
