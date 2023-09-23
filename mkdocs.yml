@@ -80,6 +80,7 @@ nav:
       - Quirks: contribute/quirks.md
       - Packages: contribute/packages.md
     - Configure:
+      - Themes: configure/themes.md
       - Optimizations: configure/optimizations.md
       - Shaders: configure/shaders.md
       #- Bluetooth: configure/bluetooth.md
