@@ -15,7 +15,7 @@ Our default theme is [Art Book Next](https://github.com/anthonycaccese/art-book-
   </tr>
 </table>
 
-## Theme Options
+## Theme Configuration
 
 The following options can be changed directly from the main menu under `UI Settings > Theme Configuration`
 
@@ -29,11 +29,31 @@ The following options can be changed directly from the main menu under `UI Setti
 | Gamelist View Style | Defines the layout/design used for the Gamelist View |
 | Help System Display | Allows you to turn the display of the help system on or off <br> **available only on 16:9, 16:10 and 5:3 aspect ratios* |
 
+### Recommended Configurations
+
+#### Option 1: If you prefer Screenshots
+
+| Setting | Value |
+| -- | -- |
+| Scraper: Image Source | `Screenshot` |
+| Scraper: Box Source | `Box 2D` |
+| Scraper: Logo Source | `Wheel` |
+| Theme Configuration: Gamelist View Style | `Metadata On (Immersive)` or <br> `Metadata Off (Immersive)` |
+
+#### Option 2: If you prefer Boxart
+
+| Setting | Value |
+| -- | -- |
+| Scraper: Image Source | `Box 2D` |
+| Scraper: Box Source | `None` |
+| Scraper: Logo Source | `Wheel` |
+| Theme Configuration: Gamelist View Style | `Metadata On` |
+
 ## Theme Customizations
 
 Art Book Next allows customizations to artwork, colors and fonts without the need to edit the source XML.  This enables you to change the look of the theme and retain any changes when JELOS is updated.
 
-### Prerequisite: 
+### First: 
 - Create the following path on your storage: `~/roms/jelos/theme-customizations/art-book-next/`
 - In Theme Configuration make sure distribution is set to `JELOS` (this is needed to make sure the above path is referenced when looking for customization files)
 
@@ -98,7 +118,7 @@ You can upload additional themes to your device at this path: `/storage/.emulati
 
 Below are a few sources for themes that may work.
 
-### Option1: Batocera Themes
+### Option 1: Batocera Themes
 
 - Our version of EmulationStation is forked from the same version used in Batocera so you can also use themes that were created for Batocera.
 - You can find a list of Batocera themes here: [https://batocera.org/themes.php](https://batocera.org/themes.php)
@@ -109,7 +129,9 @@ Below are a few sources for themes that may work.
 
 Members of our Community create themes as well.  This list is not exhaustive but here are a few that have been shared on discord that are known to work well:
 
-- [es-theme-gbz35-jelos](https://github.com/booYah187/es-theme-gbz35-jelos) by booYah187: Known to work well on 4:3 aspect ratio devices
+- [es-theme-gbz35-jelos](https://github.com/booYah187/es-theme-gbz35-jelos) by booYah187: Known to work well on 4:3 aspect ratio
+- [es-theme-albedo](https://github.com/mluizvitor/es-theme-albedo) by mluizvitor: Known to work well on 3:2, 4:3 and 5:3 aspect ratios
+- [es-theme-elementerial](https://github.com/mluizvitor/es-theme-elementerial) by mluizvitor: Known to work well on 3:2, 4:3 and 5:3 aspect ratios
 
 
 ## Creating Your Own Theme
