@@ -140,3 +140,7 @@ In EmulationStation press the ++"Start"++ button to open the Main Menu.  Then se
 - [Platform Documentation (AMD64)](https://github.com/JustEnoughLinuxOS/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/AMD64)
 - [Device Quirks](https://github.com/JustEnoughLinuxOS/distribution/tree/main/packages/hardware/quirks/devices/ayn%20Loki%20Zero)
 - [Panel Rotation](https://github.com/JustEnoughLinuxOS/distribution/blob/main/packages/kernel/linux/patches/AMD64/002-display-quirks.patch)
+
+## Videos
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NOEt92WxxGE?si=emujsI09ym41sexY&amp;start=316" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
