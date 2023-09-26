@@ -20,3 +20,12 @@ Download the latest `S922X` version of JELOS from the button below and follow th
 ## Additional References
 
 - [Platform Documentation (S922X)](https://github.com/JustEnoughLinuxOS/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/S922X)
+
+## Videos
+
+| <iframe width="560" height="315" src="https://www.youtube.com/embed/X9wbPY5qf6o?si=nIUFXmEcsRswl2ij&amp;start=316" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/_dXk5UjZ_Kg?si=AxdJyrBZ4JamiHqq&amp;start=316" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
+| -- | -- |
+| <iframe width="560" height="315" src="https://www.youtube.com/embed/3y8RJ33CQ2A?si=y4vckUqDAsfP362J&amp;start=316" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
+
+
+
