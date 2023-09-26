@@ -20,3 +20,10 @@ Download the latest `RK3566` version of JELOS from the button below and follow t
 ## Additional References
 
 - [Platform Documentation (RK3566)](https://github.com/JustEnoughLinuxOS/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/RK3566)
+
+## Videos
+
+| <iframe width="560" height="315" src="https://www.youtube.com/embed/KTb6ik1Eb40?si=gvmcp0znmXJcjTrQ&amp;start=788" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/Tf4k6f8fgbY?si=qLEdnDXHRi3DdZuj&amp;start=266" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
+| -- | -- |
+| <iframe width="560" height="315" src="https://www.youtube.com/embed/Aejn0iveDtQ?si=OvUjUO6eOhIb_TqC&amp;start=788" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/U25ioCRHQ9k?si=zN8bR0uNJOhcOhzV&amp;start=788" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
+| <iframe width="560" height="315" src="https://www.youtube.com/embed/0j92-FzEeaQ?si=knrRFkohSPP6bZbZ&amp;start=788" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | 
