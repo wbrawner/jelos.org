@@ -41,7 +41,7 @@ During boot you can enter the bios by either (1) holding the ++"Home"+"LCC (Turb
 
 In the bios; navigate to the `Boot` menu and then change the boot order to prioritize the SD card or USB Drive under `Boot Order Priorities`. Then go `Save & Exit` and select the Save Changes and Exit option.  This change will persist through all reboots.  If you want to boot into Windows simply remove the SD Card or USB drive.
 
-#### Video
+#### Video Walkthrough
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GyzLPfKsrIE?si=61eWLx7rkieKJ7LI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
