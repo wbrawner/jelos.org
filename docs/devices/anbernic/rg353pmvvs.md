@@ -29,7 +29,7 @@ Download the latest `RK3566` version of JELOS from the button below and follow t
 - [Device Quirks (353P/M)](https://github.com/JustEnoughLinuxOS/distribution/tree/main/packages/hardware/quirks/devices/Anbernic%20RG353P)
 - [Device Quirks (353V)](https://github.com/JustEnoughLinuxOS/distribution/tree/main/packages/hardware/quirks/devices/Anbernic%20RG353V)
 
-## Videos
+## Community Videos
 
 | <iframe width="560" height="315" src="https://www.youtube.com/embed/tJR0Evx3KS0?si=UNCRp6nQWJClLo0H" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/MjyyxyIcEto?si=wYlVT6oRjsCGg0Hh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
 | -- | -- |

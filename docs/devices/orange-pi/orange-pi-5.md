@@ -21,7 +21,7 @@ Download the latest `RK3588` version of JELOS from the button below and follow t
 
 - [Platform Documentation (RK3588)](https://github.com/JustEnoughLinuxOS/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/RK3588)
 
-## Videos
+## Community Videos
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K3dByIl0RAs?si=l84PvS6Oc8ntl9ka" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
