@@ -12,6 +12,8 @@
 
 ### Installation
 
+!!! note "JELOS must be flashed directly onto the RGB10 Max 3 Pro rather than an SD card.  This is done by putting the device into recovery mode, [as explained here](https://youtu.be/X9wbPY5qf6o?t=1195)."
+
 Download the latest `S922X` version of JELOS from the button below and follow the instructions listed on the [Install](../../../play/install/) page.
 
 [![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
