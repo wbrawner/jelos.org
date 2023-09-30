@@ -15,3 +15,7 @@
 ## Bios
 
 See: [docs.libretro.com/library/fbneo/#bios](https://docs.libretro.com/library/fbneo/#bios)
+
+## Additional References
+
+[Getting started with arcade emulation (Libretro)](https://docs.libretro.com/guides/arcade-getting-started/)

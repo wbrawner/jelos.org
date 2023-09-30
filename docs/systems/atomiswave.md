@@ -8,7 +8,7 @@
 
 ## Emulator(s)
 
-| Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Available Platform | Documentation |
+| Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Platform(s) | Documentation |
 | --- | --- | --- |
 | flycast&nbsp;`default` | AMD64, RK3326, RK3399, S922X, RK3566 | [docs.libretro.com/library/flycast](https://docs.libretro.com/library/flycast/) |
 | flycast2021 | RK3326, S922X, RK3566 | [docs.libretro.com/library/flycast](https://docs.libretro.com/library/flycast/) |
