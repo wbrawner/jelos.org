@@ -17,5 +17,3 @@
 | Filename | MD5 | Path |
 | --- | --- | --- |
 | bios.min | 1e4fb124a3a886865acb574f388c803d | `storage/roms/bios` |
-
-
