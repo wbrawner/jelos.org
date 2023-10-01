@@ -114,8 +114,8 @@ nav:
         - NEC PC-Engine / TurboGrafx-16: systems/pcengine.md
         - NEC SuperGrafx: systems/supergrafx.md
         - NEC PC-FX: systems/pcfx.md
-        - Nintendo Famicom / Famicom Disk System (FDS): systems/famicom.md
-        - Nintendo Entertainment System: systems/nes.md
+        - Nintendo NES / Famicom: systems/nes.md
+        - Nintendo Famicom Disk System (FDS): systems/fds.md
         - Nintendo Super Nintendo / Super Famicom / Satellaview: systems/snes.md
         - Nintendo 64: systems/n64.md
         - Nintendo Gamecube: systems/gamecube.md

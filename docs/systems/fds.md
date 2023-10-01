@@ -1,11 +1,10 @@
-# Nintendo NES / Famicom
+# Nintendo Famicom Disk System (FDS)
 
 ## Overview
 
 | Path(s) | Supported Extensions |
 | --- | --- |
-| `storage/roms/nes` | .nes .unif .unf .zip .7z |
-| `storage/roms/famicom` | .nes .unif .unf .zip .7z |
+| `storage/roms/fds` | .fds .zip .7z |
 
 ## Emulator(s)
 
@@ -14,4 +13,9 @@
 | Nestopia &nbsp; `default` | [docs.libretro.com/library/nestopia_ue](https://docs.libretro.com/library/nestopia_ue/) |
 | FCEUmm | [docs.libretro.com/library/fceumm](https://docs.libretro.com/library/fceumm/) |
 | QuickNES | [docs.libretro.com/library/quicknes](https://docs.libretro.com/library/quicknes/) |
-| Mesen | [docs.libretro.com/library/mesen](https://docs.libretro.com/library/mesen/) |
+
+## Bios
+
+| Filename | MD5 | Path |
+| --- | --- | --- |
+| disksys.rom | ca30b50f880eb660a320674ed365ef7a | `storage/roms/bios` |
