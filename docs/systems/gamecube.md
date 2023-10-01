@@ -6,7 +6,7 @@
 | --- | --- |
 | `storage/roms/gamecube` | .gcm .iso .gcz .ciso .wbfs .rvz .dol |
 
-## Emulators
+## Emulator(s)
 
 | Name | Documentation |
 | --- | --- |
