@@ -10,7 +10,7 @@
 | MSU-1 | `storage/roms/snesmsu1` | .smc .fig .sfc .swc .zip .7z |
 | Sufami Turbo | `storage/roms/sufami` | .st .zip .7z |
 
-## Emulators
+## Emulator(s)
 
 | Name | Documentation |
 | --- | --- |
