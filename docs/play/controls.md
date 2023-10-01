@@ -76,6 +76,17 @@ The Z and L button assignment can be changed in EmulationStation
 | ++"R1"++ | R |
 | ++"R3"++ | Open Menu |
 
+### PCSX2 ([PS2](../../systems/ps2))
+
+| Button Combo | Action |
+| -- | -- |
+| ++"SELECT"+"START"++ | Quit Game |
+| ++"SELECT"+"R1"++ | Save State |
+| ++"SELECT"+"L1"++ | Load State |
+| ++"SELECT"+"X(NORTH)"++ | Open Menu |
+| ++"SELECT"+"B(EAST)"++ | Take Screenshot |
+| ++"SELECT"+"R2"++ | Fast-Forward |
+
 ### Yabasanshiro ([Sega Saturn](../../systems/saturn))
 
 | Button Combo | Action |
