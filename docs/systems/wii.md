@@ -6,7 +6,7 @@
 | --- | --- |
 | `storage/roms/wii` | .gcm .iso .gcz .ciso .wbfs .rvz .dol .wad |
 
-## Emulators
+## Emulator(s)
 
 | Name | Documentation |
 | --- | --- |
