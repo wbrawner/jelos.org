@@ -93,3 +93,25 @@ SSH_OPTS="-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
 scp ${SSH_OPTS} ~/distribution/release/JELOS-${DEVICE}.${ARCH}-${TIMESTAMP}.tar root@${HOST}:~/.update && \
     ssh ${SSH_OPTS} root@{HOST} reboot
 ```
+
+## Common File Locations
+
+Below is a reference for the locations of files you may frequently interact with while modifying JELOS
+
+| File &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Location | Description |
+| -- | -- | -- |
+| bootloader mkimage | projects/Rockchip/bootloader/mkimage |  |
+| busybox package | packages/sysutils/busybox |  |
+| init | packages/sysutils/busybox/scripts/init |  |
+| kernel config | projects/Rockchip/devices/RK3566-ML/linux/linux.aarch64.conf |  |
+| running kernel config | build.JELOS-RK3566-ML.aarch64/linux-6.5-rc7/.config |  |
+| boot.scr | projects/Rockchip/devices/RK3566/boot/boot.scr |  |
+| uboot package.mk | projects/Rockchip/packages/u-boot/package.mk |  |
+| uboot | sources/u-boot/u-boot-976fb2f |  |
+| uboot config | sources/u-boot/u-boot-976fb2f/configs/anbernic-rgxx3-rk3566_defconfig |  |
+| dts sources | sources/u-boot/u-boot-976fb2f/arch/arm/dts/rk3566-anbernic-rgxx3.dts |  |
+| kernel sources/build | build.JELOS-RK3566-ML.aarch64/linux-6.6-rc3 |  |
+| final.img | releases |  |
+| $EXTRA_CMDLINE | projects/Rockchip/devices/RK3566-ML/options |  |
+| $INSTALL | /config $BUILD/image/system, /scripts ${BUILD}/initramfs |  |
+| $LE_TEMP | scripts/mkimage mktemp -d -p $TARGET_IMG |  |
