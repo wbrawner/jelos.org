@@ -44,6 +44,7 @@ markdown_extensions:
   - pymdownx.superfences
   - toc:
       toc_depth: 2
+      permalink: 
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
