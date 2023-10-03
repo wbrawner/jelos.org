@@ -20,5 +20,5 @@
 
 | Emulator | Filename | Path |
 | --- | --- | --- |
-| PCSX2 | SCPH-70012.bin | `storage/roms/bios/PCSX2/bios` |
-| LRPS2 | [see details](https://docs.libretro.com/library/pcsx2/#bios) | [see details](https://docs.libretro.com/library/pcsx2/#bios) | `storage/roms/bios/PCSX2/bios` |
+| PCSX2 | SCPH-70012.bin | `storage/roms/bios/pcsx2/bios` |
+| LRPS2 | [see details](https://docs.libretro.com/library/pcsx2/#bios) | [see details](https://docs.libretro.com/library/pcsx2/#bios) | `storage/roms/bios/pcsx2/bios` |
