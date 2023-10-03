@@ -43,8 +43,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - toc:
-      toc_depth: 2
-      permalink: 
+      toc_depth: 3
+      permalink: ¶
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
