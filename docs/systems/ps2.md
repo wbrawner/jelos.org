@@ -22,3 +22,4 @@
 | --- | --- | --- |
 | PCSX2 | SCPH-70012.bin | `storage/roms/bios/pcsx2/bios` |
 | LRPS2 | [see details](https://docs.libretro.com/library/pcsx2/#bios) | [see details](https://docs.libretro.com/library/pcsx2/#bios) | `storage/roms/bios/pcsx2/bios` |
+| AetherSX2 | SCPH-70012.bin | `/storage/roms/bios/aethersx2/bios` |
