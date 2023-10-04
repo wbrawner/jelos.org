@@ -22,6 +22,7 @@ Download the latest `S922X` version of JELOS from the button below and follow th
 ### Troubleshooting
 
 You cannot brick this device. If you cannot get into recovery mode, do the following:
+
 - Download [this recovery image](https://wiki.odroid.com/odroid_go_ultra/os_image/recovery).
 - Flash the image to a spare microSD card using Balena Etcher or similar.
 - Remove the back cover of the device (four screws).
