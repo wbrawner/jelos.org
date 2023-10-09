@@ -1,4 +1,4 @@
-# Donations and Funding
+# :material-charity: Donations and Funding
 
 Thank you for your interest in donating to JELOS!  At this time we are not accepting financial contributions.  If you would like to volunteer or contribute in some way to our project, please read our [Code of Conduct](contribute/code-of-conduct.md) and [Contributing to JELOS](contribute/index.md) guides.  You are also encouraged to join us on Discord.
 

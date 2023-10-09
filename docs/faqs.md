@@ -1,9 +1,9 @@
-# Frequently Asked Questions
+# :material-frequently-asked-questions: Frequently Asked Questions
 
-## About the Distribution
+## About JELOS
 
 ### Does JELOS offer any formal support?
-No. JELOS is something that we develop for fun, it is provided as-is.  There are a variety of avenues to seek community help, but this is a tinkerer's distribution so you will need to get your hands dirty to solve your problems.
+No. JELOS is something that we develop for fun, it is provided as-is.  There are a variety of avenues to seek community help, but this is a tinkerer's distribution so you will need to get your hands dirty to solve any issues.
 
 ### Do you plan to add additional ports, software, or emulators?
 We are a community developed distribution, and we believe that it is the responsibility of the person who wants a new feature to develop and contribute that feature. If you would like to add something to JELOS, pull requests are welcomed.  Please review our [code of conduct](contribute/code-of-conduct.md), our [contributing guidelines](contribute/index.md), and our [build guide](contribute/build.md) before submitting your first pull request.
@@ -29,9 +29,9 @@ To receive permission to redistribute JELOS the following *minimum* criteria mus
 JELOS branding is licensed for non-commercial use only.  Even if approved to be distributed on a device, it is not allowed to be sold or included as an up charge in any form what-so-ever.  Period.  This is not negotiable.
 
 ### What if you stop working on JELOS?
-I don't expect that to happen, however JELOS is an Open Source project hosted here on GitHub which means the source code is readily available for anyone in the world to pick up and continue where we left off.  Our [license model](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)) allows for this to happen by providing and encouraging redistribution ([freedom 2](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)) and the right to distribute a modified version ([freedom 3](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)).  JELOS only prohibits commercial use through our branding which is licensed by the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://tldrlegal.com/license/creative-commons-attribution-noncommercial-sharealike-4.0-international-(cc-by-nc-sa-4.0)).
+We don't expect that to happen, however JELOS is an Open Source project hosted here on GitHub which means the source code is readily available for anyone in the world to pick up and continue where we left off.  Our [license model](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)) allows for this to happen by providing and encouraging redistribution ([freedom 2](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)) and the right to distribute a modified version ([freedom 3](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)).  JELOS only prohibits commercial use through our branding which is licensed by the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://tldrlegal.com/license/creative-commons-attribution-noncommercial-sharealike-4.0-international-(cc-by-nc-sa-4.0)).
 
-## About Using JELOS
+## Using JELOS
 
 ### Which emulators and game engines are supported by JELOS?
 Emulators and game engines are configured on a per device basis and are automatically documented at build time.  Documentation can be found at the following URL: [Per Device Documentation](https://github.com/JustEnoughLinuxOS/distribution/tree/main/documentation/PER_DEVICE_DOCUMENTATION)
@@ -62,8 +62,8 @@ reboot
 
 ### Where do I put bios files and files and Retroarch system files
 
-* They go in `/storage/roms/bios`
-* System bios checker in `game settings, missing bios` identities missing files per emulator and indicates their required location
+* Bios files go in `/storage/roms/bios`
+* Please see the corresponding system documentation in the wiki for required files for each system.
 
 ### Where do I put music files to enable background music within emulationstation (while browsing my game library)?
 
@@ -71,7 +71,7 @@ reboot
 
 ### My game has slowdown and stuttering issues. What can I do to improve performance?
 
-First make sure you do not have a TDP configured that is too low for your emulator to function correctly.  Next, try adjusting settings within the emulator, either retroarch core or standalone emulator configuration menu. First make sure that rewind is disabled.  Search online to check for recommended settings that others may have determined.
+First make sure you don't have a TDP configured that is too low for your emulator to function correctly.  Next, try adjusting settings within the emulator, either retroarch core or standalone emulator configuration menu.
 
 ### Where are log files stored?
 
@@ -89,8 +89,4 @@ Various logs are generated, including
 
 ### I have a device with a single microsd and I can't see the games partition in Windows or macOS.
 
-JELOS does not create an ExFAT partition on the boot device, and expands the full partition using ext4.  You can sync files to the device using SyncThing, copy files to the device using SAMBA, or by loading your files onto a EXT4, ExFAT, or FAT32 formatted usb stick and copy them with FileMan or over ssh.
-
-* Windows Users can connect to their device by unc path using the device name such as `\\handheld` or by IP `\\device IP address` into the address bar in Windows Explorer.
-* Mac users can connect by selecting "Go" from the Finder menu, followed by "Connect to Server", then enter `smb://handheld` or `smb://device IP address`.
-* Log in as root.  The root password is required for access which can be found in the system menu.
+JELOS does not create an ExFAT partition on the boot device, and expands the full partition using ext4.  You can sync files to the device over the network or by loading your files onto a EXT4, ExFAT, or FAT32 formatted usb stick and copy them with FileMan or over ssh.  Please see the [Adding Games](/play/add-games) page for more details.
