@@ -48,10 +48,10 @@ Games can also be added via an SD card.  There are 2 primary methods for this de
 - Turn your device on.
 - When JELOS completes its boot process it will generate a set of folders on the SD card in slot 2.
 - Now you can turn off your device, remove your SD card from slot 2 and open it on your PC.
-- You PC will display a list of folders, open the `roms` directory and you will see a list of folders for each system where you can place your games and bios files.
+- You PC will display a list of folders for each system where you can place your games and bios files.
 - Add your games and place your SD card back into slot 2 and boot up JELOS.
 
-If your device does not recognize your card please open `System Settings` and make sure `Autodetect Games Card` is turned on (located under the Preferences header).
+If your device does not see your SD card (or write the needed folders to it) please open `System Settings` and make sure `Autodetect Games Card` is turned on (located under the Preferences header) then reboot your device.
 
 ### If your device has 1 SD card slot
 
