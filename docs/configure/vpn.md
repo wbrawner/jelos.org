@@ -1,4 +1,4 @@
-# VPN Services
+# :material-check-network-outline: VPN Services
 
 JELOS has built in support for multiple VPN services.
 

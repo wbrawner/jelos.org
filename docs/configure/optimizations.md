@@ -1,4 +1,4 @@
-# Optimizations
+# :material-battery-plus: Optimizations
 
 JELOS provides a variety of settings that allow you to optimize for battery life or performance globally, on a per system and per game basis.  For emulating 6th generation and later systems, we recommend installing JELOS on internal storage if available to reduce IO bottlenecks reading and writing shader cache.
 

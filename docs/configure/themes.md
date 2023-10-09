@@ -1,6 +1,6 @@
-# EmulationStation Themes
+# :material-page-next-outline: Themes
 
-Our default theme is [Art Book Next](https://github.com/anthonycaccese/art-book-next-jelos) and it has been designed specifically to work with all the aspect ratios we support.  You will see it represented in the UI as `system-theme` and it's updated automatically as part of each JELOS release.  It also offers a set of options to tailor the look of theme which are detailed below.
+Our default frontend is EmulationStation and our default theme is [Art Book Next](https://github.com/anthonycaccese/art-book-next-jelos).  It has been designed specifically to work with all the aspect ratios we support.  You will see it represented in the UI as `system-theme` and it's updated automatically as part of each JELOS release.  It also offers a set of options to tailor the look of theme which are detailed below.
 
 ## Preview
 
@@ -53,11 +53,11 @@ The following options can be changed directly from the main menu under `UI Setti
 
 Art Book Next allows customizations to artwork, colors and fonts without the need to edit the source XML.  This enables you to change the look of the theme and retain any changes when JELOS is updated.
 
-### First: 
+### Start Here 
 - Create the following path on your storage: `~/roms/jelos/theme-customizations/art-book-next/`
 - In Theme Configuration make sure distribution is set to `JELOS` (this is needed to make sure the above path is referenced when looking for customization files)
 
-### Background Art:
+### Background Art
 
 The artwork used on the system view can be customized with your own images.  You can create either `centered` or `full screen` variations.
 
@@ -81,7 +81,7 @@ To create `centered` artwork that matches the mask used in the theme you can use
 
 If you create a set of images that you would like to share with the community please let us know about it in the themes channel on [Discord](https://discord.gg/seTxckZjJy)
 
-### Logos:
+### Logos
 
 The logos used on the system and gamelist views can be customized with your own images.
 
@@ -93,7 +93,7 @@ The logos used on the system and gamelist views can be customized with your own 
 - The theme will look them them up in that order.  I recommend SVGs as they scale better on different resolutions.
 - `${system.theme}.svg/png` should be named for the system you are looking to override.  For example if you wanted to override the artwork for `snes` you would create an image called `snes.svg` or `snes.png` in the logos folder
 
-### Color Schemes:
+### Color Schemes
 
 You can create your own custom color scheme to use for the theme
 
@@ -103,7 +103,7 @@ You can create your own custom color scheme to use for the theme
 - I tried to make the values as self explanatory as possible but if you have questions regarding which property does what please don't hesitate to ask.
 - After your colors are defined; in theme configuration change `Color Scheme` to `Custom`
 
-### Fonts:
+### Fonts
 
 You can modify the font size used to display gamelists
 

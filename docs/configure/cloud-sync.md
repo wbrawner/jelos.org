@@ -1,4 +1,4 @@
-# Cloud Sync
+# :material-cloud-sync: Cloud Sync
 
 JELOS has built in support for multiple cloud sync options.  These can be used to sync save files, games and other files between multiple devices. 
 

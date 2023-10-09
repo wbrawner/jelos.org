@@ -71,6 +71,7 @@ nav:
     - Play:
       - Install: play/install.md
       - Update: play/update.md
+      - Add Games: play/add-games.md
       - Controls: play/controls.md
       - Netplay: play/netplay.md
     - Contribute:
@@ -86,6 +87,7 @@ nav:
       - Optimizations: configure/optimizations.md
       - Shaders: configure/shaders.md
       #- Bluetooth: configure/bluetooth.md
+      - Networking: configure/networking.md
       - Cloud Sync: configure/cloud-sync.md
       - VPN: configure/vpn.md
     - Systems:
