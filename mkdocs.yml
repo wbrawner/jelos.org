@@ -72,6 +72,7 @@ nav:
       - Install: play/install.md
       - Update: play/update.md
       - Add Games: play/add-games.md
+      - Achievements: play/retro-achievements.md
       - Controls: play/controls.md
       - Netplay: play/netplay.md
     - Contribute:
