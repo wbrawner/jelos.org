@@ -1,14 +1,16 @@
 ---
+title: Bluetooth
 search:
   exclude: true
 ---
 
-# Bluetooth Setup
+# :simple-bluetooth: Bluetooth
 
 ## Bluetooth Audio
 
 ### How to pair your headset
 Go to the "Controller & Bluetooth Settings" menu in Emulation Station and enable Bluetooth. Put your headset into pairing mode, then select "Pair a bluetooth device" - your audio device should be detected and paired automatically.
+
 Once your headset is paired go to "System Settings" -> "Audio Device" - your headset should appear in the list of devices. Select "Bluetooth Device" or your paired device from the list and let EmulationStation restart. All audio should now go through your bluetooth device.
 
 ### Known Working Devices
