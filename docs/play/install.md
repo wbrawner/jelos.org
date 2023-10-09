@@ -26,6 +26,12 @@ JELOS is installed by downloading an image for your device, flashing it to an SD
 
 ## Additional Notes
 
-* JELOS operating system is stored on an Ext4 partition that can be read by LINUX but is not natively readable on Windows. Currently it is not possible to access the primary JELOS Ext4 partition on Windows to transfer roms.
+* JELOS operating system is stored on an Ext4 partition that can be read by LINUX but is not natively readable on Windows. Currently it is not possible to access the primary JELOS Ext4 partition on Windows to add games.
 * On devices that support a second sd card, the sd card can be formatted as Ext4, FAT32, or exFAT. JELOS will automatically detect the second SD card on boot and configure the relevant folders for storing roms.
 * On x86 devices JELOS includes an installation tool.  The installation tool can be found in the tools menu, which is one of the systems listed within ES.
+
+## Next Steps
+
+* [Add Games](/play/add-games)
+* [Set up Networking](/configure/networking)
+* [Themes](/configure/themes)
