@@ -35,8 +35,7 @@ Using your FTP program of choice set up an SFTP connection to the IP Address see
 ### After connecting
 
 - You will see a list of folders after you have connected via network.  
-- Open the `roms` folder and you will see a list of folders where games and bios files can be placed.  
-- Please see the systems section of the wiki for details on where each system's files should be placed.
+- Open the `roms` folder and you will see a list of folders where games and bios files can be placed. *(Please see the systems section of the wiki for details on where each system's files should be placed)*
 - After you have added your games you can get them to display in EmulationStation by pressing ++"START"++ to open the Main Menu, then open `Game Settings` then select `Update Gamelists` under the Tools header.
 
 ## Option 2: SD Card
