@@ -83,7 +83,7 @@ nav:
       - Packages: contribute/packages.md
     - Configure:
       - Themes: configure/themes.md
-      #- Scraping: configure/scraper.md
+      - Scraping: configure/scraper.md
       - Optimizations: configure/optimizations.md
       - Shaders: configure/shaders.md
       #- Bluetooth: configure/bluetooth.md

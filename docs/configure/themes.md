@@ -1,6 +1,6 @@
 # :material-page-next-outline: Themes
 
-Our default frontend is EmulationStation and our default theme is [Art Book Next](https://github.com/anthonycaccese/art-book-next-jelos).  It has been designed specifically to work with all the aspect ratios we support.  You will see it represented in the UI as `system-theme` and it's updated automatically as part of each JELOS release.  It also offers a set of options to tailor the look of theme which are detailed below.
+Our default frontend is EmulationStation and our default theme is [Art Book Next](https://github.com/anthonycaccese/art-book-next-jelos) (which has been designed specifically to work with all the aspect ratios we support).  You will see it represented in the UI as `system-theme` and it's updated automatically as part of each JELOS release.  It also offers a set of options to tailor the look of theme which are detailed below.
 
 ## Preview
 
@@ -54,7 +54,7 @@ The following options can be changed directly from the main menu under `UI Setti
 Art Book Next allows customizations to artwork, colors and fonts without the need to edit the source XML.  This enables you to change the look of the theme and retain any changes when JELOS is updated.
 
 ### Start Here 
-- Create the following path on your storage: `~/roms/jelos/theme-customizations/art-book-next/`
+- Create the following path on your storage device: `~/roms/jelos/theme-customizations/art-book-next/`
 - In Theme Configuration make sure distribution is set to `JELOS` (this is needed to make sure the above path is referenced when looking for customization files)
 
 ### Background Art
@@ -133,8 +133,6 @@ Members of our Community create themes as well.  This list is not exhaustive but
 - [es-theme-albedo](https://github.com/mluizvitor/es-theme-albedo) by mluizvitor: Known to work well on 3:2, 4:3 and 5:3 aspect ratios
 - [es-theme-elementerial](https://github.com/mluizvitor/es-theme-elementerial) by mluizvitor: Known to work well on 3:2, 4:3 and 5:3 aspect ratios
 
-
 ## Creating Your Own Theme
 
 An exhaustive tutorial is out of scope for this wiki.  That said; please see Batocera's theme documention @ [https://wiki.batocera.org/write_themes_for_emulationstation](https://wiki.batocera.org/write_themes_for_emulationstation).  Its a great starter guide for understanding the fundamentals of creating themes for the version of EmulationStation used by JELOS.
-
