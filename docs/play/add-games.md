@@ -30,7 +30,7 @@ In addition to your IP you will also need your root password.  This can be found
 
 ### FTP
 
-Using your FTP program of choice set up an SFTP connection to the IP Address seen in the Network Settings menu.  Make sure the Port is set to `22`.  The username is `root` and your password will be the value from `Root Password` in the System Settings menu. 
+Using your FTP program of choice; set up an SFTP connection to the IP Address seen in the Network Settings menu.  Make sure the Port is set to `22`.  The username is `root` and your password will be the value from `Root Password` in the System Settings menu. 
 
 ### After connecting
 
