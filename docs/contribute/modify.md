@@ -1,4 +1,4 @@
-# Modifying JELOS
+# :material-cube-unfolded: Modifying JELOS
 
 Before modifying JELOS, be sure you can successfully [build](build.md) the unmodified `main` or `dev` branch.  Establish a baseline of success before introducing changes to the JELOS source.
 
