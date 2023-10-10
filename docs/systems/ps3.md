@@ -14,18 +14,28 @@
 
 ## Instructions
 
-!!! note "RPCS3 requires official PS3 firmware and due to that it requires additional set up before you can use it"
+### Firmware Setup
 
-PS3 firmware cannot be installed directly through JELOS so you will need access to another computer where you have RPCS3 installed to get things started.
+!!! note "RPCS3 requires official PS3 firmware to be installed through the emulator GUI before you can run games. Its recommended to have a mouse/keyboard plugged in for these steps."
 
-From your source computer make a copy of the `dev_flash` folder from your RPSC3 install directory (this folder is automatically created by RPCS3 after you have installed offical PS3 firmware)
+1. Download the latest official PS3 firmware from Sony's [PS3 System Software](https://www.playstation.com/en-us/support/hardware/ps3/system-software/) page.  The downloaded file will be named `PS3UPDAT.PUP`
+2. Transfer the `PS3UPDAT.PUP` file to `~/storage/roms/temp`.  If the `temp` folder does not exist then please create it (you will delete this file after you have installed it).
+3. Navigate to the Tools system and then select ++"Start RPCS3"++ (this will open the RPCS3 GUI where you will install the firmware you downloaded above).
+4. Select `File > Install Firmware.`
+5. Navigate to `~/storage/roms/temp`, select `PS3UPDAT.PUP` and press `Open`
 
-Upload the full contents of that `dev_flash` folder to `storage/roms/bios/rpcs3` on your JELOS device (note: you will need to create the `rpcs3` folder if this is your first time setting it up).  
+The firmware will be installed and then a window will open to process the needed files; please let this process complete.  Once complete you can close out RPCS3 and return to EmulationStation.
 
-Once complete your folder structure should be `/bios/rpcs3/dev_flash` and that folder should contain the full contents of the dev_flash folder from your source PC.
+### Game Setup
+
+#### Disc Based Games
+*TBA*
+
+#### Digital "PSN" Games
+*TBA*
+
+### Running a Game
 
 Now you can try booting a game from EmulationStation.
 
 On first boot you will get the RPCS3 welcome screen. Its recommended to check the box in the bottom right labled "Do not show again" (this will stop this screen showing up for future launches).  Check the "I have read the Quickstart guide" box and then select the continue button that shows up at the bottom left of the screen. 
-
-Your game should boot at this point.  If not please check that the contents of the dev_flash folder (1) match the copy from your source computer and (2) is uplaoded to the correct location listed above.
