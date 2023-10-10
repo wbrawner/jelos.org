@@ -28,7 +28,9 @@ The firmware will be installed and then a window will open to process the needed
 
 ### Game Setup
 
-#### Disc Based Games
+PlayStation 3 games can come in a few different formats (common ones are disc-based and Digital "PSN" games). The steps for setting up a given game differ depending on its source format.
+
+#### Disc-Based Games
 *TBA*
 
 #### Digital "PSN" Games
