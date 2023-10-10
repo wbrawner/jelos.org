@@ -28,12 +28,12 @@ The firmware will be installed and then a window will open to process the needed
 
 ### Game Setup
 
-PlayStation 3 games can come in a few different formats (common ones are disc-based and Digital "PSN" games). The steps for setting up a given game differ depending on its source format.
+PS3 games are available in two formats: Disc-Based Games and Digital PSN Packages. The steps for setting up a given game differ depending on its source format.
 
 #### Disc-Based Games
 *TBA*
 
-#### Digital "PSN" Games
+#### Digital "PSN" Packages
 *TBA*
 
 ### Running a Game
