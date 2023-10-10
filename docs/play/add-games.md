@@ -68,8 +68,14 @@ If your device does not see your SD card (or write the needed folders to it) ple
 
 ## Option 3: External USB Drive
 
-*TBA*
+JELOS has a built in File Manager and you can use it to access connected USB drives and transfer files. 
+
+1. Connect your USB Drive to your device
+2. Open the Tools system and select File Manager
+3. Navigate up to `/` and then select `media` - you should see your drive listed after opening media
+4. Open your drive and you should see its contents
+5. From here you can navigate to the file(s) you would like to copy and then navigate back to the `storage/roms` directory and paste your copied files in the approrpiate folder.
 
 ## Option 4: Linux OS
 
-*TBA*
+JELOS' storage drive is formated as ext4 which can be read navtively by linux operating systems.  Plugging in your SD card into an linux OS will enable you to browse the directories and add files directly.

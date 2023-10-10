@@ -15,7 +15,7 @@
 | Feature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Notes |
 | -- | -- |
 | :material-harddisk: Storage | JELOS can be run from an SD Card, USB Drive or installed directly to the internal NVME. <br> When installed directly to the NVME; an SD Card can be used for game storage. |
-| :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network |
+| :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network Settings |
 | :simple-bluetooth: Bluetooh | Supports bluetooth audio and controllers |
 | :material-fan: Fan | Can be set globally, per system or per game. |
 | :material-lightning-bolt-circle: TPD Limit | Can be set globally, per system or per game. |
