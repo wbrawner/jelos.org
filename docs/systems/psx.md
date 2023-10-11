@@ -1,1 +1,1 @@
-# Sony Playstation
+# Sony PlayStation

@@ -1,4 +1,4 @@
-# Sony Playstation Portable (PSP)
+# Sony PlayStation Portable (PSP)
 
 psp
 pspminis

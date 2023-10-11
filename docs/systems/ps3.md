@@ -1,4 +1,4 @@
-# Sony Playstation 3
+# Sony PlayStation 3
 
 ## Overview
 
@@ -6,7 +6,7 @@
 | --- | --- |
 | `storage/roms/ps3` | `.ps3` |
 
-## Emulator(s)
+## Emulator
 
 | Name | Documentation |
 | --- | --- |

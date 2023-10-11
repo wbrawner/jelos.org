@@ -1,1 +1,1 @@
-# Sony Playstation Vita
+# Sony PlayStation Vita

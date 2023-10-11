@@ -1,4 +1,4 @@
-# Sony Playstation 2
+# Sony PlayStation 2
 
 ## Overview
 

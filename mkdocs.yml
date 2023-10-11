@@ -137,9 +137,9 @@ nav:
         - Sega Dreamcast: systems/dreamcast.md
         - SNK Neo Geo: systems/neogeo.md
         - SNK Neo Geo CD: systems/neogeocd.md
-        - Sony Playstation: systems/psx.md 
-        - Sony Playstation 2: systems/ps2.md 
-        - Sony Playstation 3: systems/ps3.md
+        - Sony PlayStation: systems/psx.md 
+        - Sony PlayStation 2: systems/ps2.md 
+        - Sony PlayStation 3: systems/ps3.md
         - Uzebox: systems/uzebox.md
         - Vectrex: systems/vectrex.md
       - Portables:
@@ -157,8 +157,8 @@ nav:
         - Nintendo 3DS: systems/3ds.md
         - Sega Game Gear: systems/gamegear.md
         - SNK Neo Geo Pocket: systems/ngp.md
-        - Sony Playstation Portable: systems/psp.md
-        - Sony Playstation Vita: systems/psvita.md
+        - Sony PlayStation Portable: systems/psp.md
+        - Sony PlayStation Vita: systems/psvita.md
         - Watara Supervision: systems/supervision.md
       - Computers:
         - Amiga: systems/amiga.md
