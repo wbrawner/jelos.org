@@ -60,7 +60,7 @@ Once complete you should now see your game in the PS3 gamelist.
 
 !!! warning "Digital PSN Packages will only work in dev at this time. Please do not try them if you are running a main release."
 
-RPCS3 requires Digial PSN Packages to be installed through the emulator GUI before they can be played.  If you have questions regarding which files are necessary to install PSN games please check out the [RPCS3 wiki](https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games#Dumping_PSN_content).  The following notes will focus only on the steps needed once you have the needed files.
+RPCS3 requires Digial PSN Packages to be installed through the emulator GUI before they can be played.  If you have questions regarding which files are necessary to install PSN games, please check out the [RPCS3 wiki](https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games#Dumping_PSN_content).  The following notes will focus only on the steps needed once you have the needed files.
 
 ##### RPCS3 Steps:
 1. Upload the needed files for you PSN game to `~/storage/roms/temp` (you will delete these files after installation)
