@@ -63,6 +63,4 @@ Once complete you should now see your game in the PS3 gamelist.
 
 On the first boot of a game, RPCS3 will compile its PPU modules. This can take a long time so please have patience as its required to run the game. Allowing RPCS3 to do this will also make all future launches of the game much quicker.
 
-On first boot you will get the RPCS3 welcome screen. Its recommended to check the box in the bottom right labled "Do not show again" (this will stop this screen showing up for future launches).  Check the "I have read the Quickstart guide" box and then select the continue button that shows up at the bottom left of the screen. 
-
 To exit a game and return to EmulationStation you can either (1) press the ++"GUIDE"++ button on your controller to open up RPCS3's menu and select `Exit` or (2) Press ++"L1"++ + ++"SELECT"++ + ++"START"++
