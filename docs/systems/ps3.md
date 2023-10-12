@@ -56,8 +56,37 @@ RPCS3 works with decrypted ISO files stored in a folder format so you will need 
 
 Once complete you should now see your game in the PS3 gamelist.
 
-#### Digital PSN Packages
-*Coming Soon*
+#### Digital PSN Packages 
+
+!!! warning "Digital PSN Packages will only work in dev at this time. Please do not try them if you are running a main release."
+
+RPCS3 requires Digial PSN Packages to be installed through the emulator GUI before they can be played.  If you have questions regarding which files are necessary to install PSN games please check out the [RPCS3 wiki](https://wiki.rpcs3.net/index.php?title=Help:Dumping_PlayStation_3_games#Dumping_PSN_content).  The following notes will focus only on the steps needed once you have the needed files.
+
+##### RPCS3 Steps:
+1. Upload the needed files for you PSN game to `~/storage/roms/temp` (you will delete these files after installation)
+2. Navigate to the Tools system and then select ++"Start RPCS3"++. This will open the RPCS3 GUI where you will install your PSN game.
+3. Select `File > Install Packages/Raps/Edats`
+4. Navigate to `~/storage/roms/temp`, select the files for your PSN game and press `Open`
+5. After install please note down the value that is displayed in the `Serial` column in RPCS3's game list for the game you just installed  (you will use this in the next set of steps)
+
+Once complete you can close out RPCS3 and return to EmulationStation. You can also delete your PSN game files from `/storage/roms/temp` to free up space.
+
+As a side note your installed games can be found in `~/storage/roms/bios/RPCS3/dev_hdd0/games` (this may be useful if you ever run into storage limitaions and want to free up space)
+
+##### EmulationStation Steps:
+
+In order for your newly installed game to show up in EmulationStation you need to create one more thing... a `.psn` file to represent your installed game.
+
+1. Create a file in `~/storage/roms/ps3` called `[Game Name].psn` where ++"[Game Name]"++ is a readable name for your game (this will help with scraping)
+2. Edit that file and on the first line paste the Serial of the game that you noted down from the steps above
+``` bash title="Example File Setup"
+/storage/roms/ps3/
+    └─ Afterburner Climax (USA).psn
+        └─ NPUB30151
+```
+3. Save the file
+
+Once done you should be able to launch your PSN game directly from the EmulationStation gamelist.
 
 ### 3. Running a Game
 
