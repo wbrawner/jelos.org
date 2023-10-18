@@ -85,6 +85,7 @@ In order for your newly installed game to show up in EmulationStation you need t
         └─ NPUB30151
 ```
 3. Save the file
+4. Refresh EmulationStation by pressing ++"START"++ to open the Main Menu then select `Game Settings > Update Gamelists`.
 
 Once done you should be able to launch your PSN game directly from the EmulationStation gamelist.
 
