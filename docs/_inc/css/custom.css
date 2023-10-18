@@ -29,6 +29,13 @@
   --md-typeset-kbd-color:              #eeeeee;
   --md-typeset-kbd-accent-color:       #dddddd;
   --md-typeset-kbd-border-color:       #bbbbbb;
+  /* Code color shades */
+  --md-code-bg-color:                  #eee;
+  --md-code-fg-color:                  #111;
+  --md-code-hl-operator-color:         #111;
+  --md-code-hl-variable-color:         #111;
+  --md-code-hl-comment-color:          #999;
+  --md-code-hl-punctuation-color:      #111;
 }
 [data-md-color-scheme="art-book-next"] {
   /* Primary color shades */
@@ -41,8 +48,8 @@
   /* Default color shades */
   --md-default-fg-color:               #eeeeee;
   --md-default-fg-color--light:        #eeeeee;
-  --md-default-fg-color--lighter:      #cccccc;
-  --md-default-fg-color--lightest:     #111111;
+  --md-default-fg-color--lighter:      #888888;
+  --md-default-fg-color--lightest:     #444444;
   --md-default-bg-color:               #222222;
   --md-default-bg-color--light:        #222222;
   --md-default-bg-color--lighter:      #222222;
@@ -60,6 +67,13 @@
   --md-typeset-kbd-color:              #555;
   --md-typeset-kbd-accent-color:       #444;
   --md-typeset-kbd-border-color:       #222;
+  /* Code color shades */
+  --md-code-bg-color:                  #111;
+  --md-code-fg-color:                  #fff; 
+  --md-code-hl-operator-color:         #fff;
+  --md-code-hl-variable-color:         #fff;
+  --md-code-hl-comment-color:          #999;
+  --md-code-hl-punctuation-color:      #fff;
 }
 
 [data-md-color-scheme="art-book"] img[src$="#only-dark"],
