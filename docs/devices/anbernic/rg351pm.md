@@ -8,6 +8,12 @@
 | -- | -- | -- | -- | -- |
 | RG351P/M | Rockchip RK3326 (ARM) | Mainline Linux | Panfrost | Weston + Emulation Station |
 
+## Features
+
+| Feature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Notes |
+| -- | -- |
+| :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network Settings (RG351M Only)|
+
 ## Notes
 
 ### Installation
