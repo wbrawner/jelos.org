@@ -14,9 +14,11 @@
 | -- | -- |
 | :material-harddisk: Storage | JELOS can be run from a USB Drive or installed directly to the internal NVME. When installed directly to the NVME; an SD Card can be used for game storage. <br> JELOS **can't** be run from an SD Card on the AYANEO Air Plus due to a limitation in the device's bios that we unfortunately can't change. |
 | :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network Settings |
-| :simple-bluetooth: Bluetooh | Supports bluetooth audio and controllers |
+| :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers |
+| :material-fan: Fan | Controlled by system firmware. |
 | :material-lightning-bolt-circle: TPD Limit | Can be set globally, per system or per game. |
 | :material-vibrate: Rumble | Enables the device rumble motor in emulators that support it. |
+| :material-lightbulb-on: RGB | Supports selecting from a set of colors and brightness levels or turning the RGB off (choice persists through reboots) <br> Does not support other effects. |
 
 ## Notes
 

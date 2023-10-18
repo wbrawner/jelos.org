@@ -14,6 +14,14 @@
 !!! info "Anbernic RG353P/M/V/VS devices with both v1 and v2 displays are supported."
 !!! warning "RG353PS will not be supported."
 
+## Features
+
+| Feature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Notes |
+| -- | -- |
+| :material-harddisk: Storage | JELOS can be run from an SD Card and an second SD card can be used to store games |
+| :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network Settings |
+| :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers |
+
 ## Notes
 
 ### Installation

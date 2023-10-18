@@ -8,6 +8,14 @@
 | -- | -- | -- | -- | -- |
 | RGB10 Max 3 Pro | Amlogic A311D / Mali G52 M4 (ARMv8-A) | Mainline Linux | Mali | Weston + Emulation Station |
 
+## Features
+
+| Feature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Notes |
+| -- | -- |
+| :material-harddisk: Storage | JELOS should be installed directly to the internal EMMC. <br> When installed directly to the EMMC; an SD Card can be used for game storage. |
+| :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network Settings |
+| :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers |
+
 ## Notes
 
 ### Installation
