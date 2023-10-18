@@ -27,7 +27,6 @@ The following options can be changed directly from the main menu under `UI Setti
 | Fonts | When this is set to custom it allows you to define custom font sizes for the gamelist.  You can see details on customizations below under [Theme Customziations](#theme-customizations). |
 | System View Style | Defines the layout/design used for the System View |
 | Gamelist View Style | Defines the layout/design used for the Gamelist View |
-| Help System Display | Allows you to turn the display of the help system on or off <br> **available only on 16:9, 16:10 and 5:3 aspect ratios* |
 
 ### Recommended Configurations
 
