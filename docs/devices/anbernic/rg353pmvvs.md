@@ -20,7 +20,7 @@
 | -- | -- |
 | :material-harddisk: Storage | JELOS can be run from an SD Card and an second SD card can be used to store games |
 | :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network Settings |
-| :simple-bluetooth: Bluetooh | Supports bluetooth audio and controllers |
+| :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers |
 
 ## Notes
 

@@ -14,7 +14,7 @@
 | -- | -- |
 | :material-harddisk: Storage | JELOS can be run from an USB Drive or installed directly to the internal EMMC or optional sata SSD. <br> When installed directly to the EMMC or SSD; an USB drive can optionally be used for game storage. |
 | :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network Settings |
-| :simple-bluetooth: Bluetooh | Supports bluetooth audio and controllers |
+| :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers |
 | :material-fan: Fan | Controlled by system firmware. |
 | :material-lightning-bolt-circle: TPD Limit | Can be set globally, per system or per game. |
 | :material-vibrate: Rumble | Enables the device rumble motor in emulators using controllers that support it. |
