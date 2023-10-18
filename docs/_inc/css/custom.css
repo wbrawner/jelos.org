@@ -76,6 +76,11 @@
   --md-code-hl-punctuation-color:      #fff;
 }
 
+.md-typeset .admonition, .md-typeset details {
+  background-color: inherit;
+  color: inherit
+}
+
 [data-md-color-scheme="art-book"] img[src$="#only-dark"],
 [data-md-color-scheme="art-book"] img[src$="#gh-dark-mode-only"] {
   display: none; /* Hide dark images in light mode */
