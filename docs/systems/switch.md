@@ -18,4 +18,4 @@
 | Emulator | Details |
 | -- | -- |
 | Yuzu | `/roms/bios/yuzu/keys/` <br/> `/roms/bios/yuzu/nand/` |
-| Ryujinx | `/roms/bios/ryujinx/keys/` <br/> `/roms/ryujinx/yuzu/nand/` |
+| Ryujinx | `/roms/bios/ryujinx/keys/` <br/> `/roms/bios/ryujinx/nand/` |
