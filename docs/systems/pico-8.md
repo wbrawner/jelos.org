@@ -30,7 +30,7 @@ Once you have purchased a license; the files you need will depend on the deivce 
     - Upload the `pico8_dyn` and `pico8.dat` from the Linux 64-bit zip to this directory (you do not need any other files)
 - From the Raspberry Pi zip file...
     - Create a directory in `roms/pico-8` called `aarch64`
-    - Upload the `pico8_dyn` and `pico8.dat` from the Raspberry Pi to this directory (you do not need any other files)
+    - Upload the `pico8_64` and `pico8.dat` from the Raspberry Pi zip to this directory (you do not need any other files)
 
 ``` bash title="Folder Structure"
 /storage/roms/pico-8/
@@ -38,7 +38,7 @@ Once you have purchased a license; the files you need will depend on the deivce 
     │   ├─ pico8_dyn
     │   ├─ pico8.dat
     ├─ aarch64/
-    │   ├─ pico8_dyn
+    │   ├─ pico8_64
     │   ├─ pico8.dat
     ├─ Splore.png
     └─ (your Pico-8 game files)
