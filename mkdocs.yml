@@ -68,13 +68,6 @@ nav:
     - Home: index.md
     - FAQs: faqs.md
     - Donations: donations.md
-    - Play:
-      - Install: play/install.md
-      - Update: play/update.md
-      - Add Games: play/add-games.md
-      - Achievements: play/retro-achievements.md
-      - Controls: play/controls.md
-      - Netplay: play/netplay.md
     - Contribute:
       - contribute/index.md
       - Code of Conduct: contribute/code-of-conduct.md
@@ -82,6 +75,13 @@ nav:
       - Modify: contribute/modify.md
       - Quirks: contribute/quirks.md
       - Packages: contribute/packages.md
+    - Play:
+      - Install: play/install.md
+      - Update: play/update.md
+      - Add Games: play/add-games.md
+      - Achievements: play/retro-achievements.md
+      - Controls: play/controls.md
+      - Netplay: play/netplay.md
     - Configure:
       - Themes: configure/themes.md
       - Scraping: configure/scraper.md
