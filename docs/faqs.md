@@ -9,27 +9,13 @@ No. JELOS is something that we develop for fun, it is provided as-is.  There are
 We are a community developed distribution, and we believe that it is the responsibility of the person who wants a new feature to develop and contribute that feature. If you would like to add something to JELOS, pull requests are welcomed.  Please review our [code of conduct](contribute/code-of-conduct.md), our [contributing guidelines](contribute/index.md), and our [build guide](contribute/build.md) before submitting your first pull request.
 
 ### Licensing JELOS for redistribution
-JELOS utilizes a non-commercial CC BY-NC-SA 4.0 copyleft license on our branding which is intended to prevent abuse of our software.  Device Makers and others who would like to bundle on devices may not do so without our express permission.
-
-#### Redistribution Authorization Requirements
-If you would like to receive permission from our project to redistribute JELOS, you must request permission in writing.  We can be reached at contact@jelos.org.
-
-##### Benefits
-Authorization to use our branding will allow you to distribute JELOS on your device without needing to maintain a fork of the project for your device.  This would include access to our online update feature.
-
-##### Minimum Requirements
-To receive permission to redistribute JELOS the following *minimum* criteria must be met.  Please note, that taking these actions without formally receiving approval from our project does not grant you the authority to use our branding.  You MUST receive approval from JELOS.
-
-1. We receive sources for device(s) before they ship to consumers and we have irrevokable authority to publish at our leisure.  We strongly prefer device makers contribute changes to support their device(s) directly to the distribution themselves.
-2. Provide, upon request, device samples for every JELOS team member (including core developers, moderation team, and outside contributors), as well as any community developer designated by JELOS, for all devices planned, supported by, or bundled with JELOS for as long as the device maker manufactures the device.
-3. It is up to the requestor to secure distribution rights for software included with JELOS that is not developed or owned by JELOS.
-4. A support representative must join and participate in our community to support their device(s).
+JELOS utilizes a non-commercial CC BY-NC-SA 4.0 copyleft license on our branding which is intended to prevent abuse of our work.  Device Makers and others who would like to bundle on devices may not do so without our express permission.
 
 ##### Selling JELOS
-JELOS branding is licensed for non-commercial use only.  Even if approved to be distributed on a device, it is not allowed to be sold or included as an up charge in any form what-so-ever.  Period.  This is not negotiable.
+The JELOS brand is licensed for non-commercial use only.  It is not allowed to be sold or included as an up charge in any form what-so-ever.  Period.  This is not negotiable.
 
 ### What if you stop working on JELOS?
-We don't expect that to happen, however JELOS is an Open Source project hosted here on GitHub which means the source code is readily available for anyone in the world to pick up and continue where we left off.  Our [license model](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)) allows for this to happen by providing and encouraging redistribution ([freedom 2](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)) and the right to distribute a modified version ([freedom 3](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)).  JELOS only prohibits commercial use through our branding which is licensed by the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://tldrlegal.com/license/creative-commons-attribution-noncommercial-sharealike-4.0-international-(cc-by-nc-sa-4.0)).
+We don't expect that to happen, however JELOS is an Open Source project hosted here on GitHub which means the source code is readily available for anyone in the world to pick up and continue where we left off.  Our license model([GPLv2](https://choosealicense.com/licenses/gpl-2.0/)) license when no other license applies.) allows for this to happen by providing and encouraging redistribution ([freedom 2](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)) and the right to distribute a modified version ([freedom 3](https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms)).  JELOS only prohibits commercial use through our branding which is licensed by the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://tldrlegal.com/license/creative-commons-attribution-noncommercial-sharealike-4.0-international-(cc-by-nc-sa-4.0)).
 
 ## Using JELOS
 

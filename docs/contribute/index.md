@@ -45,7 +45,7 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 
 ## License
 
-When you submit code changes, your submissions are understood to be contributed under the same license as the original project code or under [Apache 2](https://choosealicense.com/licenses/apache-2.0/) license when no other license applies.
+When you submit code changes, your submissions are understood to be contributed under the same license as the original project code or under [GPLv2](https://choosealicense.com/licenses/gpl-2.0/) license when no other license applies.
 
 ## References
 

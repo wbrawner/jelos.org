@@ -12,7 +12,7 @@
 | RG353VS | Rockchip RK3566 (ARM) | Rockchip BSP 4.19 | Mali | KMS/DRM + Emulation Station |
 
 !!! info "Anbernic RG353P/M/V/VS devices with both v1 and v2 displays are supported."
-!!! warning "RG353PS will not be supported."
+!!! warning "RG353PS, ARC-S, and ARC-D models will not be supported."
 
 ## Features
 
