@@ -122,7 +122,7 @@ Below are a few sources for themes that may work.
 - Our version of EmulationStation is forked from the same version used in Batocera so you can also use themes that were created for Batocera.
 - You can find a list of Batocera themes here: [https://batocera.org/themes.php](https://batocera.org/themes.php)
 
-!!! note "There are no guarantees that themes from the above list will support the aspect ratio of your device.  Because of that; some themes may look odd and have spacing/layout that does not match well to your screen"
+!!! note "There are no guarantees that themes from the above list will support the aspect ratio of your device or all of the systems we support.  Because of that; some themes may look odd, not display all systems or have layouts that do not match well to your screen."
 
 ### Option 2: Community Created Themes
 

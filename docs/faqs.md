@@ -8,6 +8,13 @@ No. JELOS is something that we develop for fun, it is provided as-is.  There are
 ### Do you plan to add additional ports, software, or emulators?
 We are a community developed distribution, and we believe that it is the responsibility of the person who wants a new feature to develop and contribute that feature. If you would like to add something to JELOS, pull requests are welcomed.  Please review our [code of conduct](contribute/code-of-conduct.md), our [contributing guidelines](contribute/index.md), and our [build guide](contribute/build.md) before submitting your first pull request.
 
+### Do you support X device?  Will you add support for X device?
+You can find the list of currently supported devices here: [Deivces](../devices)
+
+If the device you are interested in isn't in that list then no one has contributed the work to add support for it yet.  Why? To add support for a device we (1) need to be interested in adding support for it 😊 and (2) need to have direct access to the device.
+
+That said, anyone who is interested can submit updates to JELOS to add support for a device they care about! If you are interested in adding support for a new device please start here: [Contribute](../contribute)
+
 ### Licensing JELOS for redistribution
 JELOS utilizes a non-commercial CC BY-NC-SA 4.0 copyleft license on our branding which is intended to prevent abuse of our work.  Device Makers and others who would like to bundle on devices may not do so without our express permission.
 
