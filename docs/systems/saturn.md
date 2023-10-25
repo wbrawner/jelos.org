@@ -10,7 +10,7 @@
 
 | Name | Documentation |
 | --- | --- |
-| Yabause &nbsp; `default` | [docs.libretro.com/library/yabause](https://docs.libretro.com/library/yabause/) |
+| YabaSanshiro | [docs.libretro.com/library/yabause](https://docs.libretro.com/library/yabause/) |
 | Beetle Saturn | [docs.libretro.com/library/beetle_saturn](https://docs.libretro.com/library/beetle_saturn/) |
 | YabaSanshiro (Stand Alone) | [github.com/devmiyax/yabause](https://github.com/devmiyax/yabause) |
 
