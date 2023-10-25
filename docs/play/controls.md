@@ -179,6 +179,16 @@ To quit emulator, START, highlight Exit Emulator, B to confirm
 
 ## Per Device Global Hotkeys
 
+### HDMI Output (only on aarm64 devices)
+
+Press ++"L1"++ + ++"START"++ + ++"SELECT"++ while in EmulationStation to swtich between Screen and HDMI output. 
+
+While this should work it doesn't always result in the correct resolution so the best way to get consistent results is to turn off the device, plug in an HDMI cable and reboot.  
+
+"Why doens't hot-plugging just work?"... Hot-plug HDMI switching is a fairly complex action to accomplish and not something we have implemented on any device.  If you are interested in helping to add this functionality please start here: [Contribute](../contribute)
+
+### Additional Keys
+
 |Device|Brightness Up|Brightness Down|Battery Status|WIFI Toggle|
 |----|----|----|----|----|
 |Anbernic RG351M|Select & Vol +|Select & Vol -|Start  & Vol +|Start & Vol -|
