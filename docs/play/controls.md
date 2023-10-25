@@ -179,7 +179,9 @@ To quit emulator, START, highlight Exit Emulator, B to confirm
 
 ## Per Device Global Hotkeys
 
-### HDMI Output (only on aarm64 devices)
+### HDMI Output
+
+!!! note "These instruction only work for aarm64 devices.  This is not implemented for x86_64 devices."
 
 Press ++"L1"++ + ++"START"++ + ++"SELECT"++ while in EmulationStation to swtich between Screen and HDMI output. 
 
