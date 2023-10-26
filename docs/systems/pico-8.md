@@ -17,13 +17,11 @@
 
 ### Option 1: Running Pico-8 through the native engine
 
-Pico-8 games are best played with the default emulator as it supports all native features without any limitations.  You need to purchase it from [Lexaloffle](https://www.lexaloffle.com/pico-8.php) and we do recommend that you buy a copy if you can. Its an awesome piece of software and it also comes with the tools to make your own games. Enabling SSH and SAMBA can be done from the settings menu.
+Pico-8 games are best played with the default emulator as it supports all native features without any limitations.  You need to purchase it from [Lexaloffle](https://www.lexaloffle.com/pico-8.php) and we do recommend that you buy a copy if you can. Its an awesome piece of software and it also comes with the tools to make your own games.
 
 #### Setup
 
 Once you have purchased a license; the files you need will depend on the device you are using. These instructions will walk through how to set things up to work on all of our supported devices.
-
-The creation of the directories and copy of the files must be done as the root user. Creating the directories and copying the files directly to the microSD card **will not work** as the folder and files will not have the correct permissions.
 
 - Go to [Lexaloffle's download page](https://www.lexaloffle.com/games.php?page=updates)
 - From that page download the `Linux 64-bit` zip file and the `Raspberry Pi` zip file
@@ -44,8 +42,6 @@ The creation of the directories and copy of the files must be done as the root u
     │   ├─ pico8.dat
     └─ Splore.png
 ```
-
-Launch Pico-8 from the device by selecting `Splore`. This will ensure you have successfully loaded the files and the permissions are set.
 
 #### Playing a game
 
