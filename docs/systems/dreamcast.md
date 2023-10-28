@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/dreamcast` | .cdi .gdi .chd .m3u |
+| `roms/dreamcast` | ++".lst"++ ++".bin"++ ++".dat"++ ++".zip"++ ++".7z"++ |
 
 ## Emulator/Core
 
@@ -17,4 +17,8 @@
 
 ## Bios
 
-See: [docs.libretro.com/library/flycast/#bios](https://docs.libretro.com/library/flycast/#bios)
+> Path: `roms/bios`
+
+| Emulator | Required Files | 
+| --- | --- |
+| All | [docs.libretro.com/library/flycast/#bios](https://docs.libretro.com/library/flycast/#bios) |
