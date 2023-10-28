@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/neocd` | .cue .iso .chd |
+| `roms/neocd` | ++".cue"++ ++".iso"++ ++".chd"++ |
 
 ## Emulator/Core
 
