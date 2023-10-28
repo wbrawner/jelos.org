@@ -2,15 +2,15 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/coleco` | .bin .col .rom .zip .7z |
+| `storage/roms/coleco` | ++".bin"++ ++".col"++ ++".rom"++ ++".zip"++ ++".7z"++ |
 
-## Available Emulator(s)
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |
-| blueMSX | [docs.libretro.com/library/bluemsx](https://docs.libretro.com/library/bluemsx/) |
+| blueMSX &nbsp; `default` | [docs.libretro.com/library/bluemsx](https://docs.libretro.com/library/bluemsx/) |
 | GearColeco | [docs.libretro.com/library/gearcoleco](https://docs.libretro.com/library/gearcoleco/) |
 
 ## Bios
