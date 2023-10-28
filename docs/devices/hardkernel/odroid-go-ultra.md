@@ -1,5 +1,7 @@
 # Odroid Go Ultra
 
+![](../../_inc/images/devices/hardkernel-odroid-go-ultra.png){ .off-glb }
+
 ## Overview
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
