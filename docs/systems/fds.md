@@ -1,4 +1,4 @@
-# Nintendo Famicom Disk System (FDS)
+# Famicom Disk System (FDS)
 
 ## Overview
 

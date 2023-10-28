@@ -1,4 +1,4 @@
-# Nintendo NES / Famicom
+# NES / Famicom
 
 ## Overview
 

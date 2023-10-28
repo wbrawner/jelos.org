@@ -1,4 +1,4 @@
-# Nintendo Super Nintendo / Super Famicom / Satellaview
+# Super Nintendo / Super Famicom
 
 ## Overview
 
