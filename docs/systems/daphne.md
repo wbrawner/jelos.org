@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/daphne` | .daphne |
+| `roms/daphne` | ++".daphne"++ ++".singe"++ |
 
 ## Emulator/Core
 
