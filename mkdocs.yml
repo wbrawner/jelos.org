@@ -93,6 +93,7 @@ nav:
       - Networking: configure/networking.md
       - Cloud Sync: configure/cloud-sync.md
       - VPN: configure/vpn.md
+      - Packages: configure/packages.md
     - Systems:
       #- systems/index.md
       - Arcade:
