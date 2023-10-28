@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/coleco` | ++".bin"++ ++".col"++ ++".rom"++ ++".zip"++ ++".7z"++ |
+| `roms/coleco` | ++".bin"++ ++".col"++ ++".rom"++ ++".zip"++ ++".7z"++ |
 
 ## Emulator/Core
 
@@ -15,7 +15,7 @@
 
 ## Bios
 
-Path: `storage/roms/bios`
+> Path: `roms/bios`
 
 | Emulator | Required Files | 
 | --- | --- |
