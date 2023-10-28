@@ -16,4 +16,4 @@
 
 | Path | Files Needed |
 | --- | --- |
-| `storage/roms/bios` | See: [https://docs.libretro.com/library/atari800/#bios](https://docs.libretro.com/library/fbneo/#bios) |
+| `storage/roms/bios` | See: [docs.libretro.com/library/atari800/#bios](https://docs.libretro.com/library/atari800/#bios) |
