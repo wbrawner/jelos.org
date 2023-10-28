@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/cps2` | .zip .7z |
+| `roms/cps2` | ++".zip"++ ++".7z"++ |
 
 ## Emulator/Core
 
@@ -14,7 +14,11 @@
 
 ## Bios
 
-See: [docs.libretro.com/library/fbneo/#bios](https://docs.libretro.com/library/fbneo/#bios)
+> Path: `roms/bios`
+
+| Emulator | Required Files | 
+| --- | --- |
+| Final Burn Neo | [docs.libretro.com/library/fbneo/#bios](https://docs.libretro.com/library/fbneo/#bios) |
 
 ## Additional References
 

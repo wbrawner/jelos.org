@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/mame` | .zip .7z |
+| `roms/mame` | ++".zip"++ ++".7z"++ |
 
 | Name | Documentation |
 | --- | --- |
@@ -13,6 +13,14 @@
 | MAME 2015 | [docs.libretro.com/guides/arcade-getting-started](https://docs.libretro.com/guides/arcade-getting-started/) |
 | MAME (Current) | [docs.libretro.com/guides/arcade-getting-started](https://docs.libretro.com/guides/arcade-getting-started/) |
 
-## Instructions
+## Bios
+
+> Path: `roms/bios`
+
+| Emulator | Required Files | 
+| --- | --- |
+| All | [docs.libretro.com/library/mame2003_plus/#bios](https://docs.libretro.com/library/mame2003_plus/#bios) |
+
+## Additional References
 
 [Getting started with arcade emulation (Libretro)](https://docs.libretro.com/guides/arcade-getting-started/)

@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/naomi` | .lst .bin .dat .zip .7z |
+| `roms/naomi` | ++".lst"++ ++".bin"++ ++".dat"++ ++".zip"++ ++".7z"++ |
 
 ## Emulator/Core
 
@@ -17,7 +17,11 @@
 
 ## Bios
 
-See: [docs.libretro.com/library/flycast/#bios](https://docs.libretro.com/library/flycast/#bios)
+> Path: `roms/bios`
+
+| Emulator | Required Files | 
+| --- | --- |
+| All | [docs.libretro.com/library/flycast/#bios](https://docs.libretro.com/library/flycast/#bios) |
 
 ## Additional References
 
