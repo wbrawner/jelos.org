@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/3do` | .iso .bin .chd .cue |
+| `roms/3do` | ++".iso"++ ++".bin"++ ++".chd"++ ++".cue"++ |
 
 ## Emulator/Core
 
@@ -14,4 +14,8 @@
 
 ## Bios
 
-see: [https://docs.libretro.com/library/opera/#bios](https://docs.libretro.com/library/opera/#bios)
+> Path: `roms/bios`
+
+| Emulator | Required Files |
+| -- | -- |
+| Opera | [https://docs.libretro.com/library/opera/#bios](https://docs.libretro.com/library/opera/#bios) |
