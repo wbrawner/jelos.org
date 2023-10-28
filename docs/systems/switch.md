@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/switch` | .xci .nsp .nca .nso .nro |
+| `roms/switch` | .xci .nsp .nca .nso .nro |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |

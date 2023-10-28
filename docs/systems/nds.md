@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/nds` | .nds .zip .7z |
+| `roms/nds` | .nds .zip .7z |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name | Platform | Documentation |
 | --- | --- | --- |
@@ -19,11 +19,11 @@
 
 | Filename | MD5 | Path |
 | --- | --- | --- |
-| bios7.bin | df692a80a5b1bc90728bc3dfc76cd948 | `storage/roms/bios` |
-| bios9.bin | a392174eb3e572fed6447e956bde4b25 | `storage/roms/bios` |
-| firmware.bin |  | `storage/roms/bios` |
-| dsi_bios7.bin |  | `storage/roms/bios` |
-| dsi_bios9.bin |  | `storage/roms/bios` |
-| dsi_firmware.bin |  | `storage/roms/bios` |
-| dsi_nand.bin |  | `storage/roms/bios` |
-| dsi_sd_card.bin |  | `storage/roms/bios` |
+| bios7.bin | df692a80a5b1bc90728bc3dfc76cd948 | `roms/bios` |
+| bios9.bin | a392174eb3e572fed6447e956bde4b25 | `roms/bios` |
+| firmware.bin |  | `roms/bios` |
+| dsi_bios7.bin |  | `roms/bios` |
+| dsi_bios9.bin |  | `roms/bios` |
+| dsi_firmware.bin |  | `roms/bios` |
+| dsi_nand.bin |  | `roms/bios` |
+| dsi_sd_card.bin |  | `roms/bios` |

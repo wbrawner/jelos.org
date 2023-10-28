@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/wii` | .gcm .iso .gcz .ciso .wbfs .rvz .dol .wad |
+| `roms/wii` | .gcm .iso .gcz .ciso .wbfs .rvz .dol .wad |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |

@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/fbneo` | .zip .7z |
+| `roms/fbneo` | .zip .7z |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |

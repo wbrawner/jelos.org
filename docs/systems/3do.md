@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/3do` | .iso .bin .chd .cue |
+| `roms/3do` | .iso .bin .chd .cue |
 
-## Emulators
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |

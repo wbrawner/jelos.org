@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/wiiu` | .wud .wux .wua |
+| `roms/wiiu` | .wud .wux .wua |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |

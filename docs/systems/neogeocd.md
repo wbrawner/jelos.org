@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/neocd` | .cue .iso .chd |
+| `roms/neocd` | .cue .iso .chd |
 
-## Emulators
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |
@@ -18,13 +18,13 @@
 
 | Filename | Path |
 | --- | --- |
-| neocd_f.rom | `storage/roms/bios/neocd` |
-| neocd_sf.rom | `storage/roms/bios/neocd` |
-| neocd_t.rom | `storage/roms/bios/neocd` |
-| neocd_st.rom | `storage/roms/bios/neocd` |
-| neocd_z.rom | `storage/roms/bios/neocd` |
-| neocd_sz.rom | `storage/roms/bios/neocd` |
-| front-sp1.bin | `storage/roms/bios/neocd` |
-| top-sp1.bin | `storage/roms/bios/neocd` |
-| neocd.bin | `storage/roms/bios/neocd` |
-| uni-bioscd.rom | `storage/roms/bios/neocd` |
+| neocd_f.rom | `roms/bios/neocd` |
+| neocd_sf.rom | `roms/bios/neocd` |
+| neocd_t.rom | `roms/bios/neocd` |
+| neocd_st.rom | `roms/bios/neocd` |
+| neocd_z.rom | `roms/bios/neocd` |
+| neocd_sz.rom | `roms/bios/neocd` |
+| front-sp1.bin | `roms/bios/neocd` |
+| top-sp1.bin | `roms/bios/neocd` |
+| neocd.bin | `roms/bios/neocd` |
+| uni-bioscd.rom | `roms/bios/neocd` |

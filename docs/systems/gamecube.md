@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/gamecube` | .gcm .iso .gcz .ciso .wbfs .rvz .dol |
+| `roms/gamecube` | .gcm .iso .gcz .ciso .wbfs .rvz .dol |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |

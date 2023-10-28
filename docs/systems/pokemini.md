@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/pokemini` | .min .zip .7z |
+| `roms/pokemini` | .min .zip .7z |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |
@@ -16,4 +16,4 @@
 
 | Filename | MD5 | Path |
 | --- | --- | --- |
-| bios.min | 1e4fb124a3a886865acb574f388c803d | `storage/roms/bios` |
+| bios.min | 1e4fb124a3a886865acb574f388c803d | `roms/bios` |

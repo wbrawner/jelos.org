@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/pico-8` | ++".png"++ ++".p8"++ |
+| `roms/pico-8` | ++".png"++ ++".p8"++ |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |
@@ -33,7 +33,7 @@ Once you have purchased a license; the files you need will depend on the device 
     - Upload the `pico8_64` and `pico8.dat` from the Raspberry Pi zip to this directory (you do not need any other files)
 
 ``` bash title="Folder Structure"
-/storage/roms/pico-8/
+/roms/pico-8/
     ├─ x86_64/
     │   ├─ pico8_dyn
     │   ├─ pico8.dat

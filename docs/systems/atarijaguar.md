@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/atarijaguar` | .j64 .jag .rom .abs .cof .bin .prg |
+| `roms/atarijaguar` | .j64 .jag .rom .abs .cof .bin .prg |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |

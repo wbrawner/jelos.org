@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/saturn` | .cue .chd .iso |
+| `roms/saturn` | .cue .chd .iso |
 
-## Emulators
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |
@@ -18,4 +18,4 @@
 
 | Path | Details |
 | --- | --- |
-| `storage/roms/bios` | See: [docs.libretro.com/library/beetle_saturn/#bios](https://docs.libretro.com/library/beetle_saturn/#bios)
+| `roms/bios` | See: [docs.libretro.com/library/beetle_saturn/#bios](https://docs.libretro.com/library/beetle_saturn/#bios)

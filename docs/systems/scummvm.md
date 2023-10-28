@@ -12,12 +12,12 @@ These files are created by `_Scan ScummVM Games.sh` script in `/storage/.config/
 
 Example: `/storage/.config/scummvm/games/Beneath a Steel Sky (sky).scummvm` contains
 ```
---path="/storage/roms/scummvm/Beneath a Steel Sky (CD VGA)" sky
+--path="/roms/scummvm/Beneath a Steel Sky (CD VGA)" sky
 ```
 > Note: enclose filenames containing spaces with "quotes"
 
 > Note: `.scummvm` and `.svm` files are identical and interchangeable
 
-> Note: the `.scummvm` files are **NOT** stored in `/storage/roms/scummvm` and any `.scummvm` files stored there will not be displayed by EmuStation. EmuStation only displays `.scummvm` files that are in `/storage/.config/scummvm/games`.
+> Note: the `.scummvm` files are **NOT** stored in `/roms/scummvm` and any `.scummvm` files stored there will not be displayed by EmuStation. EmuStation only displays `.scummvm` files that are in `/storage/.config/scummvm/games`.
 
 > Note: to display metadata and media within EmuStation, put `gamelist.xml` in `/storage/.config/scummvm/games` and media into relevant subfolders (e.g. `/storage/.config/scummvm/games/media` folder with `boxart`, `images` and `videos` subfolders)

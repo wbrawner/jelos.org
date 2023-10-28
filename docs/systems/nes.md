@@ -2,12 +2,12 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/nes` | .nes .unif .unf .zip .7z |
-| `storage/roms/famicom` | .nes .unif .unf .zip .7z |
+| `roms/nes` | .nes .unif .unf .zip .7z |
+| `roms/famicom` | .nes .unif .unf .zip .7z |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |

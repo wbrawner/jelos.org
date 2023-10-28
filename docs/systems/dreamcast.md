@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/dreamcast` | .cdi .gdi .chd .m3u |
+| `roms/dreamcast` | .cdi .gdi .chd .m3u |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Platform(s) | Documentation |
 | --- | --- | --- |

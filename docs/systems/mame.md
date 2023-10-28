@@ -2,9 +2,9 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/mame` | .zip .7z |
+| `roms/mame` | .zip .7z |
 
 | Name | Documentation |
 | --- | --- |

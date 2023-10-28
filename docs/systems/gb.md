@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/gb` | .gb .zip .7z |
+| `roms/gb` | .gb .zip .7z |
 
-## Emulators
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |
@@ -21,4 +21,4 @@
 
 | Filename | MD5 | Path |
 | --- | --- | --- |
-| gb_bios.bin | 32fbbd84168d3482956eb3c5051637f5 | `storage/roms/bios` |
+| gb_bios.bin | 32fbbd84168d3482956eb3c5051637f5 | `roms/bios` |

@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/atomiswave` | .lst .bin .dat .zip .7z |
+| `roms/atomiswave` | .lst .bin .dat .zip .7z |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Platform(s) | Documentation |
 | --- | --- | --- |

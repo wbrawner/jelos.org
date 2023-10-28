@@ -2,9 +2,9 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/neogeo` | .zip .7z |
+| `roms/neogeo` | .zip .7z |
 
 | Name | Documentation |
 | --- | --- |

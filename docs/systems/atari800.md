@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/atari800` | .rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z |
+| `roms/atari800` | .rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |
@@ -16,4 +16,4 @@
 
 | Path | Files Needed |
 | --- | --- |
-| `storage/roms/bios` | See: [docs.libretro.com/library/atari800/#bios](https://docs.libretro.com/library/atari800/#bios) |
+| `roms/bios` | See: [docs.libretro.com/library/atari800/#bios](https://docs.libretro.com/library/atari800/#bios) |

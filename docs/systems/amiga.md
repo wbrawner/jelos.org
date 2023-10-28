@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/amiga` | .zip .adf .uae .ipf .dms .adz .lha .m3u .hdf .hdz |
+| `roms/amiga` | .zip .adf .uae .ipf .dms .adz .lha .m3u .hdf .hdz |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |
@@ -18,4 +18,4 @@
 
 | Path | Files |
 | -- | -- |
-| `storage/roms/bios` | Add the files listed here: [docs.libretro.com/library/puae/#bios](https://docs.libretro.com/library/puae/#bios) |
+| `roms/bios` | Add the files listed here: [docs.libretro.com/library/puae/#bios](https://docs.libretro.com/library/puae/#bios) |

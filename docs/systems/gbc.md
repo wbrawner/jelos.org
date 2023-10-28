@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/gbc` | .gbc .zip .7z |
+| `roms/gbc` | .gbc .zip .7z |
 
-## Emulators
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |
@@ -21,4 +21,4 @@
 
 | Filename | MD5 | Path |
 | --- | --- | --- |
-| gbc_bios.bin | dbfce9db9deaa2567f6a84fde55f9680 | `storage/roms/bios` |
+| gbc_bios.bin | dbfce9db9deaa2567f6a84fde55f9680 | `roms/bios` |

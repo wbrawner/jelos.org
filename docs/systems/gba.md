@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/gba` | .gba .zip .7z |
+| `roms/gba` | .gba .zip .7z |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name | Platform | Documentation |
 | --- | --- | --- |
@@ -21,4 +21,4 @@
 
 | Filename | MD5 | Path |
 | --- | --- | --- |
-| gba_bios.bin | a860e8c0b6d573d191e4ec7db1b1e4f6 | `storage/roms/bios` |
+| gba_bios.bin | a860e8c0b6d573d191e4ec7db1b1e4f6 | `roms/bios` |

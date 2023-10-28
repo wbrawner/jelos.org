@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/3ds` | .3ds .3dsx .elf .axf .cci .cxi .app |
+| `roms/3ds` | .3ds .3dsx .elf .axf .cci .cxi .app |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name | Platform | Documentation |
 | --- | --- | --- |

@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/ps2` | .chd .iso .mdf .cso .gz |
+| `roms/ps2` | .chd .iso .mdf .cso .gz |
 
-## Emulators
+## Emulator/Core
 
 | Name | Platform | Documentation |
 | --- | --- | --- |
@@ -20,6 +20,6 @@
 
 | Emulator | Filename | Path |
 | --- | --- | --- |
-| PCSX2 | SCPH-70012.bin | `storage/roms/bios/pcsx2/bios` |
-| LRPS2 | [see details](https://docs.libretro.com/library/pcsx2/#bios) | [see details](https://docs.libretro.com/library/pcsx2/#bios) | `storage/roms/bios/pcsx2/bios` |
-| AetherSX2 | SCPH-70012.bin | `/storage/roms/bios/aethersx2/bios` |
+| PCSX2 | SCPH-70012.bin | `roms/bios/pcsx2/bios` |
+| LRPS2 | [see details](https://docs.libretro.com/library/pcsx2/#bios) | [see details](https://docs.libretro.com/library/pcsx2/#bios) | `roms/bios/pcsx2/bios` |
+| AetherSX2 | SCPH-70012.bin | `/roms/bios/aethersx2/bios` |
