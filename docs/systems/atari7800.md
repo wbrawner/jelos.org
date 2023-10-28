@@ -2,11 +2,11 @@
 
 ## Overview
 
-| Path(s) | Supported Extensions |
+| Game Path | Supported Extensions |
 | --- | --- |
-| `storage/roms/atari7800` | .a78 .bin .zip .7z |
+| `roms/atari7800` | ++".a78"++ ++".bin"++ ++".zip"++ ++".7z"++ |
 
-## Emulator(s)
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |
@@ -14,6 +14,8 @@
 
 ## Bios
 
-| Path | Files Needed |
+> Path: `roms/bios`
+
+| Emulator | Required Files | 
 | --- | --- |
-| `storage/roms/bios` | See: [docs.libretro.com/library/prosystem/#bios](https://docs.libretro.com/library/prosystem/#bios) |
+| ProSystem | See: [docs.libretro.com/library/prosystem/#bios](https://docs.libretro.com/library/prosystem/#bios) |
