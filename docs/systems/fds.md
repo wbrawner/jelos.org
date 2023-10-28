@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/fds` | .fds .zip .7z |
+| `roms/fds` | ++".fds"++ ++".zip"++ ++".7z"++ |
 
 ## Emulator/Core
 
@@ -16,6 +16,8 @@
 
 ## Bios
 
-| Filename | MD5 | Path |
-| --- | --- | --- |
-| disksys.rom | ca30b50f880eb660a320674ed365ef7a | `roms/bios` |
+> Path: `roms/bios`
+
+| Emulator | Required Files |
+| -- | -- |
+| All | disksys.rom (`ca30b50f880eb660a320674ed365ef7a`) |

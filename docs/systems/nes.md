@@ -4,8 +4,8 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/nes` | .nes .unif .unf .zip .7z |
-| `roms/famicom` | .nes .unif .unf .zip .7z |
+| `roms/nes` | ++".nes"++ ++".unif"++ ++".unf"++ ++".zip"++ ++".7z"++ |
+| `roms/famicom` | ++".nes"++ ++".unif"++ ++".unf"++ ++".zip"++ ++".7z"++ |
 
 ## Emulator/Core
 

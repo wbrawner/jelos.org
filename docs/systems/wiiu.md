@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/wiiu` | .wud .wux .wua |
+| `roms/wiiu` | ++".wud"++ ++".wux"++ ++".wua"++ |
 
 ## Emulator/Core
 

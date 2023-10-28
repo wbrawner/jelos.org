@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/wii` | .gcm .iso .gcz .ciso .wbfs .rvz .dol .wad |
+| `roms/wii` | ++".gcm"++ ++".iso"++ ++".gcz"++ ++".ciso"++ ++".wbfs"++ ++".rvz"++ ++".dol"++ ++".wad"++ |
 
 ## Emulator/Core
 

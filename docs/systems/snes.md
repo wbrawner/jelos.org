@@ -4,11 +4,11 @@
 
 | System | Game Path | Supported Extensions |
 | -- | -- | -- |
-| Super Nintendo | `roms/snes` | .smc .fig .sfc .swc .zip .7z |
-| Super Famicom | `roms/sfc` | .smc .fig .sfc .swc .zip .7z |
-| Satellaview | `roms/satellaview` | .smc .fig .bs .sfc .bsx .swc .zip .7z |
-| MSU-1 | `roms/snesmsu1` | .smc .fig .sfc .swc .zip .7z |
-| Sufami Turbo | `roms/sufami` | .st .zip .7z |
+| Super Nintendo | `roms/snes` | ++".smc"++ ++".fig"++ ++".sfc"++ ++".swc"++ ++".zip"++ ++".7z"++ |
+| Super Famicom | `roms/sfc` | ++".smc"++ ++".fig"++ ++".sfc"++ ++".swc"++ ++".zip"++ ++".7z"++ |
+| Satellaview | `roms/satellaview` | ++".smc"++ ++".fig"++ ++".bs"++ ++".sfc"++ ++".bsx"++ ++".swc"++ ++".zip"++ ++".7z"++ |
+| MSU-1 | `roms/snesmsu1` | ++".smc"++ ++".fig"++ ++".sfc"++ ++".swc"++ ++".zip"++ ++".7z"++ |
+| Sufami Turbo | `roms/sufami` | ++".st"++ ++".zip"++ ++".7z"++ |
 
 ## Emulator/Core
 
@@ -25,7 +25,8 @@
 
 ## Bios
 
-| Filename | MD5 | Path |
-| --- | --- | --- |
-| STBIOS.bin | d3a44ba7d42a74d3ac58cb9c14c6a5ca | `roms/bios` |
-| BS-X.bin | fed4d8242cfbed61343d53d48432aced | `roms/bios` |
+> Path: `roms/bios`
+
+| Emulator | Required Files |
+| -- | -- |
+| All | STBIOS.bin (`d3a44ba7d42a74d3ac58cb9c14c6a5ca`) <br/> BS-X.bin (`fed4d8242cfbed61343d53d48432aced`) |
