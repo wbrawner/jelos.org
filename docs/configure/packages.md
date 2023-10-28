@@ -4,6 +4,12 @@
 
 [Entware](https://github.com/Entware/Entware/wiki) is a modern alternative to Optware and was originally designed for use on OpenWRT but has been adapted for use on other distributions, it is similar to apt/yum/pacman in that it will allow you to install over 2000+ Linux applications.
 
+### Install
+
+1. SSH into your device
+2. Run `installentware`
+3. Reboot after that completes
+
 ### Command-line instructions
 
 You can manage packages  over ssh using the command-line interface.
