@@ -2,7 +2,7 @@
 
 ## Overview
 
-| Game Path | Supported Extensions |
+| Game&nbsp;Path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Supported Extensions |
 | --- | --- |
 | `roms/mplayer` | ++".mp4"++ ++".mkv"++ ++".avi"++ ++".mov"++ ++".wmv"++ ++".m3u"++ ++".mpg"++ ++".ytb"++ ++".twi"++ ++".sh"++ ++".mp3"++ ++".aac"++ ++".mka"++ ++".dts"++ ++".flac"++ ++".ogg"++ ++".m4a"++ ++".ac3"++ ++".opus"++ ++".wav"++ ++".wv"++ ++".eac33"++ ++".thd"++ |
 
