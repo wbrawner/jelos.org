@@ -4,7 +4,7 @@
 
 | System | Game Path | Supported Extensions |
 | -- | -- | -- |
-| Super Genesis | `roms/genesis` | ++".md"++ ++".gen"++ ++".bin"++ ++".sg"++ ++".smd"++ ++".zip"++ ++".7z"++ |
+| Sega Genesis | `roms/genesis` | ++".md"++ ++".gen"++ ++".bin"++ ++".sg"++ ++".smd"++ ++".zip"++ ++".7z"++ |
 | Megadrive | `roms/megadrive` | ++".md"++ ++".gen"++ ++".bin"++ ++".sg"++ ++".smd"++ ++".zip"++ ++".7z"++ |
 
 ## Emulator/Core
