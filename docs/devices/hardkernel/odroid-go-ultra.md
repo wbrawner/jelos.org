@@ -18,9 +18,9 @@
 
 ### Installation
 
-!!! note "JELOS must be flashed directly onto the Odroid Go Ultra rather than an SD card.  This is done by putting the device into recovery mode, [as explained here](https://youtu.be/X9wbPY5qf6o?t=1195)."
+Download the latest `S922X-Odroid_GOU` version of JELOS from the button below.
 
-Download the latest `S922X` version of JELOS from the button below and follow the instructions listed on the [Install](../../../play/install/) page.
+!!! note "JELOS must be flashed directly onto the Odroid Go Ultra rather than an SD card.  This is done by putting the device into recovery mode, [as explained here](https://youtu.be/X9wbPY5qf6o?t=1195)."
 
 [![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
 [![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
