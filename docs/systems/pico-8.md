@@ -51,6 +51,7 @@ Once the above is set up is you have 2 options for playing games through Pico-8'
     - Splore is awesome as it allows you to browse and play the entire library of user created games with an internet connection.  
     - To use this method simply launch `Splore` from the gamelist.
     - Note that you will need an internet connection to browse the pico-8 BBS (If you don't have an internet connection you can still use it to launch games you have downloaded previously)
+    - To exit a game and return to EmulationStation you can either (1) press the ++"START"++ button while highlighting a game in Splore then selecting `Options > Shutdown` or (2) Press ++"L1"++ + ++"SELECT"++ + ++"START"++
 2. Through .png or .p8 files added directly `roms/pico-8` or `roms/pico-8/carts`
     - Browse the list of games (aka. "Carts") on [Lexaloffle's website](https://www.lexaloffle.com/bbs/?cat=7&carts_tab=1#mode=carts&sub=2)
     - Download the .png or .p8 file for any game you are interested in playing and upload it to either `roms/pico-8` or `roms/pico-8/carts`
@@ -58,6 +59,7 @@ Once the above is set up is you have 2 options for playing games through Pico-8'
         - `roms/pico-8/carts` is recommended if you plan to use Splore directly and also want to see your downloaded carts in the Splore interface.
     - Refresh EmulationStation by pressing ++"START"++ to open the Main Menu then select `Game Settings > Update Gamelists`.
     - You should now be able to launch the game by selecting it from the gamelist.
+    - To exit a game and return to EmulationStation you can either (1) press the ++"START"++ button then selecting `Options > Shutdown` or (2) Press ++"L1"++ + ++"SELECT"++ + ++"START"++
 
 ### Option 2: Running through RetroArch Fake-08
 
