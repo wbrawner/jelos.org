@@ -73,6 +73,8 @@ Once the above is set up is you have 2 options for playing games through Pico-8'
 
 ## Controls
 
+### Emulator/Core: Pico-8
+
 | Button | Action |
 | -- | -- |
 | ++"A(SOUTH)"++ | X/V |
