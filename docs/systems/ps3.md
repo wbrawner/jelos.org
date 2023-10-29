@@ -6,7 +6,7 @@
 | --- | --- |
 | `roms/ps3` | ++".ps3"++ ++".psn"++ |
 
-## Emulator
+## Emulator/Core
 
 | Name | Documentation |
 | --- | --- |

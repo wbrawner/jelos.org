@@ -134,8 +134,8 @@ nav:
         - Sega SG-1000: systems/sg-1000.md
         - Sega Master System: systems/mastersystem.md
         - Sega Genesis / Megadrive: systems/genesis.md
-        - Sega CD / Mega CD: systems/genesis.md
-        - Sega 32x: systems/sega32x.md
+        - Sega CD / Mega CD: systems/segacd.md
+        - Sega 32X: systems/sega32x.md
         - Sega Saturn: systems/saturn.md
         - Sega Dreamcast: systems/dreamcast.md
         - SNK Neo Geo: systems/neogeo.md
