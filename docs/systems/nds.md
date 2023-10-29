@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/nds` | .nds .zip .7z |
+| `roms/nds` | ++".nds"++ ++".zip"++ ++".7z"++ |
 
 ## Emulator/Core
 

@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/pokemini` | .min .zip .7z |
+| `roms/pokemini` | ++".min"++ ++".zip"++ ++".7z"++ |
 
 ## Emulator/Core
 

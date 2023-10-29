@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/gba` | .gba .zip .7z |
+| `roms/gba` | ++".gba"++ ++".zip"++ ++".7z"++ |
 
 ## Emulator/Core
 

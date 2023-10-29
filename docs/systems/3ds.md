@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/3ds` | .3ds .3dsx .elf .axf .cci .cxi .app |
+| `roms/3ds` | ++".3ds"++ ++".3dsx"++ ++".elf"++ ++".axf"++ ++".cci"++ ++".cxi"++ ++".app"++ |
 
 ## Emulator/Core
 
