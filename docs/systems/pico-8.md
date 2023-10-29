@@ -70,3 +70,11 @@ Once the above is set up is you have 2 options for playing games through Pico-8'
 - Download the .png file for any game you are interested in playing and upload it to `roms/pico-8`
 - Refresh EmulationStation by pressing ++"START"++ to open the Main Menu then select `Game Settings > Update Gamelists`.
 - You should now be able to launch the game by selecting it from the gamelist.
+
+## Controls
+
+| Button | Action |
+| -- | -- |
+| ++"A(SOUTH)"++ | X/V |
+| ++"B(EAST)"++ | O/Z/C |
+| ++"START"++ | Menu |
