@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/atarijaguar` | .j64 .jag .rom .abs .cof .bin .prg |
+| `roms/atarijaguar` | ++".j64"++ ++".jag"++ ++".rom"++ ++".abs"++ ++".cof"++ ++".bin"++ ++".prg"++ |
 
 ## Emulator/Core
 

@@ -17,5 +17,5 @@
 
 | Emulator | Required Files |
 | -- | -- |
-| Yuzu | `/roms/bios/yuzu/keys/keys.txt` <br/> `/roms/bios/yuzu/keys/titles.txt` <br/> `/roms/bios/yuzu/nand/[firmware files]` |
-| Ryujinx | `/roms/bios/ryujinx/keys/keys.txt` <br/> `/roms/bios/ryujinx/keys/titles.txt` <br/> `/roms/bios/ryujinx/nand/[firmware files]` |
+| Yuzu | `/roms/bios/yuzu/keys/prod.keys` <br/> `/roms/bios/yuzu/keys/title.keys` <br/> `/roms/bios/yuzu/nand/[firmware files]` |
+| Ryujinx | `/roms/bios/ryujinx/keys/prod.keys` <br/> `/roms/bios/ryujinx/keys/title.keys` <br/> `/roms/bios/ryujinx/nand/[firmware files]` |

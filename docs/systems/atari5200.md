@@ -2,9 +2,9 @@
 
 ## Overview
 
-| Game Path | Supported Extensions |
+| Game&nbsp;Path&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Supported Extensions |
 | --- | --- |
-| `roms/atari5200` | .rom .xfd .atr .atx .cdm .cas .car .bin .a52 .xex .zip .7z |
+| `roms/atari5200` | ++".rom"++ ++".xfd"++ ++".atr"++ ++".atx"++ ++".cdm"++ ++".cas"++ ++".car"++ ++".bin"++ ++".a52"++ ++".xex"++ ++".zip"++ ++".7z"++ |
 
 ## Emulator/Core
 
@@ -15,6 +15,8 @@
 
 ## Bios
 
-| Path | Files Needed |
-| --- | --- |
-| `roms/bios` | See: [docs.libretro.com/library/atari800/#bios](https://docs.libretro.com/library/atari800/#bios) |
+> Path: `roms/bios`
+
+| Emulator | Required Files |
+| -- | -- |
+| All | [docs.libretro.com/library/atari800/#bios](https://docs.libretro.com/library/atari800/#bios) |

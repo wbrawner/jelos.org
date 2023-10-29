@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/amigacd32` | .iso .cue .lha .chd |
+| `roms/amigacd32` | ++".iso"++ ++".cue"++ ++".lha"++ ++".chd"++ |
 
 ## Emulator/Core
 
@@ -16,6 +16,8 @@
 
 ## Bios
 
-| Path | Files |
+> Path: `roms/bios`
+
+| Emulator | Required Files |
 | -- | -- |
-| `roms/bios` | Add the files listed here: [docs.libretro.com/library/puae/#bios](https://docs.libretro.com/library/puae/#bios) |
+| All | [docs.libretro.com/library/puae/#bios](https://docs.libretro.com/library/puae/#bios) |
