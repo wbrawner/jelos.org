@@ -4,7 +4,7 @@
 
 | Game Path | Supported Extensions |
 | --- | --- |
-| `roms/atari2600` | .a26 .bin .zip .7z |
+| `roms/atari2600` | ++".a26"++ ++".bin"++ ++".zip"++ ++".7z"++ |
 
 ## Emulator/Core
 
