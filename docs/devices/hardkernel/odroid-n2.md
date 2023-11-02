@@ -8,12 +8,13 @@
 | -- | -- | -- | -- | -- |
 | N2 | Amlogic S922X / Mali G52 M6 (ARMv8-A) | Mainline Linux | Mali | Weston + Emulation Station |
 | N2+ | Amlogic S922X / Mali G52 M6 (ARMv8-A) | Mainline Linux | Mali | Weston + Emulation Station |
+| N2L | Amlogic S922X / Mali G52 M6 (ARMv8-A) | Mainline Linux | Mali | Weston + Emulation Station |
 
 ## Notes
 
 ### Installation
 
-Download the latest `S922X-Odroid_N2` version of JELOS from the button below and follow the instructions listed on the [Install](../../../play/install/) page.
+Download the latest `S922X-Odroid_N2` version of JELOS for N2/N2+ or `S922X-Odroid_N2L` for N2L from the button below and follow the instructions listed on the [Install](../../../play/install/) page.
 
 [![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
 [![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
