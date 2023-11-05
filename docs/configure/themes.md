@@ -24,7 +24,7 @@ The following options can be changed directly from the main menu under `UI Setti
 | Distribution | Used to define which folder to look in for Theme Customization files.  For JELOS installs this defaults to `JELOS` so please leave it as such |
 | Aspect Ratio | Enables you to select the correct aspect ratio for your screen.  JELOS supports 16:9, 4:3, 16:10, 5:3, 3:2 and 1:1 aspect ratios.  We default this automatically so you should not need to change it but if the theme layout looks odd or spacing looks incorrect you can use this setting to make sure the aspect ratio matches your screen. |
 | Color Scheme | Sets the color scheme that is used for the theme.  There is a set of prebuilt color schemes that you can select and an option to supply your custom color scheme (selected by choosing `custom`).  You can see details on customizations below under [Theme Customziations](#theme-customizations). |
-| Fonts | When this is set to custom it allows you to define custom font sizes for the gamelist.  You can see details on customizations below under [Theme Customziations](#theme-customizations). |
+| Font Size | When this is set to custom it allows you to define custom font sizes for the gamelist.  You can see details on customizations below under [Theme Customziations](#theme-customizations). |
 | System View Style | Defines the layout/design used for the System View |
 | Gamelist View Style | Defines the layout/design used for the Gamelist View |
 
@@ -91,6 +91,7 @@ The logos used on the system and gamelist views can be customized with your own 
     - ${system.theme}.png
 - The theme will look them them up in that order.  I recommend SVGs as they scale better on different resolutions.
 - `${system.theme}.svg/png` should be named for the system you are looking to override.  For example if you wanted to override the artwork for `snes` you would create an image called `snes.svg` or `snes.png` in the logos folder
+- once your images are in place you turn on custom logos by changing the Color Scheme to `Custom` 
 
 ### Color Schemes
 
@@ -109,7 +110,7 @@ You can modify the font size used to display gamelists
 - Download this template: https://github.com/anthonycaccese/art-book-next-jelos/blob/main/resources/customizations/fonts.xml
 - Upload it in the path you created above and make sure its called `fonts.xml`
 - Change any values in the above template to the sizes you like. 
-- After your sizes are defined; in theme configuration change `Fonts` to `Custom`
+- After your sizes are defined; in theme configuration change `Font Size` to `Custom`
 
 ## Adding Additional Themes
 
