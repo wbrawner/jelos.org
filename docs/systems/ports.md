@@ -8,7 +8,7 @@
 
 ## Using PortMaster
 
-PortMaster provides a easy way to set up and run ports of many games.  You can find details on what games are available at their website here: [https://portmaster.games/](https://portmaster.games/)
+PortMaster provides a easy way to set up and play ports of many homebrew and classic games.  You can browse the games available on their website here: [https://portmaster.games/](https://portmaster.games/)
 
 ### Setup
 
