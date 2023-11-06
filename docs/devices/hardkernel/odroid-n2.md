@@ -1,4 +1,4 @@
-# Odroid N2/N2+
+# Odroid N2/N2+/N2L
 
 ![](../../_inc/images/devices/hardkernel-odroid-n2.png){ .off-glb }
 
