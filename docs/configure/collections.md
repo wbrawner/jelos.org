@@ -8,7 +8,7 @@ All of the options described below can be managed by pressing ++"START"++ anywhe
 
 ## Managing Your Backlog
 
-JELOS includes a `Now Playing` collections that can be used to curate and move through your backlog.  You can turn this on by going to `Game Collection Settings` > `Create New Custom Collection from Theme` while using our default system-theme.
+JELOS includes a `Now Playing` collection that can be used to curate and play through your backlog.  You can turn this on by going to `Game Collection Settings` > `Create New Custom Collection from Theme` while using our default system-theme.
 
 <table>
     <tr>
@@ -19,9 +19,9 @@ JELOS includes a `Now Playing` collections that can be used to curate and move t
 
 Once its turned on; you can add to it by pressing ++"X(NORTH)"++ on any game while in ES.  In the menu that opens you'll see `Now Playing` listed under the collections header.  Simply highlight it and press the confirm button.  
 
-You can also set JELOS to boot directly into the Now Playing collection setting a "Start on System" value in the `Game Collection Settings` menu.  Change that value to `Now Playing` and then also turn on the "Start on Gamelist".
+You can also set JELOS to boot directly into the Now Playing collection by setting the `Start on System` value in the `Game Collection Settings` menu.  Change that value to `Now Playing` and also turn on `Start on Gamelist`.
 
-With the above settings on you can create a very simple view of the games you are trying to finish that shows up as soon as you boot.
+With the above settings you can create a very simple view of the games you are trying to finish that displays when JELOS launches.
 
 ## Collection Types
 
