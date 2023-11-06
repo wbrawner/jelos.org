@@ -196,6 +196,7 @@ nav:
         - Moonlight: systems/moonlight.md
         - Media Player: systems/mplayer.md
         - Music Player: systems/music.md
+        - Ports: systems/ports.md
     - Devices: 
       - devices/index.md
       - Anbernic:
