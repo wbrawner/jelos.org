@@ -13,7 +13,7 @@ JELOS is installed by downloading an image for your device, flashing it to an SD
 
 * First decompress the image.
 * Then write the image to an SD Card using an imaging tool.
-    * Common imaging tools include [Balena Etcher](https://www.balena.io/etcher/), [Raspberry Pi Imager](https://www.raspberrypi.com/software/), and [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/).  If you're skilled with the command line, `dd` can also be used.
+    * Common imaging tools include [Rufus](https://rufus.ie/), [Raspberry Pi Imager](https://www.raspberrypi.com/software/), and [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/).  If you're skilled with the command line, `dd` can also be used.
 
 ## Step 3: Boot your device
 
