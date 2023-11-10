@@ -1,5 +1,7 @@
 # Odroid Go Super
 
+![](../../_inc/images/devices/hardkernel-odroid-go-super.png){ .off-glb }
+
 ## Overview
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |

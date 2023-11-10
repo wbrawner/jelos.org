@@ -1,5 +1,7 @@
 # Odroid Go Advance
 
+![](../../_inc/images/devices/hardkernel-odroid-go-advance.png){ .off-glb }
+
 ## Overview
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
