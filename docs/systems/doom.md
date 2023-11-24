@@ -36,6 +36,7 @@ It is recommended to store **WAD** files in a `\iwads` subfolder and **MODs** in
 `/roms/doom/doom2.doom` would contain
 ```
 IWAD=iwads/doom2.wad
+-- end --
 ```
 to load vanilla Doom 2
 
@@ -53,4 +54,4 @@ MOD=mods/target-spy-v2.0.1.pk3
 ```
 to load Heretic with additional patches and mods.
 
-!!! note "add `-- end --` to the end of the file when it contains multiple lines"
+!!! note "make sure to add `-- end --` to the end of the file"
