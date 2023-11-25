@@ -19,7 +19,7 @@ Download the latest `RK3326` version of JELOS from the button below and follow t
 
 ### Analogue Stick
 
-There are several parameters available for the analogue stick in the [odroidgo2_joypad driver](https://github.com/hardkernel/linux/commit/73c2cbdb49d240c408bd16a717215c1d4bed529f). These can be used to work around stick drift, or a disconnected stick, perhaps due to a broken connector on the mainboard (which causes stick input to the right to permanently register).
+There are several parameters available for the analogue stick in the [odroidgo2_joypad driver](https://github.com/hardkernel/linux/blob/73c2cbdb49d240c408bd16a717215c1d4bed529f/drivers/input/joystick/odroidgo2-joypad.c). These can be used to work around stick drift, or a disconnected stick, perhaps due to a broken connector on the mainboard (which causes stick input to the right to permanently register).
 
 | Parameter | Notes |
 | -- | -- |
