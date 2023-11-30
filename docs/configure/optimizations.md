@@ -46,7 +46,6 @@ JELOS includes an `Enhanced Power Saving` mode which is available in the `System
 |Feature|Function|May Affect Stability|
 |----|----|----|
 |CPU Power Saving|Tunes the CPU/SoC to preference battery life over performance.|No|
-|GPU Performance Profile<sup>1</sup>|User configurable to force the GPU into the preferred performance state|No|
 |Audio Power Saving|Enables the audio device to operate in a low power mode.|No|
 |PCIE Active State Power Management|Forces a low power state for PCI and PCIe connections.|Yes|
 |Enable Wake Events|Enables PCI wakeup signalling to allow devices to enter low power states.|Yes|
