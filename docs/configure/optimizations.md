@@ -11,12 +11,14 @@ Optimizing for performance will have significant impact on battery life, however
 #### AMD / Intel based devices
 
 |Enabled CPU Threads|CPU Scheduler|Energy Performance Preference|GPU Performance Profile|Enhanced Power Saving|Cooling Profile|WIFI Power Saving|
+|----|----|----|----|----|----|----|
 |All|Schedutil|Balanced Performance|Balanced|Off|Moderate|Off|
 
 > Note: The JELOS team DOES NOT recommend the "BEST PERFORMANCE" GPU profile on AMD devices as it sets the profile_peak GPU profile which can lead to poor performance and kernel panics, use "BALANCED" instead.
 
 ##### GLMark
 |DEVICE @ TDP|4w|6w|9w|15w|18w|24w|28w|
+|----|----|----|----|----|----|----|----|
 |Loki Zero|515|1303|1943|3195|3466|3615|**3618**|
 |Loki Max|2082|3068|4910|7266|8600|9990|**10319**|
 |AYANEO Air Plus|854|2051|4192|5946|7340|9325|**9674**|
@@ -24,6 +26,7 @@ Optimizing for performance will have significant impact on battery life, however
 
 ##### 7z
 |DEVICE @ TDP|4w|6w|9w|15w|18w|24w|28w|
+|----|----|----|----|----|----|----|----|
 |Loki Zero|3370|5304|7397|8441|**8514**|8493|8441|
 |Loki Max|12129|19530|28391|42809|46432|51183|**53276**|
 |AYANEO Air Plus|6323|11394|22519|39682|43529|**47904**|47562|
@@ -62,6 +65,7 @@ Enable Enhanced Power Saving, and enable all options.  If the device has undesir
 
 ##### GLMark
 |DEVICE @ TDP|4w|6w|9w|15w|18w|24w|28w|
+|----|----|----|----|----|----|----|----|
 |Loki Zero|544|1130|1313|1385|1378|1392|1397|
 |Loki Max|1968|2869|4660|7042|8243|9442|9804|
 |AYANEO Air Plus|744|2103|3971|6086|7193|8908|9377|
@@ -69,6 +73,7 @@ Enable Enhanced Power Saving, and enable all options.  If the device has undesir
 
 ##### 7z
 |DEVICE @ TDP|4w|6w|9w|15w|18w|24w|28w|
+|----|----|----|----|----|----|----|----|
 |Loki Zero|2980|2986|3006|2992|2992|2993|2978|
 |Loki Max|6931|11247|14003|15941|16114|16758|16792|
 |AYANEO Air Plus|5731|8291|13139|15638|16205|16065|16001|
@@ -77,6 +82,7 @@ Enable Enhanced Power Saving, and enable all options.  If the device has undesir
 #### ARM based devices
 
 |Enabled CPU Threads|CPU Scheduler|GPU Performance Profile|Enhanced Power Saving|Cooling Profile|WIFI Power Saving|
+|----|----|----|----|----|----|
 |4|Powersave|Battery Focus|On|Quiet<sup>1</sup>|On|
 
 > <sup>1</sup> Only available if the feature is supported on your device.
