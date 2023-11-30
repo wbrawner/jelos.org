@@ -38,7 +38,6 @@ Optimizing for performance will have significant impact on battery life, however
 |All|Performance|Best Performance|Off|Moderate<sup>1</sup>|Off|
 
 > Note: It's recommended to reboot the device after disabling Enhanced Power Saving.
-> <sup>1</sup> Only available if the feature is supported on your device.
 
 ## Optimizing For Battery Life
 
@@ -85,8 +84,6 @@ Enable Enhanced Power Saving, and enable all options.  If the device has undesir
 |----|----|----|----|----|----|
 |4|Powersave|Battery Focus|On|Quiet<sup>1</sup>|On|
 
-> <sup>1</sup> Only available if the feature is supported on your device.
-
 ## Recommended Settings Per System
 
 ### AMD / Intel
@@ -99,3 +96,5 @@ As performance varies across supported devices, there are no specific recommenda
 |Nintendo|GameCube, Wii|All|Moderate<sup>1</sup>|Performance|On|On|
 |Sega|Saturn, Dreamcast|All|Moderate<sup>1</sup>|Performance|On|On|
 |Sony|PSP|All|Moderate<sup>1</sup>|Performance|On|On|
+
+> <sup>1</sup> Only available if the feature is supported on your device.
