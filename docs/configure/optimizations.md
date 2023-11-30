@@ -12,7 +12,7 @@ Optimizing for performance will have significant impact on battery life, however
 
 |Enabled CPU Threads|CPU Scheduler|Energy Performance Preference|GPU Performance Profile|Enhanced Power Saving|Cooling Profile|WIFI Power Saving|
 |----|----|----|----|----|----|----|
-|All|Schedutil|Balanced Performance|Balanced|Off|Moderate|Off|
+|All|Schedutil|Balanced Performance|Balanced|Off|Moderate<sup>1</sup> or Auto|Off|
 
 > Note: The JELOS team DOES NOT recommend the "BEST PERFORMANCE" GPU profile on AMD devices as it sets the profile_peak GPU profile which can lead to poor performance and kernel panics, use "BALANCED" instead.
 
@@ -35,7 +35,7 @@ Optimizing for performance will have significant impact on battery life, however
 #### ARM based devices
 
 |Enabled CPU Threads|CPU Scheduler|GPU Performance Profile|Enhanced Power Saving|Cooling Profile|WIFI Power Saving|
-|All|Performance|Best Performance|Off|Moderate<sup>1</sup>|Off|
+|All|Performance|Best Performance|Off|Moderate<sup>1</sup> or Auto|Off|
 
 > Note: It's recommended to reboot the device after disabling Enhanced Power Saving.
 
