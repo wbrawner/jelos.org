@@ -35,6 +35,7 @@ Optimizing for performance will have significant impact on battery life, however
 #### ARM based devices
 
 |Enabled CPU Threads|CPU Scheduler|GPU Performance Profile|Enhanced Power Saving|Cooling Profile|WIFI Power Saving|
+|----|----|----|----|----|----|
 |All|Performance|Best Performance|Off|Moderate<sup>1</sup> or Auto|Off|
 
 > Note: It's recommended to reboot the device after disabling Enhanced Power Saving.
@@ -57,6 +58,7 @@ Enable Enhanced Power Saving, and enable all options.  If the device has undesir
 
 #### AMD / Intel based devices
 |Enabled CPU Threads|CPU Scheduler|Energy Performance Preference|GPU Performance Profile|Enhanced Power Saving|Cooling Profile|WIFI Power Saving|
+|----|----|----|----|----|----|----|
 |4|Powersave|Power Saving|Battery Focus|On|Quiet<sup>1</sup>|On|
 
 > JELOS recommends setting the minimum TDP that offers full performance for your game or system.
