@@ -4,7 +4,8 @@ JELOS supports a variety of ARM and Intel/AMD based devices.
 
 | Manufacturer | Device | CPU / Architecture | Kernel | GL driver | Interface |
 | -- | -- | -- | -- | -- | -- |
-| Anbernic | [RG351P/M](anbernic/rg351pm.md) | Rockchip RK3326 (ARM) | Mainline Linux | Panfrost | Weston + Emulation Station |
+| Anbernic | [RG351P/M](anbernic/rg351pmv.md) | Rockchip RK3326 (ARM) | Mainline Linux | Panfrost | Weston + Emulation Station |
+| Anbernic | [RG351V](anbernic/rg351pmv.md) | Rockchip RK3326 (ARM) | Mainline Linux | Panfrost | Weston + Emulation Station |
 | Anbernic | [RG353P](anbernic/rg353pmvvs.md) | Rockchip RK3566 (ARM) | Rockchip BSP 4.19 | Mali | KMS/DRM + Emulation Station |
 | Anbernic | [RG353M](anbernic/rg353pmvvs.md) | Rockchip RK3566 (ARM) | Rockchip BSP 4.19 | Mali | KMS/DRM + Emulation Station |
 | Anbernic | [RG353V](anbernic/rg353pmvvs.md) | Rockchip RK3566 (ARM) | Rockchip BSP 4.19 | Mali | KMS/DRM + Emulation Station |
