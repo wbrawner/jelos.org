@@ -1,4 +1,4 @@
-# Anbernic RG351 [P/M]
+# Anbernic RG351 [P/M/V]
 
 ![](../../_inc/images/devices/anbernic-rg351pm.png){ .off-glb }
 
@@ -7,12 +7,13 @@
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
 | -- | -- | -- | -- | -- |
 | RG351P/M | Rockchip RK3326 (ARM) | Mainline Linux | Panfrost | Weston + Emulation Station |
+| RG351V | Rockchip RK3326 (ARM) | Mainline Linux | Panfrost | Weston + Emulation Station |
 
 ## Features
 
 | Feature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Notes |
 | -- | -- |
-| :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network Settings (RG351M Only)|
+| :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network Settings (RG351M and RG351V Only)|
 
 ## Notes
 

@@ -200,7 +200,7 @@ nav:
     - Devices: 
       - devices/index.md
       - Anbernic:
-        - RG351 [P/M]: devices/anbernic/rg351pm.md
+        - RG351 [P/M/V]: devices/anbernic/rg351pmv.md
         - RG353 [P/M/V/VS]: devices/anbernic/rg353pmvvs.md
         - RG503: devices/anbernic/rg503.md
         - RG552: devices/anbernic/rg552.md
