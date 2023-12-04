@@ -78,4 +78,4 @@ JELOS has a built in File Manager and you can use it to access connected USB dri
 
 ## Option 4: Linux OS
 
-JELOS' storage drive is formated as ext4 which can be read navtively by linux operating systems.  Plugging in your SD card into an linux OS will enable you to browse the directories and add files directly.
+JELOS' storage drive is formated as ext4 which can be read natively by linux operating systems.  Plugging in your SD card into an linux OS will enable you to browse the directories and add files directly.
