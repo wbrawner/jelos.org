@@ -240,10 +240,48 @@ The first and last lines should be omitted if building outside of Docker.
 
 ## Troubleshooting
 
-The very first build after a fresh checkout is the hardest.  Give yourself sufficient time to generate the first build and work through any failures before attempting to modify JELOS.
+The very first build after a fresh checkout is the hardest. Give yourself sufficient time to generate the first build and work through any failures before attempting to modify JELOS. 
 
-- Download errors produce misleading failure messages.  Beware of chasing red herrings.  A network failure is much more likely than a bug in the makefile, given how frequently it is tested by the CI system and other devs.
-- Try cleaning the failed package (see above) and building again.
-- If you suspect a download failure, manually delete the relevant package(s) from the `sources` and `build.JELOS-...` directories, to force a full package re-download and re-build.
-- Exhaust all options before using `make clean` since this deletes the build cache and takes hours to regenerate.
-- As a very last resort, delete the entire local repository and start over.
+Download errors can produce misleading failure messages so beware of chasing red herrings.  A network failure is much more likely than a bug in the makefile, given how frequently it is tested by our CI system and other devs.
+
+### Option 1: Clean the package that failed
+
+Try cleaning the failed package and building again using the following command:
+``` bash
+PROJECT={PROJECT} DEVICE={DEVICE} ARCH={ARCH} ./scripts/clean {PACAKGE NAME}
+```
+
+Use this table to determine the values you should use in the above command:
+
+| For Build | PROJECT | DEVICE | ARCH |
+| ---- | ---- | ---- | ---- |
+| AMD64 | PC | AMD64 | x86_64 |
+| RK3588 | Rockchip | RK3588 | aarch64 |
+| RK3326 | Rockchip | RK3326 | aarch64 |
+| RK3566 | Rockchip | RK3566 | aarch64 |
+| RK3566-X55 | Rockchip | RK3566-X55 | aarch64 |
+| S922X | Amlogic | S922X | aarch64 |
+
+As an example; if you were buildling `AMD64` and wanted to clean the `mame-lr` package:
+``` bash
+PROJECT=PC DEVICE=AMD64 ARCH=x86_64 ./scripts/clean mame-lr
+```
+
+After cleaning a package you can try to build/install it directly as a quick way to see if the error is resolved.  Just change the script to `install` or `build` depending on what the package requires.
+
+Using our example above (e.g. building for AMD64) mame-lr requires `install` so you can run this command to check it directly
+``` bash
+PROJECT=PC DEVICE=AMD64 ARCH=x86_64 ./scripts/install mame-lr
+```
+
+If that completes without error then running the build for your device should proceed.
+
+### Option 2: Delete the source of the package that failed
+
+If you are still getting an error after trying the above its likely that a download failure occured for the source of the package that is failing. 
+
+In this case; manually delete the relevant package(s) from the `sources` and `build.JELOS-...` directories and start your build again.  This will force that package to be re-downloaded from source and re-built.
+
+### Additional notes
+- In most cases build failures are caused by single package failures which the above options should help resolve. Exhaust all options before using `make clean` for the entire build. That action will delete the build cache and takes hours to regenerate.  
+- As a very last resort, delete the entire local repository and start over. This is VERY rarely needed so please focus on the above options first.
