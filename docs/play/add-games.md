@@ -1,6 +1,6 @@
 # :material-layers-plus: Adding Games to JELOS
 
-JELOS has a few options for adding games and the option you choose will depend on the device you have and its available functionality *(For example, some devices do not have networking capabilites so those devices will not be able to use the network transfer option)*.  
+JELOS has a few options for adding games and the option you choose will depend on the device you have and its available functionality *(For example, some devices do not have networking capabilites so those devices will not be able to use the network transfer option)*.  To create the default set of game directories on your device, choose the 'CREATE GAME DIRECTORIES' option in the System Settings menu.
 
 This page will aim to document all possible options and indicate when you might use a given one over another.
 
