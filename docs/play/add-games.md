@@ -6,6 +6,30 @@ This page will aim to document all possible options and indicate when you might 
 
 !!! note "For details on which specific files each system requires please see the corresponding pages in the systems section of this wiki."
 
+## Storage Modes
+
+JELOS has support for using internal and external storage (microsd) for games.  To make games available in the OS we provide different features based on the capability of the filesystem that you are using.  To support our storage modes JELOS nests games into a directory on your games card called "roms".  All games found in this path will be available in the OS.
+
+### Merged Storage
+
+When using a microsd that is formatted as Ext4 (Linux), JELOS will present users with the ability to merge both the internal and external storage together allowing users to use both devices to store games.  This mode has two preferences, external (default), and internal.
+
+* Preference External
+  * This mode will save anything written to `/storage/roms` to your external microsd (`/storage/games-external/roms`).
+* Preference Internal
+  * This mode will save anything written to `/storage/roms` to your internal storage (`/storage/games-internal/roms`). 
+
+> Note: *Merged Storage is disabled by default.*
+
+### Simple Storage
+
+When Merged Storage is disabled, or when you are using ExFAT or FAT32, JELOS will mount your external card to `/storage/games-external` and make the content of `/storage/games-external/roms` available at /storage/roms.
+
+### Troubleshooting
+
+* It is possible to create a conflict which will prevent games from being displayed in EmulationStation.  This can usually be resolved by executing `/usr/bin/cleanup_overlay`.  Note: This will reboot your device.
+* If no game folders appear in /storage/roms after running `CREATE GAME DIRECTORIES`, make sure you have a `roms` directory on your microsd.
+
 ## Option 1: Network Transfer
 
 Network transfer can be used on any device that can connect to the internet (this includes devices with native networking capabilites and ones where networking can be added through an external dongle).
