@@ -40,6 +40,10 @@ In addition to your IP you will also need your root password.  This can be found
 
 !!! note "By default the root password is set up to rotate to a unique string of characters after every reboot. You can leave it like this and make note of the current password, or you can turn it off and set it to something that will persist."
 
+### HTTP
+
+Enabling Simple HTTP Server in Network settings lets you upload and download files by entering your device's IP address in any browser on the local network (or on VPN IP, see VPN section for details). The username is `root` and the password can be found in `Root Password` in the main menu.
+
 ### SMB
 
 - Windows:
