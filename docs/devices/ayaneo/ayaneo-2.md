@@ -1,8 +1,4 @@
----
-search:
-  exclude: true
----
-# AYANEO 2
+# AYANEO 2/2s
 
 ![](../../_inc/images/devices/ayaneo-2.png){ .off-glb }
 
@@ -10,7 +6,8 @@ search:
 
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
 | -- | -- | -- | -- | -- |
-| AYANEO 2 | Amd Ryzen 7 6800U / (x86_64) | Mainline Linux | Radeonsi | Weston + Emulation Station |
+| AYANEO 2 | AMD 6800U / (x86_64) | Mainline Linux | Radeonsi | Weston + Emulation Station |
+| AYANEO 2s | AMD 7840u / (x86_64) | Mainline Linux | Radeonsi | Weston + Emulation Station |
 
 ## Features
 
