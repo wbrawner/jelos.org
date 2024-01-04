@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # AYANEO 2
 
 ![](../../_inc/images/devices/ayaneo-2.png){ .off-glb }
