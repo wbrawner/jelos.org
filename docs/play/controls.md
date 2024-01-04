@@ -11,7 +11,7 @@
 | ++"SELECT"+"Y(WEST)"++ | Show FPS |
 | ++"SELECT"+"R2"++ | Fast-Forward |
 
-By default JELOS will detect your controller and configure RetroArch hotkeys automatically.  If this behavior is not desired it can be disabled in the System Settings menu by disabling the "AUTOCONFIGURE RETROARCH HOTKEYS" option.
+By default JELOS will detect your controller and configure RetroArch hotkeys automatically.  If this behavior is not desired it can be disabled in the Controller & Bluetooth Settings menu by disabling the "AUTOCONFIGURE RETROARCH HOTKEYS" option.
 
 ## Mednafen Hotkeys
 
