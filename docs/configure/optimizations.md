@@ -91,11 +91,11 @@ Enable Enhanced Power Saving, and enable all options.  If the device has undesir
 As performance varies across supported devices, there are no specific recommendations.  Explore various settings to find the best configuration per system/game for your device.
 
 ### ARM Devices
-|Manufacturer|System|Enabled CPU Threads|Cooling Profile|Scaling Governor|Enhanced Power Saving|WIFI Power Saving|
-|----|----|----|----|----|----|----|
-|Nintendo|64|All|Moderate<sup>1</sup>|Performance|On|On|
-|Nintendo|GameCube, Wii|All|Moderate<sup>1</sup>|Performance|On|On|
-|Sega|Saturn, Dreamcast|All|Moderate<sup>1</sup>|Performance|On|On|
-|Sony|PSP|All|Moderate<sup>1</sup>|Performance|On|On|
+|Manufacturer|System|Enabled CPU Threads|CPU Scheduler|GPU Performance Profile|Enhanced Power Saving|Cooling Profile|WIFI Power Saving|
+|----|----|----|----|----|----|----|----|
+|Nintendo|64|All|Performance|Best Performance|Off|Moderate<sup>1</sup> or Auto|Off|
+|Nintendo|GameCube, Wii|All|Performance|Best Performance|Off|Moderate<sup>1</sup> or Auto|Off|
+|Sega|Saturn, Dreamcast|All|Performance|Best Performance|Off|Moderate<sup>1</sup> or Auto|Off|
+|Sony|PSP|All|Performance|Best Performance|Off|Moderate<sup>1</sup> or Auto|Off|
 
 > <sup>1</sup> Only available if the feature is supported on your device.
