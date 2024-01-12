@@ -12,3 +12,11 @@
 | --- | --- | --- |
 | Citra | AMD64 | [docs.libretro.com/library/citra](https://docs.libretro.com/library/citra/) |
 | Citra (SA) | AMD64, S922X | [citra-emu.org](https://citra-emu.org/) |
+
+## AES Keys
+
+> You need crypto keys to play encrypted roms, for details see [https://citra-emu.org/wiki/aes-keys/](https://citra-emu.org/wiki/aes-keys/).
+
+| Emulator | Required Files | Path |
+| --- | --- | --- |
+| Citra (SA) | `aes_keys.txt` | `/storage/.config/citra-emu/sysdata` |

@@ -33,6 +33,40 @@ By default JELOS will expand the configuration file according to the first contr
 
 ## Standalone (SA) Emulators
 
+### AetherSX2 ([PS2](../../systems/ps2))
+
+| Button Combo | Action |
+| -- | -- |
+| ++"F1"+"B(SOUTH)"++ | Quit Game |
+| ++"F1"+"R1"++ | Save State |
+| ++"F1"+"L1"++ | Load State |
+| ++"F1"+"X(NORTH)"++ | Open Menu |
+| ++"F1"+"Y(WEST)"++ | Cycle Aspect Ratio |
+| ++"F1"+"A(EAST)"++ | Screenshot |
+
+### Citra ([Nintendo 3DS](../../systems/3ds))
+
+| Button Combo | Action |
+| -- | -- |
+| ++"F1"+"START"++ | Quit Game |
+
+### Drastic ([Nintendo DS](../../systems/nds))
+
+| Button Combo | Action |
+| -- | -- |
+| ++"R2"++ | Save State |
+| ++"L2"++ | Load State |
+| ++"F1"++ | Open Menu |
+| ++"F2"++ | Switch One Screen and Dual Screen Layout |
+| ++"L3"++ | Change Screen Layout/Swap Screens |
+
+#### Additional Notes:
+
+These are the mappings on S922X devices, e.g. [Powkiddy RGB10 Max 3
+Pro](../../devices/powkiddy/rgb10-max-3-pro).  On other devices
+++"F1"++ and ++"F2"++ may not be available and mapped to other special
+keys.
+
 ### Dolphin ([Gamecube](../../systems/gc))
 
 | Button Combo | Action |
@@ -93,6 +127,12 @@ The Z and L button assignment can be changed in EmulationStation
 | ++"L1"++ | L |
 | ++"R1"++ | R |
 | ++"R3"++ | Open Menu |
+
+#### Additional Notes:
+
+On S922X devices e.g. [Powkiddy RGB10 Max 3
+Pro](../../devices/powkiddy/rgb10-max-3-pro) instead of ++"R3"++ the
+++"F1"++ key is used.
 
 ### PCSX2 ([PS2](../../systems/ps2))
 
