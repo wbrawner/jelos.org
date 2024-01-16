@@ -64,6 +64,8 @@ extra:
 plugins:
   - search
   - glightbox
+  - macros:
+      include_dir: includes
 nav:
     - Home: index.md
     - FAQs: faqs.md

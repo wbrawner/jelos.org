@@ -20,6 +20,15 @@
 | :material-vibrate: Rumble | Enables the device rumble motor in emulators that support it. |
 | :material-lightbulb-on: RGB | Supports selecting from a set of colors and brightness levels or turning the RGB off (choice persists through reboots) <br> Does not support other effects. |
 
+## :material-controller: Controls
+
+{%set btn_north = 'Y(NORTH)' %}
+{%set btn_west = 'X(WEST)' %}
+{%set btn_south = 'A(SOUTH)' %}
+{%set btn_east = 'B(EAST)' %}
+{%include 'controls/retroarch.md' %}
+{%include 'controls/mednafen.md' %}
+
 ## Notes
 
 | DMI_SYS_VENDOR | DMI_PRODUCT_NAME |

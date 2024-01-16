@@ -16,13 +16,40 @@
 | :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network Settings |
 | :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers |
 
+## :material-controller: Controls
+
+{%set btn_north = 'X(NORTH)' %}
+{%set btn_west = 'Y(WEST)' %}
+{%set btn_south = 'B(SOUTH)' %}
+{%set btn_east = 'A(EAST)' %}
+{%include 'controls/retroarch.md' %}
+{%set btn_prefix = 'F1' %}
+{%include 'controls/aethersx2.md' %}
+{%include 'controls/citra.md' %}
+{%set btn_save = 'R2' %}
+{%set btn_load = 'L2' %}
+{%set btn_menu = 'F1' %}
+{%set btn_swap_a = 'L3' %}
+{%set btn_swap_b = 'F2' %}
+{%include 'controls/drastic.md' %}
+{%include 'controls/dolphin.md' %}
+{%include 'controls/mupen64plus.md' %}
+{%include 'controls/ppsspp.md' %}
+{%include 'controls/yabasanshiro.md' %}
+{%include 'controls/hypseus-singe.md' %}
+{%include 'controls/openbor.md' %}
+{%include 'controls/vice.md' %}
+{%set btn_pre1 = 'F1' %}
+{%set btn_pre2 = 'F2' %}
+{%include 'controls/extra.md' %}
+
 ## Notes
 
 ### Installation
 
 Download the latest `S922X-Odroid_GOU` version of JELOS from the button below.
 
-!!! note "JELOS must be flashed directly onto the RGB10 Max 3 Pro rather than an SD card.  This is done by putting the device into recovery mode, per the manual by holding down R2, L2, and power. A video demonstation [is shown here](https://youtu.be/X9wbPY5qf6o?t=1195).
+!!! note "JELOS must be flashed directly onto the RGB10 Max 3 Pro rather than an SD card.  This is done by putting the device into recovery mode, per the manual by holding down R2, L2, and power. A video demonstation [is shown here](https://youtu.be/X9wbPY5qf6o?t=1195)."
 
 [![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
 [![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
