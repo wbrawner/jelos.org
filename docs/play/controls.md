@@ -1,4 +1,3 @@
 # :material-controller: Controls
 
-Controls are dependent on the buttons available on a specific device.
-Therefor documentation of the controls can be found on the [device page](../../devices)
+!!! warning "Controls documentation is being moved to [device](../../devices) pages.  This work is not fully complete so there is chance you will not find controls documentation for your device just yet.  We're working on it :smile: and will update this page when things are complete."
