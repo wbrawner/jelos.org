@@ -10,5 +10,7 @@
 | ++"Y(WEST)"++ | Square |
 | ++"L1"++ | L |
 | ++"R1"++ | R |
+| ++"{{ btn_save }}"++ | Save State |
+| ++"{{ btn_load }}"++ | Load State |
 | ++"{{ btn_menu }}"++ | Open Menu |
 
