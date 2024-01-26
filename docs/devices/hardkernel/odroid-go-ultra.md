@@ -14,6 +14,33 @@
 | -- | -- |
 | :material-harddisk: Storage | We recommend installing JELOS directly to the internal EMMC for faster boot and snappier performance. <br> When installed directly to the EMMC a microSD Card can be used for game storage. <br> Alternatively JELOS may also be installed to a microSD card, which will then also be used for game storage. |
 
+## :material-controller: Controls
+
+{%set btn_north = 'X(NORTH)' %}
+{%set btn_west = 'Y(WEST)' %}
+{%set btn_south = 'B(SOUTH)' %}
+{%set btn_east = 'A(EAST)' %}
+{%include 'controls/retroarch.md' %}
+{%set btn_prefix = 'F1' %}
+{%include 'controls/aethersx2.md' %}
+{%include 'controls/citra.md' %}
+{%set btn_save = 'R2' %}
+{%set btn_load = 'L2' %}
+{%set btn_menu = 'F1' %}
+{%set btn_swap_a = 'L3' %}
+{%set btn_swap_b = 'F2' %}
+{%include 'controls/drastic.md' %}
+{%include 'controls/dolphin.md' %}
+{%include 'controls/mupen64plus.md' %}
+{%include 'controls/ppsspp.md' %}
+{%include 'controls/yabasanshiro.md' %}
+{%include 'controls/hypseus-singe.md' %}
+{%include 'controls/openbor.md' %}
+{%include 'controls/vice.md' %}
+{%set btn_pre1 = 'F1' %}
+{%set btn_pre2 = 'F2' %}
+{%include 'controls/extra.md' %}
+
 ## Notes
 
 ### Installation
