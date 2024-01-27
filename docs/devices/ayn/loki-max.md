@@ -20,11 +20,31 @@
 | :material-vibrate: Rumble | Enables the device rumble motor in emulators that support it. |
 | :material-lightbulb-on: RGB | Supports selecting from a set of colors and brightness levels or turning the RGB off (choice persists through reboots) <br> Does not support other effects. |
 
-## Notes
+## Controls
 
-| DMI_SYS_VENDOR | DMI_PRODUCT_NAME |
-| -- | -- |
-| `ayn` | `Loki Max` |
+{%set btn_north = 'Y(NORTH)' %}
+{%set btn_west = 'X(WEST)' %}
+{%set btn_south = 'A(SOUTH)' %}
+{%set btn_east = 'B(EAST)' %}
+
+{%include 'controls/retroarch.md' %}
+{%include 'controls/mednafen.md' %}
+{%include 'controls/dolphin.md' %}
+{%include 'controls/mupen64plus.md' %}
+
+{%set btn_save = 'R2' %}
+{%set btn_load = 'L2' %}
+{%set btn_menu = 'R3' %}
+{%include 'controls/ppsspp.md' %}
+
+{%include 'controls/pcsx2.md' %}
+{%include 'controls/hypseus-singe.md' %}
+
+{%set btn_pre1 = 'SELECT' %}
+{%set btn_pre2 = 'START' %}
+{%include 'controls/extra.md' %}
+
+## Notes
 
 ### Installation
 
@@ -45,9 +65,15 @@ In the bios; navigate to the `Boot` menu and then change the boot order to prior
 
 In EmulationStation press the ++"Start"++ button to open the Main Menu.  Then select `System Settings` and scroll until you see `Device LEDS`.  Under that setting you can choose to turn RGB Off or select from a set of pre-defined colors.  The value you set will persist through all future reboots but note your RGB setting will only take effect after JELOS boots.
 
-## Controls
+## Development Notes
 
-### `evtest` Output
+### `DMI` Info
+
+| DMI_SYS_VENDOR | DMI_PRODUCT_NAME |
+| -- | -- |
+| `ayn` | `Loki Max` |
+
+### Output from `evtest`
 
 ??? abstract "Main Controls"
 
@@ -134,9 +160,8 @@ In EmulationStation press the ++"Start"++ button to open the Main Menu.  Then se
 	Event: time 1695144715.840035, type 4 (EV_MSC), code 4 (MSC_SCAN), value 14
 	Event: time 1695144715.840035, type 1 (EV_KEY), code 20 (KEY_T), value 1
 	```
+	
+### Quirks
 
-## Additional References
-
-- [Platform Documentation (AMD64)](https://github.com/JustEnoughLinuxOS/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/AMD64)
 - [Device Quirks](https://github.com/JustEnoughLinuxOS/distribution/tree/main/packages/hardware/quirks/devices/ayn%20Loki%20Zero) (*shares the same quirks as the [Loki Zero](loki-zero.md)*)
 - [Panel Rotation](https://github.com/JustEnoughLinuxOS/distribution/blob/main/packages/kernel/linux/patches/AMD64/002-display-quirks.patch)

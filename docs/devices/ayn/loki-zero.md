@@ -20,20 +20,31 @@
 | :material-vibrate: Rumble | Enables the device rumble motor in emulators that support it. |
 | :material-lightbulb-on: RGB | Supports selecting from a set of colors and brightness levels or turning the RGB off (choice persists through reboots) <br> Does not support other effects. |
 
-## :material-controller: Controls
+## Controls
 
 {%set btn_north = 'Y(NORTH)' %}
 {%set btn_west = 'X(WEST)' %}
 {%set btn_south = 'A(SOUTH)' %}
 {%set btn_east = 'B(EAST)' %}
+
 {%include 'controls/retroarch.md' %}
 {%include 'controls/mednafen.md' %}
+{%include 'controls/dolphin.md' %}
+{%include 'controls/mupen64plus.md' %}
+
+{%set btn_save = 'R2' %}
+{%set btn_load = 'L2' %}
+{%set btn_menu = 'R3' %}
+{%include 'controls/ppsspp.md' %}
+
+{%include 'controls/pcsx2.md' %}
+{%include 'controls/hypseus-singe.md' %}
+
+{%set btn_pre1 = 'SELECT' %}
+{%set btn_pre2 = 'START' %}
+{%include 'controls/extra.md' %}
 
 ## Notes
-
-| DMI_SYS_VENDOR | DMI_PRODUCT_NAME |
-| -- | -- |
-| `ayn` | `Loki Zero` |
 
 ### Installation
 
@@ -58,9 +69,21 @@ In the bios; navigate to the `Boot` menu and then change the boot order to prior
 
 In EmulationStation press the ++"Start"++ button to open the Main Menu.  Then select `System Settings` and scroll until you see `Device LEDS`.  Under that setting you can choose to turn RGB Off or select from a set of pre-defined colors.  The value you set will persist through all future reboots but note your RGB setting will only take effect after JELOS boots.
 
-## Controls
+### Community Videos
 
-### `evtest` Output
+| <iframe width="560" height="315" src="https://www.youtube.com/embed/1PyQGY7TUEU?si=SDv9yg7Q3igRYbhx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/NOEt92WxxGE?si=emujsI09ym41sexY&amp;start=316" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
+| -- | -- |
+| <iframe width="560" height="315" src="https://www.youtube.com/embed/5L6zLTHXdxg?si=ZxyFVgNYKRTuAsH1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
+
+## Development Notes
+
+### `DMI` Info
+
+| DMI_SYS_VENDOR | DMI_PRODUCT_NAME |
+| -- | -- |
+| `ayn` | `Loki Zero` |
+
+### Output from `evtest`
 
 ??? abstract "Main Controls"
 
@@ -147,15 +170,8 @@ In EmulationStation press the ++"Start"++ button to open the Main Menu.  Then se
 	Event: time 1695132759.599549, type 4 (EV_MSC), code 4 (MSC_SCAN), value 14
 	Event: time 1695132759.599549, type 1 (EV_KEY), code 20 (KEY_T), value 1
 	```
+	
+### Quirks
 
-## Additional References
-
-- [Platform Documentation (AMD64)](https://github.com/JustEnoughLinuxOS/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/AMD64)
 - [Device Quirks](https://github.com/JustEnoughLinuxOS/distribution/tree/main/packages/hardware/quirks/devices/ayn%20Loki%20Zero)
 - [Panel Rotation](https://github.com/JustEnoughLinuxOS/distribution/blob/main/packages/kernel/linux/patches/AMD64/002-display-quirks.patch)
-
-## Community Videos
-
-| <iframe width="560" height="315" src="https://www.youtube.com/embed/1PyQGY7TUEU?si=SDv9yg7Q3igRYbhx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/NOEt92WxxGE?si=emujsI09ym41sexY&amp;start=316" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
-| -- | -- |
-| <iframe width="560" height="315" src="https://www.youtube.com/embed/5L6zLTHXdxg?si=ZxyFVgNYKRTuAsH1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |

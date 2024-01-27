@@ -43,6 +43,10 @@
 {%set btn_pre2 = 'F2' %}
 {%include 'controls/extra.md' %}
 
+## Emulators
+
+- [Platform Documentation (S922X)](https://github.com/JustEnoughLinuxOS/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/S922X)
+
 ## Notes
 
 ### Installation
@@ -70,11 +74,7 @@ If you find yourself doing this often, consider drilling a pinhole in the back c
 
 ![](../../_inc/images/devices/mods/powkiddy-rgb10max3pro-mod1.png){ .off-glb }
 
-## Additional References
-
-- [Platform Documentation (S922X)](https://github.com/JustEnoughLinuxOS/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/S922X)
-
-## Community Videos
+### Community Videos
 
 | <iframe width="560" height="315" src="https://www.youtube.com/embed/X9wbPY5qf6o?si=nIUFXmEcsRswl2ij&amp;start=316" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/_dXk5UjZ_Kg?si=AxdJyrBZ4JamiHqq&amp;start=316" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
 | -- | -- |

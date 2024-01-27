@@ -1,4 +1,4 @@
-### Dolphin ([Gamecube](../../../systems/gc))
+### Dolphin-SA ([Gamecube](../../../systems/gamecube))
 
 | Button Combo | Action |
 | -- | -- |

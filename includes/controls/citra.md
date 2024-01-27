@@ -3,3 +3,4 @@
 | Button Combo | Action |
 | -- | -- |
 | ++"{{ btn_prefix }}"+"START"++ | Quit Game |
+

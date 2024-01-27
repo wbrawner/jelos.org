@@ -1,4 +1,4 @@
-### PCSX2 ([PS2](../../../systems/ps2))
+### PCSX2-SA ([PS2](../../../systems/ps2))
 
 | Button Combo | Action |
 | -- | -- |
