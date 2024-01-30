@@ -21,6 +21,32 @@ search:
 | :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network Settings |
 | :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers |
 
+## Controls
+
+{%set btn_north = 'Y(NORTH)' %}
+{%set btn_west = 'X(WEST)' %}
+{%set btn_south = 'A(SOUTH)' %}
+{%set btn_east = 'B(EAST)' %}
+
+{%include 'controls/retroarch.md' %}
+{%include 'controls/mednafen.md' %}
+{%include 'controls/mupen64plus.md' %}
+
+{%set btn_save = 'R2' %}
+{%set btn_load = 'L2' %}
+{%set btn_menu = 'R3' %}
+{%include 'controls/ppsspp.md' %}
+
+{%include 'controls/hypseus-singe.md' %}
+
+{%set btn_pre1 = 'SELECT' %}
+{%set btn_pre2 = 'START' %}
+{%include 'controls/extra.md' %}
+
+## Emulators
+
+- [Platform Documentation (RK3566)](https://github.com/JustEnoughLinuxOS/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/RK3566)
+
 ## Notes
 
 ### Installation
@@ -29,7 +55,3 @@ Download the latest `RK3566` version of JELOS from the button below and follow t
 
 [![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
 [![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
-
-## Additional References
-
-- [Platform Documentation (RK3566)](https://github.com/JustEnoughLinuxOS/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/RK3566)

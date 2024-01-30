@@ -16,24 +16,47 @@
 | :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network Settings |
 | :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers |
 
+## Controls
+
+{%set btn_north = 'Y(NORTH)' %}
+{%set btn_west = 'X(WEST)' %}
+{%set btn_south = 'A(SOUTH)' %}
+{%set btn_east = 'B(EAST)' %}
+
+{%include 'controls/retroarch.md' %}
+{%include 'controls/mednafen.md' %}
+{%include 'controls/mupen64plus.md' %}
+
+{%set btn_save = 'R2' %}
+{%set btn_load = 'L2' %}
+{%set btn_menu = 'R3' %}
+{%include 'controls/ppsspp.md' %}
+
+{%include 'controls/hypseus-singe.md' %}
+
+{%set btn_pre1 = 'SELECT' %}
+{%set btn_pre2 = 'START' %}
+{%include 'controls/extra.md' %}
+
+## Emulators
+
+- [Platform Documentation (RK3566)](https://github.com/JustEnoughLinuxOS/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/RK3566)
+
 ## Notes
 
 ### Installation
+
+#### Video Guide
+> Courtesy of [@RetroGameCorps](https://www.youtube.com/@RetroGameCorps)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yXtZTMxn94Q?si=WTPxyu2W1RyCk6sF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Download the latest `RK3566` version of JELOS from the button below and follow the instructions listed on the [Install](../../../play/install/) page.  Insert the SD card into the TF-OS slot of the device and power it on.
 
 [![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=111111&color=5998FF&label=Latest&style=flat#only-light)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
 [![Latest Version](https://img.shields.io/github/release/JustEnoughLinuxOS/distribution.svg?labelColor=dddddd&color=5998FF&label=Latest&style=flat#only-dark)](https://github.com/JustEnoughLinuxOS/distribution/releases/latest)
 
-#### Video Guide
-> Courtesy of [@RetroGameCorps](https://www.youtube.com/@RetroGameCorps)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yXtZTMxn94Q?si=WTPxyu2W1RyCk6sF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Additional References
-
-- [Platform Documentation (RK3566)](https://github.com/JustEnoughLinuxOS/distribution/blob/main/documentation/PER_DEVICE_DOCUMENTATION/RK3566)
-
-## Community Videos
+### Community Videos
 
 | <iframe width="560" height="315" src="https://www.youtube.com/embed/KTb6ik1Eb40?si=gvmcp0znmXJcjTrQ&amp;start=788" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> | <iframe width="560" height="315" src="https://www.youtube.com/embed/Tf4k6f8fgbY?si=qLEdnDXHRi3DdZuj&amp;start=266" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> |
 | -- | -- |

@@ -16,7 +16,7 @@
 | :material-wifi: Wifi | Can be turned on in Emulation Station under Main Menu > Network Settings |
 | :simple-bluetooth: Bluetooth | Supports bluetooth audio and controllers |
 
-## :material-controller: Controls
+## Controls
 
 {%set btn_north = 'X(NORTH)' %}
 {%set btn_west = 'Y(WEST)' %}
