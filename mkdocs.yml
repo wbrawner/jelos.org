@@ -232,7 +232,11 @@ nav:
         - Orange Pi 5: devices/orange-pi/orange-pi-5.md
       - Powkiddy:
         - RGB10 Max 3 Pro: devices/powkiddy/rgb10-max-3-pro.md
+        #- RGB10 Max 3: devices/powkiddy/rgb10-max-3.md
         - RGB30: devices/powkiddy/rgb30.md
         - RK2023: devices/powkiddy/rk2023.md
         - x55: devices/powkiddy/x55.md
         - RGB10: devices/powkiddy/rgb10.md
+        #- XU10: devices/powkiddy/xu10.md
+      #- Unbranded:
+        #- Game Console R33S: devices/unbranded/game-console-r33s.md
