@@ -1,7 +1,3 @@
----
-search:
-  exclude: true
----
 # Powkiddy RGB10 Max 3
 
 ![](../../_inc/images/devices/powkiddy-rgb10max3.png){ .off-glb }
