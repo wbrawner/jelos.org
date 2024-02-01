@@ -186,7 +186,6 @@ nav:
       - Engines:
         - Build Engine: systems/build-engine.md
         - Doom: systems/doom.md
-        - ECWolf: systems/ecwolf.md
         - EasyRPG: systems/easyrpg.md
         - Infocom Zmachine: systems/zmachine.md
         - J2ME: systems/j2me.md
