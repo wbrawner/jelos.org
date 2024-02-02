@@ -29,6 +29,7 @@
 
 {%include 'controls/retroarch.md' %}
 {%include 'controls/mednafen.md' %}
+{%set btn_prefix = 'SELECT' %}
 {%include 'controls/dolphin.md' %}
 {%include 'controls/mupen64plus.md' %}
 
