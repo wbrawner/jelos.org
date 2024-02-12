@@ -1,6 +1,6 @@
 # Game Console R35S/R36S
 
-![](../../_inc/images/devices/unbranded-game-console-r33s.png){ .off-glb }
+![](../../_inc/images/devices/unbranded-game-console-r36s.png){ .off-glb }
 
 ## Overview
 
