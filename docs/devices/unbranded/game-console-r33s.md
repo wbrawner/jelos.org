@@ -1,4 +1,4 @@
-# Game Console R33S/R35S/R36S
+# Game Console R33S
 
 ![](../../_inc/images/devices/unbranded-game-console-r33s.png){ .off-glb }
 
@@ -7,8 +7,6 @@
 | Device | CPU / Architecture | Kernel | GL driver | Interface |
 | -- | -- | -- | -- | -- |
 | R33S | Rockchip RK3326 (ARM) | Mainline Linux | Panfrost | Weston + Emulation Station |
-| R35S | Rockchip RK3326 (ARM) | Mainline Linux | Panfrost | Weston + Emulation Station |
-| R36S | Rockchip RK3326 (ARM) | Mainline Linux | Panfrost | Weston + Emulation Station |
 
 ## Controls
 
