@@ -2,14 +2,14 @@
 
 | Button Combo | Action |
 | -- | -- |
-| ++"SELECT"+"START"++ | Quit Game |
-| ++"SELECT"+"R1"++ | Save State |
-| ++"SELECT"+"L1"++ | Load State |
-| ++"SELECT"+"{{ btn_south }}"++ | Screenshot |
-| ++"SELECT"+"{{ btn_east }}"++ | Change Internal Resolution |
-| ++"SELECT"+"{{ btn_north }}"++ | Change Aspect Ratio |
-| ++"SELECT"+"{{ btn_west }}"++ | Show FPS |
-| ++"SELECT"+"D-Pad Up"++ | Increase current state slot |
-| ++"SELECT"+"D-Pad Down"++ | Decrease current state slot |
-| ++"SELECT"+"R2"++ | Fast-Forward |
+| ++"{{ btn_prefix }}"+"START"++ | Quit Game |
+| ++"{{ btn_prefix }}"+"R1"++ | Save State |
+| ++"{{ btn_prefix }}"+"L1"++ | Load State |
+| ++"{{ btn_prefix }}"+"{{ btn_south }}"++ | Screenshot |
+| ++"{{ btn_prefix }}"+"{{ btn_west }}"++ | Change Internal Resolution |
+| ++"{{ btn_prefix }}"+"{{ btn_east }}"++ | Change Aspect Ratio |
+| ++"{{ btn_prefix }}"+"{{ btn_north }}"++ | Show FPS |
+| ++"{{ btn_prefix }}"+"D-Pad Up"++ | Increase current state slot |
+| ++"{{ btn_prefix }}"+"D-Pad Down"++ | Decrease current state slot |
+| ++"{{ btn_prefix }}"+"R2"++ | Fast-Forward |
 
