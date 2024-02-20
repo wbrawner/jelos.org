@@ -4,10 +4,9 @@
 | -- | -- |
 | ++"SELECT"+"START"++ <sup>(hold for 2sec)</sup> | Quit Game |
 | ++"SELECT"+"R1"++ | Save State |
-| ++"SELECT"+"L1"++ | Load State |
+| ++"SELECT"+"L1"++ <sup>(hold for 2sec)</sup> | Load State |
 | ++"SELECT"+"{{ btn_west }}"++ | Show FPS |
 | ++"SELECT"+"R2"++ | Fast-Forward |
-| ++"SELECT"+"L2"++ | Rewind |
 | ++"THUMBR"+"L1"++ | Select disc |
 | ++"THUMBR"+"R1"++ | Eject/Insert disc |
 | ++"THUMBR"+"D-Pad Left"++ | Decrease save slot by 1 |
