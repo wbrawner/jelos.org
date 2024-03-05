@@ -216,6 +216,8 @@ nav:
       - AYN:
         - Loki Zero: devices/ayn/loki-zero.md
         - Loki Max: devices/ayn/loki-max.md
+      - GameForce:
+        - GameForce Ace: devices/gameforce/gameforce-ace.md
       - GPD:
         - Win 4: devices/gpd/win4.md
         - Win Max 2: devices/gpd/win-max-2.md
