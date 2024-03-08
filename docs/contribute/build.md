@@ -202,6 +202,7 @@ For development builds, you can use the following env variables to customize the
 |GAMESDB_APIKEY|Login information for thegamesdb.net.|
 |CHEEVOS_DEV_LOGIN|Login information for retroachievements.org.|
 |CLEAN_PACKAGES|Allows specifying packages to clean during a build.|
+|CONCURRENCY_MAKE_LEVEL|The number of concurrent jobs to use during a build (defaults to the number returned by `nproc`).|
 
 #### SSH Keys
 
