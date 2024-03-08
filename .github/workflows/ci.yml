@@ -18,7 +18,6 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material
-      - run: pip install mkdocs-glightbox
-      - run: pip install mkdocs-macros-plugin
-      - run: mkdocs gh-deploy --force
+      - run: pip install pipenv
+      - run: pipenv install
+      - run: pipenv run mkdocs gh-deploy --force
